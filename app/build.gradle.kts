@@ -12,8 +12,8 @@ android {
         applicationId = "com.bestradio.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
-        versionName = "0.2.0"
+        versionCode = 4
+        versionName = "0.3.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -51,12 +51,14 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.material.icons.core)
 
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.session)
