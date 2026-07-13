@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T18:22:07.825Z",
+  "stations": [
+    {
+      "id": "rm:aswat",
+      "name": "Aswat FM",
+      "country": "MA",
+      "streamUrl": "https://aswat.ice.infomaniak.ch/aswat-high.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=aswat.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:atlantic",
+      "name": "Atlantic Radio",
+      "country": "MA",
+      "streamUrl": "https://atlantic-sonic.nindohost.net:9300/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=atlanticradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:azawan",
+      "name": "Azawan",
+      "country": "MA",
+      "streamUrl": "https://az-maroc.ice.infomaniak.ch/az-maroc-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=azawan.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:capradio",
+      "name": "Cap Radio",
+      "country": "MA",
+      "streamUrl": "https://listen.radioking.com/radio/710810/stream/776366",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=capradiotv.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:chada-fm",
+      "name": "Chada FM",
+      "country": "MA",
+      "streamUrl": "https://edge11.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8",
+      "faviconUrl": "https://static-media.streema.com/media/cache/2a/d1/2ad1fd95dd8c58e909795002def74e6f.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hitradio",
+      "name": "Hit Radio",
+      "country": "MA",
+      "streamUrl": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=hitradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hit-radio-100-gold",
+      "name": "Hit Radio - 100% Classic",
+      "country": "MA",
+      "streamUrl": "https://gold.ice.infomaniak.ch/gold-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/6e/41/6e41b4032cdcdc4d034ed7bd61a60cb9.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hit-radio-100-mgharba",
+      "name": "Hit Radio - 100% Mgharba",
+      "country": "MA",
+      "streamUrl": "https://mgharba.ice.infomaniak.ch/mgharba-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/11/5c/115cbb22c1eeb466d713cd559cd730ec.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hit-radio-100-dancefloor",
+      "name": "Hit Radio - 100% Party",
+      "country": "MA",
+      "streamUrl": "https://dancefloor.ice.infomaniak.ch/dancefloor-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/21/60/2160f2886f839abc7657507b82b1a5e0.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hit-radio-way-way",
+      "name": "Hit Radio - 100% Way Way",
+      "country": "MA",
+      "streamUrl": "https://wayway.ice.infomaniak.ch/wayway-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/dc/ee/dcee7daa3638e1eca3db9ef362defb31.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hit-radio-8",
+      "name": "Hit Radio 100% TikTok",
+      "country": "MA",
+      "streamUrl": "https://buzz.ice.infomaniak.ch/buzz-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/48/67/4867265e4ff526e484eb311c399434c4.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:la-confiserie-sonore",
+      "name": "La Confiserie Sonore",
+      "country": "MA",
+      "streamUrl": "https://www.radioking.com/play/la-confiserie-sonore",
+      "faviconUrl": "https://static-media.streema.com/media/cache/e9/c8/e9c8dda2647016f744217105a52ca6d5.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:luxe-radio",
+      "name": "Luxe Radio",
+      "country": "MA",
+      "streamUrl": "https://play.radiomaxxfm.com/deluxe-high",
+      "faviconUrl": "https://static-media.streema.com/media/cache/29/13/2913a1e7c82a7a12d65596909c5ae605.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maher-al-muaiqly",
+      "name": "Maher Al-Muaiqly",
+      "country": "MA",
+      "streamUrl": "https://backup.qurango.net/radio/maher",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:marrakechplus",
+      "name": "Marrakech Plus",
+      "country": "MA",
+      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=marrakechplus.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi1",
+      "name": "Médi 1",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/medi1",
+      "faviconUrl": "https://www.medi1.com/favicon.ico",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-acoustic",
+      "name": "Medi 1 Radio - Acoustic",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Acoustic",
+      "faviconUrl": "https://static-media.streema.com/media/cache/e5/e1/e5e1fdab05fc35825bd923abf610310a.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-andalouse",
+      "name": "Medi 1 Radio - Andalouse",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Andalouse",
+      "faviconUrl": "https://static-media.streema.com/media/cache/50/29/50296f4388ef4ca905295bc6d4245497.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-classique",
+      "name": "Medi 1 Radio - Classique",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Classique",
+      "faviconUrl": "https://static-media.streema.com/media/cache/11/c4/11c4273c1fbb4f5cede006bbd0155ab1.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-dj",
+      "name": "Medi 1 Radio - DJ",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Dj",
+      "faviconUrl": "https://static-media.streema.com/media/cache/72/60/7260b36fd95b68484e2933cb30fc19d0.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-francaise",
+      "name": "Medi 1 Radio - Française",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Francaise",
+      "faviconUrl": "https://static-media.streema.com/media/cache/d7/c6/d7c6b87179c66ad077f5748742eb9551.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-hits",
+      "name": "Medi 1 Radio - Hits",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Hits",
+      "faviconUrl": "https://static-media.streema.com/media/cache/e2/a5/e2a5608ab154dfb15143208679f9d7b7.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-jazz",
+      "name": "Medi 1 Radio - Jazz",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Jazz",
+      "faviconUrl": "https://static-media.streema.com/media/cache/21/75/217557257508f4944bf586428b45d8ee.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-latino",
+      "name": "Medi 1 Radio - Latino",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Latino",
+      "faviconUrl": "https://static-media.streema.com/media/cache/1c/6c/1c6cda4be6f524fbf5fb06eb719e8ea2.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-lounge",
+      "name": "Medi 1 Radio - Lounge",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Lounge",
+      "faviconUrl": "https://static-media.streema.com/media/cache/a5/80/a580bd6a1c50120e9a62af844d064b14.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-nayda",
+      "name": "Medi 1 Radio - Nayda",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Nayda",
+      "faviconUrl": "https://static-media.streema.com/media/cache/c4/6d/c46de76276ffa9133039309285490e7a.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-soufi",
+      "name": "Medi 1 Radio - Soufi",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Soufi",
+      "faviconUrl": "https://static-media.streema.com/media/cache/a7/1b/a71bb427267e1d1563f8a979856f8ece.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio-tarab",
+      "name": "Medi 1 Radio - Tarab",
+      "country": "MA",
+      "streamUrl": "https://live.medi1.com/Tarab",
+      "faviconUrl": "https://static-media.streema.com/media/cache/cc/5d/cc5db6966b298f896de9bc791990dee7.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medi-1-radio",
+      "name": "Medi1 Radio",
+      "country": "MA",
+      "streamUrl": "https://cdn.live.easybroadcast.io/live/83_medi1radio-maghreb_8s9i4bn/playlist.m3u8",
+      "faviconUrl": "https://static-media.streema.com/media/cache/31/c3/31c3363c1bd6adbe0c1f92967cd58f91.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medina",
+      "name": "Medina FM",
+      "country": "MA",
+      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=medinafm.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medradio",
+      "name": "MedRadio",
+      "country": "MA",
+      "streamUrl": "https://medradio.ice.infomaniak.ch/medradio-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=medradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:mfm",
+      "name": "MFM Radio",
+      "country": "MA",
+      "streamUrl": "https://a5.asurahosting.com:7980/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mfmradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:ness",
+      "name": "Ness Radio",
+      "country": "MA",
+      "streamUrl": "https://radio.nessradio.net:8212/nessradio-hd",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=nessradio.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio2m",
+      "name": "Radio 2M",
+      "country": "MA",
+      "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m.m3u8",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio2m.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-atbir",
+      "name": "Radio Atbir",
+      "country": "MA",
+      "streamUrl": "https://stream.zenolive.com/bqdbb6hd0neuv",
+      "faviconUrl": "https://static-media.streema.com/media/cache/1e/94/1e94252250a01854e0d16301b028ab32.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-coran-maroc",
+      "name": "Radio Coran Maroc",
+      "country": "MA",
+      "streamUrl": "https://n0a.radiojar.com/0tpy1h0kxtzuv",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=n0a.radiojar.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:manarat",
+      "name": "Radio Manarat",
+      "country": "MA",
+      "streamUrl": "https://listen.radioking.com/radio/252934/stream/297385",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=fm6education.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:snrt",
+      "name": "Radio Maroc",
+      "country": "MA",
+      "streamUrl": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/radio_idaa_watanya/hls_snrt_radio/index.m3u8",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=snrt.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:mars",
+      "name": "Radio Mars",
+      "country": "MA",
+      "streamUrl": "https://radiomars.ice.infomaniak.ch/radiomars-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiomars.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-one-8",
+      "name": "RADIO ONE",
+      "country": "MA",
+      "streamUrl": "https://stream.laut.fm/finnradioone",
+      "faviconUrl": "https://static-media.streema.com/media/cache/73/6d/736dae7eb9c6ca10cbb2fbc598359e4c.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radioplus",
+      "name": "Radio Plus",
+      "country": "MA",
+      "streamUrl": "https://stream.radio.co/s8cc7a5da4/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioplus.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-plus-ma",
+      "name": "Radio Plus MA",
+      "country": "MA",
+      "streamUrl": "https://stream.radio.co/s8cc7a5da4/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stream.radio.co&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-safi",
+      "name": "Radio Safi",
+      "country": "MA",
+      "streamUrl": "https://stream12.hosterion.pl/stream/safira",
+      "faviconUrl": "https://static-media.streema.com/media/cache/94/47/9447daf28b81068d532ae38ff6d7eed5.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radioplus-2",
+      "name": "RadioPlus Casablanca",
+      "country": "MA",
+      "streamUrl": "https://laradioplus.ice.infomaniak.ch/laradioplus-high.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/7c/a8/7ca805b70ee891abdbfb4d0847997820.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:skyrock-casa",
+      "name": "Skyrock Casablanca",
+      "country": "MA",
+      "streamUrl": "https://icecast.skyrock.net/s/casa_aac_64k",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=skyrock.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:snrt-radio-ujda",
+      "name": "SNRT Radio Ujda",
+      "country": "MA",
+      "streamUrl": "https://hts05.brascast.com:13546/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/b4/ae/b4ae4a1ed3eb295a141acb623c0ffed1.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:tangermed",
+      "name": "Tanger Med",
+      "country": "MA",
+      "streamUrl": "https://radiotangermed-22.ice.infomaniak.ch/radiotangermed-22-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotangermed.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:uradio",
+      "name": "U Radio",
+      "country": "MA",
+      "streamUrl": "https://panel.innovatestream.pe:10924/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=uradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-medina-fm",
+      "name": "إذاعة مدينة إف إم المغرب",
+      "country": "MA",
+      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:web-radio-marrakech-plus",
+      "name": "راديو مراكش بلوس",
+      "country": "MA",
+      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream/;",
+      "faviconUrl": "https://static-media.streema.com/media/cache/d5/1b/d51b62d5ac353b2686020616831b214e.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-manarat",
+      "name": "راديو منارات",
+      "country": "MA",
+      "streamUrl": "https://www.radioking.com/play/r-dyo-mn-r-t-radio-manarate",
+      "faviconUrl": "https://static-media.streema.com/media/cache/de/f7/def71a34a4898233bb5ee456e4c53d66.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    }
+  ]
+}

@@ -1,10 +1,9 @@
 package com.bestradio.app.data.remote
 
-/** Base URL of the Cloudflare Worker (see /worker). Update this once the
- * Worker is deployed to its real *.workers.dev (or custom) domain — until
- * then, refresh attempts fail fast and the app silently keeps using the
- * bundled/cached station list, which is the intended offline-first fallback
- * behavior either way. */
+/** GitHub Pages site (see /web) serving the station catalog as static JSON
+ * files, refreshed daily by .github/workflows/refresh-stations.yml from
+ * radio-monde-app's own dead-link-fixing bot. No server-side logic needed —
+ * these are just files. */
 object ApiConfig {
-    const val BASE_URL = "https://best-radio-api.example.workers.dev/"
+    const val BASE_URL = "https://simo26031983.github.io/radio-best/"
 }

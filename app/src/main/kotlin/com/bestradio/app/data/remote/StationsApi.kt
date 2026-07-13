@@ -2,9 +2,11 @@ package com.bestradio.app.data.remote
 
 import com.bestradio.app.data.model.StationsFile
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 interface StationsApi {
-    @GET("api/stations")
-    suspend fun getStations(@Query("country") country: String): StationsFile
+    @GET("stations-fr.json")
+    suspend fun getFranceStations(): StationsFile
+
+    @GET("stations-ma.json")
+    suspend fun getMoroccoStations(): StationsFile
 }

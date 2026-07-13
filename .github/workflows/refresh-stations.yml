@@ -1,0 +1,57 @@
+name: Refresh station catalog
+
+on:
+  schedule:
+    # 4:00 UTC daily — after radio-monde-app's own check-streams.yml (3:00 UTC),
+    # so this always picks up that day's dead-link fixes.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout radio-best
+        uses: actions/checkout@v4
+
+      - name: Checkout radio-monde-app
+        uses: actions/checkout@v4
+        with:
+          repository: simo26031983/radio-monde-app
+          token: ${{ secrets.RADIO_MONDE_APP_TOKEN }}
+          path: radio-monde-app
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install curation script dependencies
+        working-directory: tools/curate-stations
+        run: npm install
+
+      - name: Run curation
+        working-directory: tools/curate-stations
+        env:
+          RADIO_MONDE_STATIONS_PATH: ${{ github.workspace }}/radio-monde-app/stations.json
+        run: npm run curate
+
+      - name: Publish refreshed catalog to web/
+        run: |
+          cp tools/curate-stations/output/stations-fr.json web/stations-fr.json
+          cp tools/curate-stations/output/stations-ma.json web/stations-ma.json
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "best-radio-bot"
+          git config user.email "simo26031983@gmail.com"
+          git add web/stations-fr.json web/stations-ma.json
+          if git diff --staged --quiet; then
+            echo "No station data changes."
+          else
+            git commit -m "chore: refresh station catalog from radio-monde-app [bot] $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

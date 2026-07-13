@@ -3,7 +3,6 @@ package com.bestradio.app.data.repository
 import com.bestradio.app.data.local.BundledStationsSource
 import com.bestradio.app.data.model.Country
 import com.bestradio.app.data.model.Station
-import com.bestradio.app.data.model.apiCode
 import com.bestradio.app.data.remote.StationsApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
@@ -11,9 +10,10 @@ import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 
 /** Bundled data loads instantly and is always available offline; a
- * best-effort Worker API refresh silently replaces it per-country when it
- * succeeds, so the catalog can be updated without an app release, but the
- * UI never blocks on or errors out over network state. */
+ * best-effort fetch of the static JSON files hosted on GitHub Pages (see
+ * /web) silently replaces it per-country when it succeeds, so the catalog
+ * can be updated (refreshed daily from radio-monde-app) without an app
+ * release, but the UI never blocks on or errors out over network state. */
 class StationsRepository(
     private val bundledStationsSource: BundledStationsSource,
     private val stationsApi: StationsApi,
@@ -32,7 +32,12 @@ class StationsRepository(
 
     suspend fun refresh(country: Country) {
         runCatching {
-            val remote = withContext(Dispatchers.IO) { stationsApi.getStations(country.apiCode) }
+            val remote = withContext(Dispatchers.IO) {
+                when (country) {
+                    Country.FRANCE -> stationsApi.getFranceStations()
+                    Country.MOROCCO -> stationsApi.getMoroccoStations()
+                }
+            }
             mutex.withLock { remoteOverrides[country] = remote.stations }
         }
     }

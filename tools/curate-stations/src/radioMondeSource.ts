@@ -1,18 +1,19 @@
 import { readFileSync } from "node:fs";
 
 /**
- * Source: the sibling "radio-monde-app" project (c:\Working_Folder\git_projects\radio-monde-app),
- * whose stations.json is refreshed daily by its own GitHub Action
- * (.github/workflows/check-streams.yml) — dead stream URLs get replaced
- * automatically. That repo is private, so for now this reads the local
- * checkout directly; the path is intentionally a plain constant since this
- * is a manual, occasional maintenance script, not a runtime dependency.
+ * Source: the sibling "radio-monde-app" project, whose stations.json is
+ * refreshed daily by its own GitHub Action (.github/workflows/check-streams.yml)
+ * — dead stream URLs get replaced automatically. That repo is private.
  *
- * Follow-up (Phase 7, once Cloudflare secrets exist): wire an automated pull
- * from that repo (a scoped read-only token) so the Worker/KV catalog stays
- * fresh without a manual re-run of this script each time.
+ * Path resolution:
+ *  - RADIO_MONDE_STATIONS_PATH env var if set (used by
+ *    .github/workflows/refresh-stations.yml, which checks out radio-monde-app
+ *    into a sibling directory in the CI runner).
+ *  - otherwise the local Windows checkout path, for manual runs on this dev
+ *    machine.
  */
 const RADIO_MONDE_STATIONS_PATH =
+  process.env.RADIO_MONDE_STATIONS_PATH ??
   "c:\\Working_Folder\\git_projects\\radio-monde-app\\stations.json";
 
 export interface RawRadioMondeStation {
