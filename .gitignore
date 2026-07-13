@@ -1,0 +1,36 @@
+# Gradle / Android
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Gradle wrapper distributions cache (not the wrapper jar itself, which is committed)
+gradle/wrapper/dists/
+
+# Node (worker / curation tooling)
+node_modules/
+worker/dist/
+tools/curate-stations/dist/
+tools/curate-stations/output/*.json
+!tools/curate-stations/output/.gitkeep
+
+# Wrangler
+.wrangler/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example

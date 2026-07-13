@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Broadcast antenna dot -->
+    <path
+        android:fillColor="@color/brand_on_primary"
+        android:pathData="M54,58 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0" />
+    <!-- Radio wave arcs, centered in the adaptive-icon safe zone -->
+    <path
+        android:strokeColor="@color/brand_on_primary"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M38,58 A16,16 0,0 1,54 42 M54,42 A16,16 0,0 1,70 58" />
+    <path
+        android:strokeColor="@color/brand_on_primary"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M28,58 A26,26 0,0 1,54 32 M54,32 A26,26 0,0 1,80 58" />
+</vector>

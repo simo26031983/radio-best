@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">best-radio</string>
+    <string name="greeting">best-radio — les radios françaises et marocaines, en route.</string>
+</resources>
