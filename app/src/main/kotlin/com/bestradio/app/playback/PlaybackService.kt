@@ -3,6 +3,7 @@ package com.bestradio.app.playback
 import android.app.PendingIntent
 import android.content.Intent
 import android.net.Uri
+import android.util.Log
 import androidx.media3.common.C
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
@@ -20,6 +21,7 @@ import com.bestradio.app.data.model.Country
 import com.bestradio.app.data.model.Station
 import com.bestradio.app.data.repository.StationsRepository
 import com.google.common.collect.ImmutableList
+import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -73,8 +75,10 @@ class PlaybackService : MediaLibraryService() {
             .build()
     }
 
-    override fun onGetSession(controllerInfo: MediaSession.ControllerInfo): MediaLibrarySession? =
-        mediaLibrarySession
+    override fun onGetSession(controllerInfo: MediaSession.ControllerInfo): MediaLibrarySession? {
+        Log.d(TAG, "onGetSession: package=${controllerInfo.packageName} uid=${controllerInfo.uid}")
+        return mediaLibrarySession
+    }
 
     override fun onDestroy() {
         mediaLibrarySession?.run {
@@ -90,15 +94,27 @@ class PlaybackService : MediaLibraryService() {
     @UnstableApi
     private inner class LibrarySessionCallback : MediaLibrarySession.Callback {
 
+        override fun onConnect(
+            session: MediaSession,
+            controller: MediaSession.ControllerInfo,
+        ): MediaSession.ConnectionResult {
+            Log.d(TAG, "onConnect: package=${controller.packageName} uid=${controller.uid}")
+            val result = super.onConnect(session, controller)
+            Log.d(TAG, "onConnect result: accepted=${result.isAccepted} availableSessionCommands=${result.availableSessionCommands}")
+            return result
+        }
+
         override fun onGetLibraryRoot(
             session: MediaLibrarySession,
             browser: MediaSession.ControllerInfo,
             params: LibraryParams?,
-        ): ListenableFuture<LibraryResult<MediaItem>> = serviceScope.future {
-            // When Android Auto (or the system) asks for the "recent" root it is probing for
-            // playback resumption; resumption itself is served by onPlaybackResumption below.
-            // We echo the requested params so the caller's browsable/recent hints are preserved.
-            LibraryResult.ofItem(rootItem(), params)
+        ): ListenableFuture<LibraryResult<MediaItem>> {
+            Log.d(TAG, "onGetLibraryRoot: package=${browser.packageName} params=$params")
+            // TEMP DIAGNOSTIC: bypass the coroutine entirely to isolate whether
+            // serviceScope.future{} is what's failing to complete.
+            val result = LibraryResult.ofItem(rootItem(), params)
+            Log.d(TAG, "onGetLibraryRoot -> resultCode=${result.resultCode} (sync path)")
+            return Futures.immediateFuture(result)
         }
 
         override fun onGetChildren(
@@ -108,7 +124,9 @@ class PlaybackService : MediaLibraryService() {
             page: Int,
             pageSize: Int,
             params: LibraryParams?,
-        ): ListenableFuture<LibraryResult<ImmutableList<MediaItem>>> = serviceScope.future {
+        ): ListenableFuture<LibraryResult<ImmutableList<MediaItem>>> {
+            Log.d(TAG, "onGetChildren: parentId=$parentId page=$page pageSize=$pageSize package=${browser.packageName}")
+            return serviceScope.future {
             val children: List<MediaItem> = when (parentId) {
                 ROOT_ID -> listOf(
                     categoryItem(FAVORITES_ID, "Favoris"),
@@ -128,7 +146,9 @@ class PlaybackService : MediaLibraryService() {
 
                 else -> return@future LibraryResult.ofError(SessionError.ERROR_BAD_VALUE)
             }
-            LibraryResult.ofItemList(children, params)
+                Log.d(TAG, "onGetChildren($parentId) -> ${children.size} items")
+                LibraryResult.ofItemList(children, params)
+            }
         }
 
         override fun onGetItem(
@@ -217,10 +237,9 @@ class PlaybackService : MediaLibraryService() {
     }
 
     private fun stationItem(station: Station): MediaItem {
+        // Deliberately no subtitle/genre: the car list shows just the logo and station name.
         val metadata = MediaMetadata.Builder()
             .setTitle(station.name)
-            .setSubtitle(station.genre.ifBlank { "Radio en direct" })
-            .setArtist(station.genre.ifBlank { "Radio en direct" })
             .setArtworkUri(station.faviconUrl.takeIf { it.isNotBlank() }?.let { Uri.parse(it) })
             .setIsBrowsable(false)
             .setIsPlayable(true)
@@ -234,6 +253,7 @@ class PlaybackService : MediaLibraryService() {
     }
 
     private companion object {
+        const val TAG = "PlaybackService"
         const val ROOT_ID = "root"
         const val FAVORITES_ID = "favoris"
         const val FRANCE_ID = "france"

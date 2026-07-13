@@ -5,10 +5,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
@@ -21,6 +25,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
 import com.bestradio.app.data.model.Country
 import com.bestradio.app.di.AppContainer
 import com.bestradio.app.ui.favorites.FavoritesScreen
@@ -71,6 +76,13 @@ private fun BestRadioApp(container: AppContainer) {
                 Tab(selected = selectedTab == 0, onClick = { selectedTab = 0 }, text = { Text("France") })
                 Tab(selected = selectedTab == 1, onClick = { selectedTab = 1 }, text = { Text("Maroc") })
                 Tab(selected = selectedTab == 2, onClick = { selectedTab = 2 }, text = { Text("Favoris") })
+            }
+            Row(modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 2.dp), horizontalArrangement = Arrangement.End) {
+                Text(
+                    text = "v${BuildConfig.VERSION_NAME}",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
             }
             when (selectedTab) {
                 0 -> StationListScreen(
