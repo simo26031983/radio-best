@@ -1,9 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchStationsByCountry } from "./fetchStations.js";
-import { filterReliable } from "./filterAndScore.js";
-import { dedupeStations } from "./dedupe.js";
+import { loadRadioMondeStations } from "./radioMondeSource.js";
 import { normalize } from "./normalize.js";
 import type { CountryCode, Station, StationsFile } from "./schema.js";
 
@@ -11,21 +9,40 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = path.join(__dirname, "..", "output");
 const COUNTRIES: CountryCode[] = ["FR", "MA"];
 
-async function curateCountry(country: CountryCode): Promise<Station[]> {
-  const raw = await fetchStationsByCountry(country);
-  const reliable = filterReliable(raw, country);
-  const deduped = dedupeStations(reliable);
-  return deduped
-    .map((s) => normalize(s, country))
-    .sort((a, b) => a.name.localeCompare(b.name, "fr"));
+/** radio-monde-app's own slug generator occasionally collides for two
+ * genuinely different stations (e.g. "ABC Lounge Radio" and "ABC LOUNGE
+ * Webradio" both slug to "abc-lounge-radio"). These are different stations,
+ * not duplicates to merge — keep both, just make the id unique so Compose's
+ * LazyColumn (which key indexes by station id) doesn't crash on the clash. */
+function dedupeIds(stations: Station[]): Station[] {
+  const seen = new Map<string, number>();
+  return stations.map((station) => {
+    const count = seen.get(station.id) ?? 0;
+    seen.set(station.id, count + 1);
+    return count === 0 ? station : { ...station, id: `${station.id}-${count + 1}` };
+  });
 }
 
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
 
+  const rawStations = loadRadioMondeStations();
+  console.log(`[main] loaded ${rawStations.length} raw stations from radio-monde-app`);
+
+  const okStations = rawStations.filter((s) => s.status === "ok");
+  console.log(`[main] ${okStations.length}/${rawStations.length} stations are currently "ok" (excluding "down")`);
+
+  const normalized = dedupeIds(
+    okStations.map(normalize).filter((s): s is Station => s !== null)
+  );
+  console.log(`[main] ${normalized.length} stations normalized (unrecognized country codes dropped)`);
+
   const perCountry: Record<CountryCode, Station[]> = { FR: [], MA: [] };
+  for (const station of normalized) {
+    perCountry[station.country].push(station);
+  }
   for (const country of COUNTRIES) {
-    perCountry[country] = await curateCountry(country);
+    perCountry[country].sort((a, b) => a.name.localeCompare(b.name, "fr"));
   }
 
   const generatedAt = new Date().toISOString();
