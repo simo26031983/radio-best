@@ -2,6 +2,7 @@ package com.bestradio.app.ui.player
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PlayArrow
@@ -24,7 +25,12 @@ fun MiniPlayerBar(
     onTogglePlayPause: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    Surface(modifier = modifier.fillMaxWidth(), tonalElevation = 3.dp) {
+    Surface(
+        modifier = modifier
+            .fillMaxWidth()
+            .navigationBarsPadding(),
+        tonalElevation = 3.dp,
+    ) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()

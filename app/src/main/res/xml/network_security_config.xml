@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Internet radio streams are frequently served over plain HTTP (Icecast/Shoutcast
+     servers rarely bother with TLS), across hundreds of different, unpredictable
+     hosts we don't control — so cleartext is allowed globally rather than per-domain. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

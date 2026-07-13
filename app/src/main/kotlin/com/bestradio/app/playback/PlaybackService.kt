@@ -1,9 +1,12 @@
 package com.bestradio.app.playback
 
+import android.app.PendingIntent
+import android.content.Intent
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.session.MediaSession
 import androidx.media3.session.MediaSessionService
+import com.bestradio.app.MainActivity
 
 /** Hosts the single ExoPlayer instance + MediaSession for the whole app.
  * A future phase upgrades this to a full MediaLibraryService with a browse
@@ -19,7 +22,16 @@ class PlaybackService : MediaSessionService() {
         super.onCreate()
         val exoPlayer = ExoPlayerFactory.create(this)
         player = exoPlayer
-        mediaSession = MediaSession.Builder(this, exoPlayer).build()
+
+        val sessionActivity = PendingIntent.getActivity(
+            this,
+            0,
+            Intent(this, MainActivity::class.java),
+            PendingIntent.FLAG_IMMUTABLE,
+        )
+        mediaSession = MediaSession.Builder(this, exoPlayer)
+            .setSessionActivity(sessionActivity)
+            .build()
     }
 
     override fun onGetSession(controllerInfo: MediaSession.ControllerInfo): MediaSession? = mediaSession
