@@ -4,19 +4,19 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Broadcast antenna dot -->
+    <!-- Play triangle -->
     <path
-        android:fillColor="@color/brand_on_primary"
-        android:pathData="M54,58 m-6,0 a6,6 0,1 1,12 0 a6,6 0,1 1,-12 0" />
-    <!-- Radio wave arcs, centered in the adaptive-icon safe zone -->
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,42 L38,66 L60,54 Z" />
+    <!-- Broadcast waves -->
     <path
-        android:strokeColor="@color/brand_on_primary"
-        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
         android:strokeLineCap="round"
-        android:pathData="M38,58 A16,16 0,0 1,54 42 M54,42 A16,16 0,0 1,70 58" />
+        android:pathData="M62,46 A8,8 0 0,1 62,62" />
     <path
-        android:strokeColor="@color/brand_on_primary"
-        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
         android:strokeLineCap="round"
-        android:pathData="M28,58 A26,26 0,0 1,54 32 M54,32 A26,26 0,0 1,80 58" />
+        android:pathData="M62,39 A15,15 0 0,1 62,69" />
 </vector>
