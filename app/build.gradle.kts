@@ -12,8 +12,8 @@ android {
         applicationId = "com.bestradio.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 5
-        versionName = "0.3.1"
+        versionCode = 6
+        versionName = "0.5.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -46,6 +46,13 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    lint {
+        // Voice search ("OK Google, play France Inter") is a deliberately deferred
+        // feature, not yet wired up — tracked as a follow-up rather than a silently
+        // half-implemented intent-filter with no handler behind it.
+        disable += "MissingIntentFilterForMediaSearch"
+    }
 }
 
 dependencies {
@@ -63,6 +70,9 @@ dependencies {
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.session)
     implementation(libs.androidx.media3.common)
+    implementation(libs.kotlinx.coroutines.guava)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
 
     implementation(libs.androidx.datastore.preferences)
 

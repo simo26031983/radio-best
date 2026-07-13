@@ -11,3 +11,9 @@ enum class Country {
     @SerialName("MA")
     MOROCCO,
 }
+
+val Country.apiCode: String
+    get() = when (this) {
+        Country.FRANCE -> "FR"
+        Country.MOROCCO -> "MA"
+    }
