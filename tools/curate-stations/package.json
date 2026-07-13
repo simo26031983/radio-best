@@ -1,0 +1,15 @@
+{
+  "name": "curate-stations",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline curation of French/Moroccan radio stations from radio-browser.info into the best-radio shared JSON schema.",
+  "type": "module",
+  "scripts": {
+    "curate": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
