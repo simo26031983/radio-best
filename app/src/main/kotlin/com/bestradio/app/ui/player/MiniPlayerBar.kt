@@ -17,6 +17,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,6 +37,8 @@ fun MiniPlayerBar(
     onTogglePlayPause: () -> Unit,
     modifier: Modifier = Modifier,
     nowPlayingText: String? = null,
+    errorMessage: String? = null,
+    onRetry: () -> Unit = {},
 ) {
     Surface(
         modifier = modifier
@@ -43,56 +46,83 @@ fun MiniPlayerBar(
             .navigationBarsPadding(),
         tonalElevation = 3.dp,
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 8.dp),
-        ) {
-            Row(
+        Column(modifier = Modifier.fillMaxWidth()) {
+            Box(
                 modifier = Modifier
-                    .align(Alignment.CenterStart)
-                    .padding(end = 56.dp),
-                verticalAlignment = Alignment.CenterVertically,
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
             ) {
-                AsyncImage(
-                    model = stationFaviconUrl.ifBlank { null },
-                    contentDescription = null,
-                    contentScale = ContentScale.Crop,
-                    placeholder = painterResource(R.drawable.ic_station_placeholder),
-                    error = painterResource(R.drawable.ic_station_placeholder),
+                Row(
                     modifier = Modifier
-                        .size(36.dp)
-                        .clip(RoundedCornerShape(6.dp)),
-                )
-                Spacer(modifier = Modifier.width(12.dp))
-                Column {
-                    Text(
-                        text = stationName,
-                        style = MaterialTheme.typography.titleMedium,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
+                        .align(Alignment.CenterStart)
+                        .padding(end = 56.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    AsyncImage(
+                        model = stationFaviconUrl.ifBlank { null },
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop,
+                        placeholder = painterResource(R.drawable.ic_station_placeholder),
+                        error = painterResource(R.drawable.ic_station_placeholder),
+                        modifier = Modifier
+                            .size(36.dp)
+                            .clip(RoundedCornerShape(6.dp)),
                     )
-                    // Live ICY "now playing" text; absent entirely (no reserved
-                    // space) for streams that don't carry ICY metadata.
-                    if (!nowPlayingText.isNullOrBlank()) {
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Column {
                         Text(
-                            text = nowPlayingText,
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            text = stationName,
+                            style = MaterialTheme.typography.titleMedium,
                             maxLines = 1,
                             overflow = TextOverflow.Ellipsis,
                         )
+                        // Live ICY "now playing" text; absent entirely (no reserved
+                        // space) for streams that don't carry ICY metadata.
+                        if (!nowPlayingText.isNullOrBlank()) {
+                            Text(
+                                text = nowPlayingText,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                            )
+                        }
+                    }
+                }
+                IconButton(
+                    onClick = onTogglePlayPause,
+                    modifier = Modifier.align(Alignment.CenterEnd),
+                ) {
+                    if (isPlaying) {
+                        Icon(painter = painterResource(R.drawable.ic_pause), contentDescription = "Pause")
+                    } else {
+                        Icon(imageVector = Icons.Filled.PlayArrow, contentDescription = "Lecture")
                     }
                 }
             }
-            IconButton(
-                onClick = onTogglePlayPause,
-                modifier = Modifier.align(Alignment.CenterEnd),
-            ) {
-                if (isPlaying) {
-                    Icon(painter = painterResource(R.drawable.ic_pause), contentDescription = "Pause")
-                } else {
-                    Icon(imageVector = Icons.Filled.PlayArrow, contentDescription = "Lecture")
+
+            if (!errorMessage.isNullOrBlank()) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 16.dp, end = 8.dp, bottom = 8.dp),
+                ) {
+                    Text(
+                        text = errorMessage,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.error,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier
+                            .align(Alignment.CenterStart)
+                            .padding(end = 88.dp),
+                    )
+                    TextButton(
+                        onClick = onRetry,
+                        modifier = Modifier.align(Alignment.CenterEnd),
+                    ) {
+                        Text("Réessayer")
+                    }
                 }
             }
         }

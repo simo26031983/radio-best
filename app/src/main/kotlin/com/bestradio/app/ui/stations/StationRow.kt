@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import com.bestradio.app.R
@@ -42,10 +44,22 @@ fun StationRow(
             if (station.genre.isNotBlank()) Text(station.genre, maxLines = 1)
         },
         trailingContent = {
-            IconButton(onClick = onToggleFavorite) {
+            IconButton(
+                onClick = onToggleFavorite,
+                modifier = Modifier.semantics {
+                    contentDescription = if (isFavorite) {
+                        "Retirer ${station.name} des favoris"
+                    } else {
+                        "Ajouter ${station.name} aux favoris"
+                    }
+                },
+            ) {
                 Text(if (isFavorite) "★" else "☆")
             }
         },
-        modifier = modifier.clickable(onClick = onClick),
+        modifier = modifier.clickable(
+            onClickLabel = "Écouter ${station.name}",
+            onClick = onClick,
+        ),
     )
 }

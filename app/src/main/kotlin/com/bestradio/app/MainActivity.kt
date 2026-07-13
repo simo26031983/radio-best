@@ -68,6 +68,8 @@ private fun BestRadioApp(container: AppContainer) {
                     isPlaying = playerState.isPlaying,
                     onTogglePlayPause = playerViewModel::togglePlayPause,
                     nowPlayingText = playerState.nowPlayingText,
+                    errorMessage = playerState.errorMessage,
+                    onRetry = playerViewModel::retry,
                 )
             }
         },

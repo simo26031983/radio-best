@@ -2,6 +2,8 @@ package com.bestradio.app.ui.player
 
 import android.app.Application
 import android.content.ComponentName
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
 import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
@@ -9,6 +11,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
+import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
@@ -30,6 +33,10 @@ data class PlayerUiState(
      * null when the stream carries no ICY metadata. Transient per-stream
      * state, deliberately not part of [Station]. */
     val nowPlayingText: String? = null,
+    /** Set when playback fails; cleared on the next successful play or retry.
+     * Distinguishes "you're offline" from "this station is down" so the user
+     * isn't told to check their connection when it's actually fine. */
+    val errorMessage: String? = null,
 )
 
 class PlayerViewModel(
@@ -45,7 +52,10 @@ class PlayerViewModel(
 
     private val playerListener = object : Player.Listener {
         override fun onIsPlayingChanged(isPlaying: Boolean) {
-            _uiState.value = _uiState.value.copy(isPlaying = isPlaying)
+            _uiState.value = _uiState.value.copy(
+                isPlaying = isPlaying,
+                errorMessage = if (isPlaying) null else _uiState.value.errorMessage,
+            )
         }
 
         /** PlaybackService folds the stream's ICY "now playing" text into the
@@ -69,6 +79,10 @@ class PlayerViewModel(
             if (playbackState == Player.STATE_IDLE) {
                 _uiState.value = _uiState.value.copy(nowPlayingText = null)
             }
+        }
+
+        override fun onPlayerError(error: PlaybackException) {
+            _uiState.value = _uiState.value.copy(errorMessage = describeError())
         }
     }
 
@@ -106,13 +120,39 @@ class PlayerViewModel(
             prepare()
             play()
         }
-        _uiState.value = _uiState.value.copy(currentStation = station, nowPlayingText = null)
+        _uiState.value = _uiState.value.copy(currentStation = station, nowPlayingText = null, errorMessage = null)
         viewModelScope.launch { playbackStateStore.setLastStationId(station.id) }
     }
 
     fun togglePlayPause() {
         controller?.apply {
             if (isPlaying) pause() else play()
+        }
+    }
+
+    /** Re-attempts the current station after a failure — a fresh prepare()
+     * rather than just play(), since a failed stream typically needs to
+     * re-establish its connection, not just resume a paused one. */
+    fun retry() {
+        val station = _uiState.value.currentStation ?: return
+        controller?.apply {
+            setMediaItem(buildMediaItem(station))
+            prepare()
+            play()
+        }
+        _uiState.value = _uiState.value.copy(errorMessage = null)
+    }
+
+    private fun describeError(): String {
+        val connectivityManager = getApplication<Application>()
+            .getSystemService(ConnectivityManager::class.java)
+        val isOnline = connectivityManager
+            ?.getNetworkCapabilities(connectivityManager.activeNetwork)
+            ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
+        return if (isOnline) {
+            "Cette station est indisponible pour le moment."
+        } else {
+            "Vous semblez hors ligne — vérifiez votre connexion."
         }
     }
 
