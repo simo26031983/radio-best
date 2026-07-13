@@ -9,6 +9,24 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = path.join(__dirname, "..", "output");
 const COUNTRIES: CountryCode[] = ["FR", "MA"];
 
+/** Safety net against a bug observed in radio-monde-app's own dead-link-fixing
+ * bot: its "find an alternative stream" step can occasionally produce a
+ * corrupted URL (the same URL repeated hundreds of times, presumably from a
+ * concatenation bug on their side). A real stream URL is never anywhere near
+ * this long — drop anything absurd rather than shipping an unplayable,
+ * multi-kilobyte "URL" to the app. */
+const MAX_SANE_STREAM_URL_LENGTH = 500;
+
+function hasSaneStreamUrl(station: Station): boolean {
+  const ok = station.streamUrl.length <= MAX_SANE_STREAM_URL_LENGTH;
+  if (!ok) {
+    console.warn(
+      `[main] dropping "${station.name}" (${station.id}): streamUrl is ${station.streamUrl.length} chars, looks corrupted`
+    );
+  }
+  return ok;
+}
+
 /** radio-monde-app's own slug generator occasionally collides for two
  * genuinely different stations (e.g. "ABC Lounge Radio" and "ABC LOUNGE
  * Webradio" both slug to "abc-lounge-radio"). These are different stations,
@@ -33,9 +51,12 @@ async function main() {
   console.log(`[main] ${okStations.length}/${rawStations.length} stations are currently "ok" (excluding "down")`);
 
   const normalized = dedupeIds(
-    okStations.map(normalize).filter((s): s is Station => s !== null)
+    okStations
+      .map(normalize)
+      .filter((s): s is Station => s !== null)
+      .filter(hasSaneStreamUrl)
   );
-  console.log(`[main] ${normalized.length} stations normalized (unrecognized country codes dropped)`);
+  console.log(`[main] ${normalized.length} stations normalized (unrecognized country codes / corrupted URLs dropped)`);
 
   const perCountry: Record<CountryCode, Station[]> = { FR: [], MA: [] };
   for (const station of normalized) {
