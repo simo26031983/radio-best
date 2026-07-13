@@ -1,6 +1,7 @@
 package com.bestradio.app.ui.player
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import com.bestradio.app.R
@@ -33,6 +35,7 @@ fun MiniPlayerBar(
     isPlaying: Boolean,
     onTogglePlayPause: () -> Unit,
     modifier: Modifier = Modifier,
+    nowPlayingText: String? = null,
 ) {
     Surface(
         modifier = modifier
@@ -62,11 +65,25 @@ fun MiniPlayerBar(
                         .clip(RoundedCornerShape(6.dp)),
                 )
                 Spacer(modifier = Modifier.width(12.dp))
-                Text(
-                    text = stationName,
-                    style = MaterialTheme.typography.titleMedium,
-                    maxLines = 1,
-                )
+                Column {
+                    Text(
+                        text = stationName,
+                        style = MaterialTheme.typography.titleMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    // Live ICY "now playing" text; absent entirely (no reserved
+                    // space) for streams that don't carry ICY metadata.
+                    if (!nowPlayingText.isNullOrBlank()) {
+                        Text(
+                            text = nowPlayingText,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                    }
+                }
             }
             IconButton(
                 onClick = onTogglePlayPause,

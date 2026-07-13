@@ -26,6 +26,10 @@ import kotlinx.coroutines.launch
 data class PlayerUiState(
     val currentStation: Station? = null,
     val isPlaying: Boolean = false,
+    /** Live ICY "now playing" text (artist/song) for the current stream, or
+     * null when the stream carries no ICY metadata. Transient per-stream
+     * state, deliberately not part of [Station]. */
+    val nowPlayingText: String? = null,
 )
 
 class PlayerViewModel(
@@ -42,6 +46,29 @@ class PlayerViewModel(
     private val playerListener = object : Player.Listener {
         override fun onIsPlayingChanged(isPlaying: Boolean) {
             _uiState.value = _uiState.value.copy(isPlaying = isPlaying)
+        }
+
+        /** PlaybackService folds the stream's ICY "now playing" text into the
+         * current item's MediaMetadata.artist (that field is reserved for it
+         * app-wide — nothing sets a static artist), and the session forwards
+         * the merged metadata here. */
+        override fun onMediaMetadataChanged(mediaMetadata: MediaMetadata) {
+            _uiState.value = _uiState.value.copy(
+                nowPlayingText = mediaMetadata.artist?.toString()?.takeIf { it.isNotBlank() },
+            )
+        }
+
+        override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
+            // A new stream started (or playback was cleared): drop the previous
+            // stream's now-playing text immediately rather than showing stale
+            // song info against the new station.
+            _uiState.value = _uiState.value.copy(nowPlayingText = null)
+        }
+
+        override fun onPlaybackStateChanged(playbackState: Int) {
+            if (playbackState == Player.STATE_IDLE) {
+                _uiState.value = _uiState.value.copy(nowPlayingText = null)
+            }
         }
     }
 
@@ -79,7 +106,7 @@ class PlayerViewModel(
             prepare()
             play()
         }
-        _uiState.value = _uiState.value.copy(currentStation = station)
+        _uiState.value = _uiState.value.copy(currentStation = station, nowPlayingText = null)
         viewModelScope.launch { playbackStateStore.setLastStationId(station.id) }
     }
 
@@ -89,13 +116,17 @@ class PlayerViewModel(
         }
     }
 
+    /** No static artist here: MediaMetadata.artist is reserved app-wide as the
+     * channel for the live ICY "now playing" text (PlaybackService writes it,
+     * this ViewModel reads it back via onMediaMetadataChanged). Genre was
+     * dropped from the notification for the same reason the car list carries
+     * no subtitle — logo + station name is enough. */
     private fun buildMediaItem(station: Station): MediaItem = MediaItem.Builder()
         .setMediaId(station.id)
         .setUri(station.streamUrl)
         .setMediaMetadata(
             MediaMetadata.Builder()
                 .setTitle(station.name)
-                .setArtist(station.genre.ifBlank { null })
                 .setArtworkUri(station.faviconUrl.takeIf { it.isNotBlank() }?.let { Uri.parse(it) })
                 .build()
         )

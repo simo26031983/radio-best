@@ -67,6 +67,7 @@ private fun BestRadioApp(container: AppContainer) {
                     stationFaviconUrl = station.faviconUrl,
                     isPlaying = playerState.isPlaying,
                     onTogglePlayPause = playerViewModel::togglePlayPause,
+                    nowPlayingText = playerState.nowPlayingText,
                 )
             }
         },
