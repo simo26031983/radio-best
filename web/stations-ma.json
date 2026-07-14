@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T18:50:18.279Z",
+  "generatedAt": "2026-07-14T06:16:29.948Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -156,128 +156,8 @@
       "id": "rm:medi1",
       "name": "Médi 1",
       "country": "MA",
-      "streamUrl": "https://live.medi1.com/medi1",
+      "streamUrl": "https://cdn.live.easybroadcast.io/live/83_medi1radio-maghreb_8s9i4bn/playlist.m3u8",
       "faviconUrl": "https://www.medi1.com/favicon.ico",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-acoustic",
-      "name": "Medi 1 Radio - Acoustic",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Acoustic",
-      "faviconUrl": "https://static-media.streema.com/media/cache/e5/e1/e5e1fdab05fc35825bd923abf610310a.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-andalouse",
-      "name": "Medi 1 Radio - Andalouse",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Andalouse",
-      "faviconUrl": "https://static-media.streema.com/media/cache/50/29/50296f4388ef4ca905295bc6d4245497.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-classique",
-      "name": "Medi 1 Radio - Classique",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Classique",
-      "faviconUrl": "https://static-media.streema.com/media/cache/11/c4/11c4273c1fbb4f5cede006bbd0155ab1.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-dj",
-      "name": "Medi 1 Radio - DJ",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Dj",
-      "faviconUrl": "https://static-media.streema.com/media/cache/72/60/7260b36fd95b68484e2933cb30fc19d0.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-francaise",
-      "name": "Medi 1 Radio - Française",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Francaise",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d7/c6/d7c6b87179c66ad077f5748742eb9551.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-hits",
-      "name": "Medi 1 Radio - Hits",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Hits",
-      "faviconUrl": "https://static-media.streema.com/media/cache/e2/a5/e2a5608ab154dfb15143208679f9d7b7.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-jazz",
-      "name": "Medi 1 Radio - Jazz",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Jazz",
-      "faviconUrl": "https://static-media.streema.com/media/cache/21/75/217557257508f4944bf586428b45d8ee.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-latino",
-      "name": "Medi 1 Radio - Latino",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Latino",
-      "faviconUrl": "https://static-media.streema.com/media/cache/1c/6c/1c6cda4be6f524fbf5fb06eb719e8ea2.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-lounge",
-      "name": "Medi 1 Radio - Lounge",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Lounge",
-      "faviconUrl": "https://static-media.streema.com/media/cache/a5/80/a580bd6a1c50120e9a62af844d064b14.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-nayda",
-      "name": "Medi 1 Radio - Nayda",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Nayda",
-      "faviconUrl": "https://static-media.streema.com/media/cache/c4/6d/c46de76276ffa9133039309285490e7a.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-soufi",
-      "name": "Medi 1 Radio - Soufi",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Soufi",
-      "faviconUrl": "https://static-media.streema.com/media/cache/a7/1b/a71bb427267e1d1563f8a979856f8ece.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:medi-1-radio-tarab",
-      "name": "Medi 1 Radio - Tarab",
-      "country": "MA",
-      "streamUrl": "https://live.medi1.com/Tarab",
-      "faviconUrl": "https://static-media.streema.com/media/cache/cc/5d/cc5db6966b298f896de9bc791990dee7.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -323,6 +203,16 @@
       "codec": ""
     },
     {
+      "id": "rm:morocco-english-radio",
+      "name": "Morocco English Radio",
+      "country": "MA",
+      "streamUrl": "https://streamer.radio.co/s6cba51492/listen",
+      "faviconUrl": "https://static-media.streema.com/media/cache/3b/39/3b39851da55b041d279903a18c7c82ec.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:ness",
       "name": "Ness Radio",
       "country": "MA",
@@ -338,16 +228,6 @@
       "country": "MA",
       "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio2m.ma&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-atbir",
-      "name": "Radio Atbir",
-      "country": "MA",
-      "streamUrl": "https://stream.zenolive.com/bqdbb6hd0neuv",
-      "faviconUrl": "https://static-media.streema.com/media/cache/1e/94/1e94252250a01854e0d16301b028ab32.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -478,6 +358,36 @@
       "country": "MA",
       "streamUrl": "https://panel.innovatestream.pe:10924/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=uradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi-amazigh",
+      "name": "Yabiladi Amazigh",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:9002/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi-chaabi",
+      "name": "Yabiladi Chaabi",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:8102/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi",
+      "name": "Yabiladi Radio",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
