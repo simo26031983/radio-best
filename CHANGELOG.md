@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2
+
+- Pipeline de release signée (`android-release.yml`) : première release APK signée pour distribution directe, sans compte Play Store.
+
+## 1.0.1
+
+- Nouvelle icône d'application (dégradé + glyphe play/ondes radio).
+
 ## 1.0.0
 
 - Message d'erreur ("station indisponible" vs "hors ligne") + bouton Réessayer sur échec de lecture.
