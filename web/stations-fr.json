@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T06:16:29.948Z",
+  "generatedAt": "2026-07-15T06:19:54.657Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -678,26 +678,6 @@
       "country": "FR",
       "streamUrl": "https://stream.aubymix.fr:8443/mp3?1771423833872",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=aubymix.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:b2b-dance-club",
-      "name": "B2B dance club",
-      "country": "FR",
-      "streamUrl": "https://www.b4bradio.com/flux/club-dance.m3u",
-      "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:b4b-club-dance-official",
-      "name": "B4B CLUB DANCE OFFICIAL",
-      "country": "FR",
-      "streamUrl": "https://www.b4bradio.com/flux/deep-house.m3u",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2078,16 +2058,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=stream-eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:france-antilles-radio",
-      "name": "France Antilles Radio",
-      "country": "FR",
-      "streamUrl": "https://2stream.net/fa_radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3693,26 +3663,6 @@
       "codec": ""
     },
     {
-      "id": "rm:kizrock-metal",
-      "name": "Kizrock Métal",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock_metal",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:kizrock-rock",
-      "name": "Kizrock Rock",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -3828,6 +3778,16 @@
       "country": "FR",
       "streamUrl": "https://diffusion.lafrap.fr/jetfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jetfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:la-radio-sous-la-cerise",
+      "name": "La radio sous la cerise",
+      "country": "FR",
+      "streamUrl": "https://laradio.souslacerise.fr/radio.m3u8",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=laradio.souslacerise.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5783,6 +5743,16 @@
       "codec": ""
     },
     {
+      "id": "rm:power-maxx",
+      "name": "POWER MAXX",
+      "country": "FR",
+      "streamUrl": "https://sr3.publicssl.net/srv/7016/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=onlineradiobox.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:proxi-radio",
       "name": "Proxi Radio",
       "country": "FR",
@@ -6358,6 +6328,16 @@
       "country": "FR",
       "streamUrl": "https://live.aurafm.org/RadioDio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodio.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-disney-paris",
+      "name": "Radio Disney Paris",
+      "country": "FR",
+      "streamUrl": "https://stream-176.zeno.fm/ks5wfxkubv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrczV3ZnhrdWJ2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkVJTkxJclhkVEMtSEZHSzZFWS1iQVEiLCJpYXQiOjE3NzI3MDE4NDQsImV4cCI6MTc3MjcwMTkwNH0.QREohi8XJgDrhW8gOyF6uCpTTT6L-MOCMR6KO44intw",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=zeno.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7303,16 +7283,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-scoop-comedies-musicales",
-      "name": "Radio SCOOP - Comédies Musicales",
-      "country": "FR",
-      "streamUrl": "https://scoopcomediemusicale.ice.infomaniak.ch/scoop-comediemusicale-64.aac",
-      "faviconUrl": "https://static-media.streema.com/media/cache/b4/70/b470c8cf54c77689db2c3c1de88638f9.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-scoop-lyon",
       "name": "Radio SCOOP - Lyon",
       "country": "FR",
@@ -7848,16 +7818,6 @@
       "country": "FR",
       "streamUrl": "https://radiorecord.hostingradio.ru/trancehits96.aacp",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiosweb.karibshebdo.info&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:record-goa-psy",
-      "name": "Record Goa Psy",
-      "country": "FR",
-      "streamUrl": "https://radiorecord.hostingradio.ru/goa96.aacp",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=caribshebdo.wordpress.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8503,6 +8463,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rtvfm",
+      "name": "RTVFM",
+      "country": "FR",
+      "streamUrl": "https://stream.vestaradio.com/RTVFM",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rtvfm.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:rva-radio",
       "name": "RVA radio",
       "country": "FR",
@@ -8548,16 +8518,6 @@
       "country": "FR",
       "streamUrl": "https://radio10.pro-fhi.net/live/SENSUELLERADIO",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=sensuelleradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:shadowfr69-radio",
-      "name": "shadowfr69 Radio",
-      "country": "FR",
-      "streamUrl": "https://radio.shadowfr69.eu/mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=shadowfr69.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""

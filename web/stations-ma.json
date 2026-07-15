@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T06:16:29.948Z",
+  "generatedAt": "2026-07-15T06:19:54.657Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -228,6 +228,16 @@
       "country": "MA",
       "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio2m.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-atbir",
+      "name": "Radio Atbir",
+      "country": "MA",
+      "streamUrl": "https://stream.zenolive.com/bqdbb6hd0neuv",
+      "faviconUrl": "https://static-media.streema.com/media/cache/1e/94/1e94252250a01854e0d16301b028ab32.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
