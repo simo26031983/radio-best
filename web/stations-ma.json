@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T06:23:15.756Z",
+  "generatedAt": "2026-07-17T06:21:39.811Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -133,6 +133,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maher-al-muaiqly",
+      "name": "Maher Al-Muaiqly",
+      "country": "MA",
+      "streamUrl": "https://backup.qurango.net/radio/maher",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:marrakechplus",
       "name": "Marrakech Plus",
       "country": "MA",
@@ -228,6 +238,16 @@
       "country": "MA",
       "streamUrl": "https://stream.zenolive.com/bqdbb6hd0neuv",
       "faviconUrl": "https://static-media.streema.com/media/cache/1e/94/1e94252250a01854e0d16301b028ab32.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-coran-maroc",
+      "name": "Radio Coran Maroc",
+      "country": "MA",
+      "streamUrl": "https://n0a.radiojar.com/0tpy1h0kxtzuv",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=n0a.radiojar.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
