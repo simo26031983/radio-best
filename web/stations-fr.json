@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T06:21:39.811Z",
+  "generatedAt": "2026-07-18T06:08:55.227Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1113,6 +1113,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1358,6 +1388,16 @@
       "country": "FR",
       "streamUrl": "https://radio4.pro-fhi.net/flux-rjwfxyhz/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/7e/42/7e42c1d6ede2249184d9e5da0a074528.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:douce-france",
+      "name": "Douce France",
+      "country": "FR",
+      "streamUrl": "https://stream.chantefrance.com/Chante_France.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=doucefrance.radio&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2363,16 +2403,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-des-loisirs-100-4",
-      "name": "Fréquence Des Loisirs 100.4",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-hit",
       "name": "Fréquence Hit",
       "country": "FR",
@@ -2408,6 +2438,16 @@
       "country": "FR",
       "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_gap/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/86/0f/860f2f2dc9458e2c766fd1dbe3fdbe5f.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:frequence-sille",
+      "name": "Fréquence Sillé",
+      "country": "FR",
+      "streamUrl": "https://stric6.streamakaci.com/frequencesille.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence-sille.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3858,6 +3898,16 @@
       "country": "FR",
       "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:laurent-dine-iglesias",
+      "name": "Laurent DINE IGLESIAS",
+      "country": "FR",
+      "streamUrl": "https://radio7.pro-fhi.net:19141/milleniumfm.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=milleniumfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6123,6 +6173,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-campus-bordeaux",
+      "name": "Radio campus bordeaux",
+      "country": "FR",
+      "streamUrl": "https://live.radio-campus.org:8002/campus-bordeaux",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocampusbordeaux.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-campus-clermont-ferrand",
       "name": "Radio Campus Clermont-Ferrand",
       "country": "FR",
@@ -6178,6 +6238,16 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8428,16 +8498,6 @@
       "country": "FR",
       "streamUrl": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl-georges-lang/130/audio-64000/index.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rtl.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rtvfm",
-      "name": "RTVFM",
-      "country": "FR",
-      "streamUrl": "https://stream.vestaradio.com/RTVFM",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rtvfm.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
