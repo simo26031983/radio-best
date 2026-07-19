@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T06:08:55.227Z",
+  "generatedAt": "2026-07-19T06:35:04.196Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -183,16 +183,6 @@
       "codec": ""
     },
     {
-      "id": "rm:medradio",
-      "name": "MedRadio",
-      "country": "MA",
-      "streamUrl": "https://medradio.ice.infomaniak.ch/medradio-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=medradio.ma&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mfm",
       "name": "MFM Radio",
       "country": "MA",
@@ -368,36 +358,6 @@
       "country": "MA",
       "streamUrl": "https://panel.innovatestream.pe:10924/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=uradio.ma&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yabiladi-amazigh",
-      "name": "Yabiladi Amazigh",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:9002/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yabiladi-chaabi",
-      "name": "Yabiladi Chaabi",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:8102/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yabiladi",
-      "name": "Yabiladi Radio",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
