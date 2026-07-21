@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T06:52:35.955Z",
+  "generatedAt": "2026-07-21T06:33:47.020Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2083,6 +2083,16 @@
       "codec": ""
     },
     {
+      "id": "rm:france-antilles-radio",
+      "name": "France Antilles Radio",
+      "country": "FR",
+      "streamUrl": "https://2stream.net/fa_radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -2388,6 +2398,16 @@
       "country": "FR",
       "streamUrl": "https://live.aurafm.org/Frequence7",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence7.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:frequence-des-loisirs-100-4",
+      "name": "Fréquence Des Loisirs 100.4",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3673,26 +3693,6 @@
       "codec": ""
     },
     {
-      "id": "rm:kizrock-metal",
-      "name": "Kizrock Métal",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock_metal",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:kizrock-rock",
-      "name": "Kizrock Rock",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -3888,16 +3888,6 @@
       "country": "FR",
       "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latitude",
-      "name": "Latitude",
-      "country": "FR",
-      "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6356,7 +6346,7 @@
       "id": "rm:radio-dio",
       "name": "Radio Dio",
       "country": "FR",
-      "streamUrl": "https://nrf1.newradio.it:10012/stream",
+      "streamUrl": "https://live.aurafm.org/RadioDio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodio.org&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6388,6 +6378,16 @@
       "country": "FR",
       "streamUrl": "https://flux.radiody10.com/fallback.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiody10.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-dynamo",
+      "name": "Radio Dynamo",
+      "country": "FR",
+      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7243,16 +7243,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-saint-barth",
-      "name": "Radio Saint Barth",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/rsb",
-      "faviconUrl": "https://static-media.streema.com/media/cache/fb/d9/fbd94de575f6f4c902ac63fad5e2aad9.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-saint-ferreol",
       "name": "Radio Saint Ferréol",
       "country": "FR",
@@ -7513,16 +7503,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-val-d-or-rvo",
-      "name": "Radio Val d'Or - RVO",
-      "country": "FR",
-      "streamUrl": "https://stream3.vestaradio.com/RADIOVALDOR?nocache=34033",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiovaldor.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-vallee-bergerac",
       "name": "Radio Vallée Bergerac",
       "country": "FR",
@@ -7688,16 +7668,6 @@
       "country": "FR",
       "streamUrl": "https://www.rayvox.org:8443/flux",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rayvox.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rbr-103-4-106-8fm",
-      "name": "RBR 103.4/106.8FM",
-      "country": "FR",
-      "streamUrl": "https://stream.vestaradio.com/RBR?nocache=72616#",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rbrfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9088,16 +9058,6 @@
       "country": "FR",
       "streamUrl": "https://stream10.vestaradio.com/VertigeRadioGold",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=vertigeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:villages-fm",
-      "name": "Villages FM",
-      "country": "FR",
-      "streamUrl": "https://stream3.vestaradio.com/VILLAGESFM",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=villagesfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""

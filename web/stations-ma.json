@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T06:52:35.955Z",
+  "generatedAt": "2026-07-21T06:33:47.020Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -133,16 +133,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maher-al-muaiqly",
-      "name": "Maher Al-Muaiqly",
-      "country": "MA",
-      "streamUrl": "https://backup.qurango.net/radio/maher",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:marrakechplus",
       "name": "Marrakech Plus",
       "country": "MA",
@@ -178,6 +168,16 @@
       "country": "MA",
       "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=medinafm.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medradio",
+      "name": "MedRadio",
+      "country": "MA",
+      "streamUrl": "https://medradio.ice.infomaniak.ch/medradio-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=medradio.ma&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
