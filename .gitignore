@@ -34,3 +34,6 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Release signing (local credentials, never committed)
+keystore.properties

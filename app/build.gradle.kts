@@ -4,6 +4,18 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
+// Release signing credentials come from keystore.properties at the repo root
+// (local builds, never committed) or from environment variables (CI, injected
+// from GitHub secrets). Without them assembleRelease still runs but produces
+// an unsigned APK — CI refuses to publish that (see android-ci.yml).
+val keystoreProperties = java.util.Properties().apply {
+    val propsFile = rootProject.file("keystore.properties")
+    if (propsFile.exists()) propsFile.inputStream().use { load(it) }
+}
+
+fun signingSecret(property: String, envVar: String): String? =
+    keystoreProperties.getProperty(property) ?: System.getenv(envVar)
+
 android {
     namespace = "com.bestradio.app"
     compileSdk = 36
@@ -12,10 +24,22 @@ android {
         applicationId = "com.bestradio.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 14
-        versionName = "1.0.1"
+        versionCode = 15
+        versionName = "1.0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        create("release") {
+            val storePath = signingSecret("storeFile", "RELEASE_KEYSTORE_FILE")
+            if (storePath != null) {
+                storeFile = rootProject.file(storePath)
+                storePassword = signingSecret("storePassword", "RELEASE_KEYSTORE_PASSWORD")
+                keyAlias = signingSecret("keyAlias", "RELEASE_KEY_ALIAS")
+                keyPassword = signingSecret("keyPassword", "RELEASE_KEY_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
@@ -25,6 +49,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release").takeIf { it.storeFile != null }
         }
         debug {
             applicationIdSuffix = ".debug"

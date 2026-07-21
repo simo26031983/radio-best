@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.2
+
+- Distribution : c'est désormais l'APK **release signé et minifié** qui est publié (asset `best-radio.apk`), plus l'APK debug. La clé de signature est stable (secrets GitHub), donc les mises à jour s'installent en place sans désinstaller — l'app ne retombe plus en état « stoppé » (invisible pour Android Auto) à chaque nouvelle version.
+- CI : build release (APK + AAB pour la Play Console) à chaque push pour détecter toute casse R8 ; publication refusée si les secrets de signature manquent.
+- Règles ProGuard d'assurance sur la couche modèle JSON (`Station`/`Country`/`StationsApi`) contre une régression silencieuse de désérialisation (liste de stations vide, arbre Android Auto vide).
+
+## 1.0.1
+
+- Nouvelle icône d'application (dégradé moderne).
+
 ## 1.0.0
 
 - Message d'erreur ("station indisponible" vs "hors ligne") + bouton Réessayer sur échec de lecture.
