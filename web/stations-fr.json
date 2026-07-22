@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T06:33:47.020Z",
+  "generatedAt": "2026-07-22T06:33:44.865Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2083,16 +2083,6 @@
       "codec": ""
     },
     {
-      "id": "rm:france-antilles-radio",
-      "name": "France Antilles Radio",
-      "country": "FR",
-      "streamUrl": "https://2stream.net/fa_radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -3813,16 +3803,6 @@
       "codec": ""
     },
     {
-      "id": "rm:la-radio-sous-la-cerise",
-      "name": "La radio sous la cerise",
-      "country": "FR",
-      "streamUrl": "https://laradio.souslacerise.fr/radio.m3u8",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=laradio.souslacerise.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:lamellotron",
       "name": "LaMellotron",
       "country": "FR",
@@ -3888,6 +3868,16 @@
       "country": "FR",
       "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latitude",
+      "name": "Latitude",
+      "country": "FR",
+      "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7503,6 +7493,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-val-d-or-rvo",
+      "name": "Radio Val d'Or - RVO",
+      "country": "FR",
+      "streamUrl": "https://stream3.vestaradio.com/RADIOVALDOR?nocache=34033",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiovaldor.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-vallee-bergerac",
       "name": "Radio Vallée Bergerac",
       "country": "FR",
@@ -7568,16 +7568,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/204667/stream/247420",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=zaizai-radio.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-zig-zag-pays-de-romans",
-      "name": "Radio Zig Zag - Pays de Romans",
-      "country": "FR",
-      "streamUrl": "https://zig.syndicastream.fr:8443/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7668,6 +7658,16 @@
       "country": "FR",
       "streamUrl": "https://www.rayvox.org:8443/flux",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rayvox.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rbr-103-4-106-8fm",
+      "name": "RBR 103.4/106.8FM",
+      "country": "FR",
+      "streamUrl": "https://stream.vestaradio.com/RBR?nocache=72616#",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rbrfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8838,16 +8838,6 @@
       "country": "FR",
       "streamUrl": "https://evcast.mediacp.eu:1165/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=teenagekicksradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:tempo-62",
-      "name": "TEMPO 62",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/tempo-62",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=tempo62.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
