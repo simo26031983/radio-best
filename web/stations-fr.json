@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T06:34:28.622Z",
+  "generatedAt": "2026-07-24T06:30:27.335Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -383,6 +383,16 @@
       "codec": ""
     },
     {
+      "id": "rm:allzic-radio-golds-francais",
+      "name": "Allzic Radio Golds Français",
+      "country": "FR",
+      "streamUrl": "https://allzic30.ice.infomaniak.ch/allzic30.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:allzic-radio-hommage-johnny",
       "name": "Allzic Radio Hommage Johnny",
       "country": "FR",
@@ -413,6 +423,16 @@
       "codec": ""
     },
     {
+      "id": "rm:allzic-radio-kitch",
+      "name": "Allzic Radio Kitch",
+      "country": "FR",
+      "streamUrl": "https://allzic59.ice.infomaniak.ch/allzic59.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:allzic-radio-live-fr",
       "name": "Allzic Radio Live FR",
       "country": "FR",
@@ -433,10 +453,40 @@
       "codec": ""
     },
     {
+      "id": "rm:allzic-radio-lounge",
+      "name": "Allzic Radio Lounge",
+      "country": "FR",
+      "streamUrl": "https://allzic21.ice.infomaniak.ch/allzic21.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=allzicradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-love",
+      "name": "Allzic Radio Love",
+      "country": "FR",
+      "streamUrl": "https://allzic34.ice.infomaniak.ch/allzic34.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:allzic-radio-noel",
       "name": "Allzic Radio Noël",
       "country": "FR",
       "streamUrl": "https://allzic42.ice.infomaniak.ch/allzic42.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-orientale",
+      "name": "Allzic Radio Orientale",
+      "country": "FR",
+      "streamUrl": "https://allzic33.ice.infomaniak.ch/allzic33.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -458,6 +508,46 @@
       "country": "FR",
       "streamUrl": "https://allzic37.ice.infomaniak.ch/allzic37.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-rock-fm",
+      "name": "Allzic Radio Rock FM",
+      "country": "FR",
+      "streamUrl": "https://allzic17.ice.infomaniak.ch/allzic17.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=allzicradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-top-10",
+      "name": "Allzic Radio TOP 10",
+      "country": "FR",
+      "streamUrl": "https://allzic22.ice.infomaniak.ch/allzic22.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-zouk-2",
+      "name": "Allzic Radio Zouk",
+      "country": "FR",
+      "streamUrl": "https://allzic28.ice.infomaniak.ch/allzic28.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-zouk",
+      "name": "Allzic Radio Zouk",
+      "country": "FR",
+      "streamUrl": "https://allzic28.ice.infomaniak.ch/allzic28.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=allzicradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1048,6 +1138,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:classic-fm-france",
+      "name": "Classic FM France",
+      "country": "FR",
+      "streamUrl": "https://classicfm.ice.infomaniak.ch/classic-fm.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=classicfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2573,10 +2673,70 @@
       "codec": ""
     },
     {
+      "id": "rm:generations-dancehall",
+      "name": "Générations Dancehall",
+      "country": "FR",
+      "streamUrl": "https://generations-dancehall.ice.infomaniak.ch/generations-dancehall.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-france",
+      "name": "GENERATIONS France",
+      "country": "FR",
+      "streamUrl": "https://generationfm.ice.infomaniak.ch/generationfm-high.aac?i=70138",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=generations.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:generations-funk",
       "name": "Générations Funk",
       "country": "FR",
       "streamUrl": "https://gene-wr05.ice.infomaniak.ch/gene-wr05.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-g-funk",
+      "name": "Générations G-Funk",
+      "country": "FR",
+      "streamUrl": "https://generationsgfunk.ice.infomaniak.ch/generations-g-funk.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-r-b",
+      "name": "Générations R&B",
+      "country": "FR",
+      "streamUrl": "https://generationfm-slowjam.ice.infomaniak.ch/generationfm-slowjam-high.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-rap-u-s",
+      "name": "Générations Rap U.S",
+      "country": "FR",
+      "streamUrl": "https://generationfm-underground.ice.infomaniak.ch/generationfm-underground-high.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-rap-u-s-gold",
+      "name": "Générations RAP U.S Gold",
+      "country": "FR",
+      "streamUrl": "https://gene-wr08.ice.infomaniak.ch/gene-wr08.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -2597,6 +2757,16 @@
       "name": "Générations Soul",
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-west-indies",
+      "name": "Générations West Indies",
+      "country": "FR",
+      "streamUrl": "https://generationswestindies.ice.infomaniak.ch/generations-westindies.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3293,11 +3463,31 @@
       "codec": ""
     },
     {
+      "id": "rm:jazz-classic",
+      "name": "Jazz Classic",
+      "country": "FR",
+      "streamUrl": "https://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:jazz-lounge",
       "name": "Jazz Lounge",
       "country": "FR",
       "streamUrl": "https://allzic03.ice.infomaniak.ch/allzic03.aac",
       "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazz-only-women",
+      "name": "Jazz Only Women",
+      "country": "FR",
+      "streamUrl": "https://jazz-wr16.ice.infomaniak.ch/jazz-wr16-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3323,10 +3513,80 @@
       "codec": ""
     },
     {
+      "id": "rm:jazz-radio-afro",
+      "name": "Jazz Radio Afro",
+      "country": "FR",
+      "streamUrl": "https://jazz-radio-afro.ice.infomaniak.ch/jazz-radio-afro.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazz-radio-blues",
+      "name": "Jazz Radio Blues",
+      "country": "FR",
+      "streamUrl": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac?i=65443",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazz-radio-jazz-fusion",
+      "name": "Jazz Radio Jazz Fusion",
+      "country": "FR",
+      "streamUrl": "https://jazz-radio-fusion.ice.infomaniak.ch/jazz-radio-fusion.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazz-radio-lounge",
+      "name": "Jazz Radio Lounge",
+      "country": "FR",
+      "streamUrl": "https://jazzlounge.ice.infomaniak.ch/jazzlounge-high.aac?i=57064",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:jazz-saxo",
       "name": "Jazz Saxo",
       "country": "FR",
       "streamUrl": "https://jzr-saxo.ice.infomaniak.ch/jzr-saxo.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazzradio-fr-blues",
+      "name": "JazzRadio.fr Blues",
+      "country": "FR",
+      "streamUrl": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazzradio-fr-funk",
+      "name": "JazzRadio.fr Funk",
+      "country": "FR",
+      "streamUrl": "https://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazzradio-fr-jazz-cinema",
+      "name": "Jazzradio.fr Jazz & Cinema",
+      "country": "FR",
+      "streamUrl": "https://jzr-wr20.ice.infomaniak.ch/jzr-wr20.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3423,16 +3683,6 @@
       "codec": ""
     },
     {
-      "id": "rm:l-eko",
-      "name": "L'Eko",
-      "country": "FR",
-      "streamUrl": "https://radio.ekodesgarrigues.com/eko-des-garrigues-256k.ogg",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ekodesgarrigues.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:la-grande-evasion",
       "name": "La grande évasion",
       "country": "FR",
@@ -3498,16 +3748,6 @@
       "country": "FR",
       "streamUrl": "https://diffusion.lafrap.fr/jetfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jetfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:la-radio-sous-la-cerise",
-      "name": "La radio sous la cerise",
-      "country": "FR",
-      "streamUrl": "https://laradio.souslacerise.fr/radio.m3u8",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=laradio.souslacerise.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3873,10 +4113,50 @@
       "codec": ""
     },
     {
+      "id": "rm:m-radio-au-travail",
+      "name": "M Radio - Au travail",
+      "country": "FR",
+      "streamUrl": "https://mradio-au-travail.ice.infomaniak.ch/mradio-au-travail.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m-radio-nouveautes",
+      "name": "M Radio - Nouveautés",
+      "country": "FR",
+      "streamUrl": "https://mfmwr-005.ice.infomaniak.ch/mfmwr-005.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m-radio-sur-la-route",
+      "name": "M Radio - Sur la route",
+      "country": "FR",
+      "streamUrl": "https://voix-du-sud.ice.infomaniak.ch/voix-du-sud.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:m-radio-2000",
       "name": "m radio 2000",
       "country": "FR",
       "streamUrl": "https://server6.hostradios.com/8390/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m-radio-live",
+      "name": "M Radio Live",
+      "country": "FR",
+      "streamUrl": "https://mfmwr-008.ice.infomaniak.ch/mfmwr-008.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4438,6 +4718,16 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/nebulah-radio",
       "faviconUrl": "https://static-media.streema.com/media/cache/5e/e2/5ee239fd741ae019d7280cae4c49338a.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:neptune-fm",
+      "name": "Neptune FM",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/neptune.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=neptunefm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5698,16 +5988,6 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-beton-tours-93-6",
-      "name": "Radio Béton - Tours 93.6",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobeton.com:8001/stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobeton.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7353,16 +7633,6 @@
       "codec": ""
     },
     {
-      "id": "rm:rbr-103-4-106-8fm",
-      "name": "RBR 103.4/106.8FM",
-      "country": "FR",
-      "streamUrl": "https://stream.vestaradio.com/RBR?nocache=72616#",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rbrfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:rca-nantes",
       "name": "RCA Nantes",
       "country": "FR",
@@ -8163,16 +8433,6 @@
       "codec": ""
     },
     {
-      "id": "rm:rtvfm",
-      "name": "RTVFM",
-      "country": "FR",
-      "streamUrl": "https://stream.vestaradio.com/RTVFM",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rtvfm.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:rva-radio",
       "name": "RVA radio",
       "country": "FR",
@@ -8378,16 +8638,6 @@
       "country": "FR",
       "streamUrl": "https://listen.soulradio.eu/eu",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=soulradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:soulbox",
-      "name": "Soulbox",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/soulbox?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=soulbox.legtux.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8743,16 +8993,6 @@
       "codec": ""
     },
     {
-      "id": "rm:veronica-60-s-70-s",
-      "name": "Veronica 60's & 70's",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:vertige-radio",
       "name": "Vertige Radio",
       "country": "FR",
@@ -8798,6 +9038,46 @@
       "country": "FR",
       "streamUrl": "https://radio4.vip-radios.fm:18039/stream-128kmp3-HealingMusic",
       "faviconUrl": "https://static-media.streema.com/media/cache/02/da/02da5652ae828691ce5fcb3f0321a89d.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:virage-radio-chambery",
+      "name": "VIRAGE RADIO CHAMBERY",
+      "country": "FR",
+      "streamUrl": "https://virageradio.ice.infomaniak.ch/virageradio-chambery.aac?i=47784",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=virageradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:virage-radio-legende-du-rock",
+      "name": "Virage radio Légende du rock",
+      "country": "FR",
+      "streamUrl": "https://virage-radio-legende-du-rock.ice.infomaniak.ch/virage-radio-legende-du-rock.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=virageradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:virage-radio-legendes-du-rock",
+      "name": "Virage Radio Légendes du Rock",
+      "country": "FR",
+      "streamUrl": "https://virage-radio-legende-du-rock.ice.infomaniak.ch/virage-radio-legende-du-rock.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=virageradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:virage-radio-metal",
+      "name": "Virage Radio Metal",
+      "country": "FR",
+      "streamUrl": "https://virage-radio-metal.ice.infomaniak.ch/virage-radio-metal.aac?i=65804",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=virageradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
