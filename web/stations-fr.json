@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-25T06:22:13.986Z",
+  "generatedAt": "2026-07-26T06:40:55.160Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3213,6 +3213,16 @@
       "codec": ""
     },
     {
+      "id": "rm:iaradio-lounge",
+      "name": "IAradio Lounge",
+      "country": "FR",
+      "streamUrl": "https://iaradiolounge.ice.infomaniak.ch/iaradiolounge-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:iaradio-metal",
       "name": "IAradio Metal",
       "country": "FR",
@@ -3378,16 +3388,6 @@
       "country": "FR",
       "streamUrl": "https://infraordinary.fiveradiostations.com:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fiveradiostations.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:irulegiko-irratia",
-      "name": "Irulegiko Irratia",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1365/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=irulegikoirratia.eus&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3808,6 +3808,16 @@
       "country": "FR",
       "streamUrl": "https://diffusion.lafrap.fr/jetfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jetfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:la-radio-sous-la-cerise",
+      "name": "La radio sous la cerise",
+      "country": "FR",
+      "streamUrl": "https://laradio.souslacerise.fr/radio.m3u8",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=laradio.souslacerise.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6803,16 +6813,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-lengadoc",
-      "name": "Ràdio Lengadòc",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/lengadocnarbonne",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lengadoc.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-marseillette",
       "name": "Radio Marseillette",
       "country": "FR",
@@ -7388,6 +7388,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/22937/stream/63601",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radioshow.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-sofa",
+      "name": "Radio Sofa",
+      "country": "FR",
+      "streamUrl": "https://radio.radio-sofa.com/listen/radio_sofa/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-sofa.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
