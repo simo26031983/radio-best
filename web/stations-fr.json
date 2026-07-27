@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T06:40:55.160Z",
+  "generatedAt": "2026-07-27T07:38:08.958Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1113,36 +1113,6 @@
       "codec": ""
     },
     {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -2083,16 +2053,6 @@
       "codec": ""
     },
     {
-      "id": "rm:france-antilles-radio",
-      "name": "France Antilles Radio",
-      "country": "FR",
-      "streamUrl": "https://2stream.net/fa_radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -2448,16 +2408,6 @@
       "country": "FR",
       "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_gap/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/86/0f/860f2f2dc9458e2c766fd1dbe3fdbe5f.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:frequence-sille",
-      "name": "Fréquence Sillé",
-      "country": "FR",
-      "streamUrl": "https://stric6.streamakaci.com/frequencesille.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence-sille.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3393,6 +3343,16 @@
       "codec": ""
     },
     {
+      "id": "rm:irulegiko-irratia",
+      "name": "Irulegiko Irratia",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1365/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=irulegikoirratia.eus&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:isekoi-radio",
       "name": "ISEKOI Radio",
       "country": "FR",
@@ -3597,6 +3557,16 @@
       "name": "JazzRadio.fr Funk",
       "country": "FR",
       "streamUrl": "https://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jazzradio-fr-gospel",
+      "name": "Jazzradio.fr Gospel",
+      "country": "FR",
+      "streamUrl": "https://jazz-wr07.ice.infomaniak.ch/jazz-wr07-64.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3808,16 +3778,6 @@
       "country": "FR",
       "streamUrl": "https://diffusion.lafrap.fr/jetfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jetfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:la-radio-sous-la-cerise",
-      "name": "La radio sous la cerise",
-      "country": "FR",
-      "streamUrl": "https://laradio.souslacerise.fr/radio.m3u8",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=laradio.souslacerise.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6173,16 +6133,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-cagnac",
-      "name": "Radio Cagnac",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-campus-bordeaux",
       "name": "Radio campus bordeaux",
       "country": "FR",
@@ -6248,16 +6198,6 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7253,16 +7193,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-saint-barth",
-      "name": "Radio Saint Barth",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/rsb",
-      "faviconUrl": "https://static-media.streema.com/media/cache/fb/d9/fbd94de575f6f4c902ac63fad5e2aad9.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-saint-ferreol",
       "name": "Radio Saint Ferréol",
       "country": "FR",
@@ -7418,16 +7348,6 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/radio-stonewall",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiostonewall.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-sud-besancon",
-      "name": "Radio Sud Besançon",
-      "country": "FR",
-      "streamUrl": "https://radiosudbesancon.ice.infomaniak.ch/radiosudbesancon-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiosud.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8698,16 +8618,6 @@
       "country": "FR",
       "streamUrl": "https://play.radioking.io/slow-radio/601307",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=slow-village.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:slowly-radio",
-      "name": "Slowly Radio",
-      "country": "FR",
-      "streamUrl": "https://stream.slowlyradio.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=slowlyradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
