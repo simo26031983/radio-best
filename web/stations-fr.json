@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T06:32:30.087Z",
+  "generatedAt": "2026-07-31T06:49:29.439Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -268,6 +268,16 @@
       "country": "FR",
       "streamUrl": "https://stream.akroradio.com:10012/AkroRadio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=akroradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:al-quran-radio",
+      "name": "al quran radio",
+      "country": "FR",
+      "streamUrl": "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g",
+      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2073,16 +2083,6 @@
       "codec": ""
     },
     {
-      "id": "rm:france-antilles-radio",
-      "name": "France Antilles Radio",
-      "country": "FR",
-      "streamUrl": "https://2stream.net/fa_radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -3683,26 +3683,6 @@
       "codec": ""
     },
     {
-      "id": "rm:kizrock-metal",
-      "name": "Kizrock Métal",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock_metal",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:kizrock-rock",
-      "name": "Kizrock Rock",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -4703,6 +4683,16 @@
       "codec": ""
     },
     {
+      "id": "rm:mohammed-ayyub",
+      "name": "mohammed ayyub",
+      "country": "FR",
+      "streamUrl": "https://qurango.net/radio/mohammed_ayyub",
+      "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:mon-petit-france-inter",
       "name": "Mon Petit France Inter",
       "country": "FR",
@@ -4758,16 +4748,6 @@
       "country": "FR",
       "streamUrl": "https://radio.musicradio.ai/listen/musicradio.ai/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=musicradio.ai&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:mydoom-666",
-      "name": "Mydoom-666",
-      "country": "FR",
-      "streamUrl": "https://mydoom666.radio.fm/md666-128k",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mydoom666.radio.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6173,16 +6153,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-cagnac",
-      "name": "Radio Cagnac",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-campus-bordeaux",
       "name": "Radio campus bordeaux",
       "country": "FR",
@@ -7013,6 +6983,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-pais",
+      "name": "Ràdio País",
+      "country": "FR",
+      "streamUrl": "https://stunnel2.cyber-streaming.com:9272/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopais.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-patio-de-marujas",
       "name": "Radio Patio De Marujas",
       "country": "FR",
@@ -7768,26 +7748,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/3086/stream/9476",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rcv-lille.radio-website.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rdwa",
-      "name": "RDWA",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/R-Dwa",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rdwa-luc",
-      "name": "RDWA Luc",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/R-Dwa-LUC",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8668,16 +8628,6 @@
       "country": "FR",
       "streamUrl": "https://play.radioking.io/slow-radio/601307",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=slow-village.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:slowly-radio",
-      "name": "Slowly Radio",
-      "country": "FR",
-      "streamUrl": "https://stream.slowlyradio.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=slowlyradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
