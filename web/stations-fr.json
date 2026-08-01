@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T06:49:29.439Z",
+  "generatedAt": "2026-08-01T06:34:07.872Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2083,6 +2083,16 @@
       "codec": ""
     },
     {
+      "id": "rm:france-antilles-radio",
+      "name": "France Antilles Radio",
+      "country": "FR",
+      "streamUrl": "https://2stream.net/fa_radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -2428,16 +2438,6 @@
       "country": "FR",
       "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_avignon/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/7d/5e/7d5ed5458dcd6486ede28e9950a593e4.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:frequence-mistral-gap",
-      "name": "Fréquence Mistral Gap",
-      "country": "FR",
-      "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_gap/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/86/0f/860f2f2dc9458e2c766fd1dbe3fdbe5f.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3683,6 +3683,26 @@
       "codec": ""
     },
     {
+      "id": "rm:kizrock-metal",
+      "name": "Kizrock Métal",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock_metal",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:kizrock-rock",
+      "name": "Kizrock Rock",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -4753,6 +4773,16 @@
       "codec": ""
     },
     {
+      "id": "rm:mydoom-666",
+      "name": "Mydoom-666",
+      "country": "FR",
+      "streamUrl": "https://mydoom666.radio.fm/md666-128k",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mydoom666.radio.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:mylenefarmer",
       "name": "MyleneFarmer",
       "country": "FR",
@@ -5803,16 +5833,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6148,6 +6168,16 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/brume-campus-lyon/546695",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrume.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-cagnac",
+      "name": "Radio Cagnac",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6538,16 +6568,6 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-galaxie-31",
-      "name": "Radio Galaxie 31",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiogalaxie",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogalaxie31.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7753,6 +7773,26 @@
       "codec": ""
     },
     {
+      "id": "rm:rdwa",
+      "name": "RDWA",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/R-Dwa",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rdwa-luc",
+      "name": "RDWA Luc",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/R-Dwa-LUC",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:reccord-garage-uk",
       "name": "Reccord Garage UK",
       "country": "FR",
@@ -8633,6 +8673,16 @@
       "codec": ""
     },
     {
+      "id": "rm:slowly-radio",
+      "name": "Slowly Radio",
+      "country": "FR",
+      "streamUrl": "https://stream.slowlyradio.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=slowlyradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:soft-radio",
       "name": "Soft Radio",
       "country": "FR",
@@ -8688,16 +8738,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9038,6 +9078,16 @@
       "country": "FR",
       "streamUrl": "https://stream10.vestaradio.com/VertigeRadioGold",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=vertigeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:villages-fm",
+      "name": "Villages FM",
+      "country": "FR",
+      "streamUrl": "https://stream3.vestaradio.com/VILLAGESFM",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=villagesfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
