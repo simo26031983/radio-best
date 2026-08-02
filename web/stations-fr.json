@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T06:34:07.872Z",
+  "generatedAt": "2026-08-02T06:37:52.539Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1108,36 +1108,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4226,7 +4196,7 @@
       "id": "rm:m-radio-2000",
       "name": "m radio 2000",
       "country": "FR",
-      "streamUrl": "https://server6.hostradios.com/8390/stream",
+      "streamUrl": "https://mfmwr-020.ice.infomaniak.ch/mfmwr-020.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5833,6 +5803,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6253,16 +6233,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6568,6 +6538,16 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-galaxie-31",
+      "name": "Radio Galaxie 31",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiogalaxie",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogalaxie31.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7753,16 +7733,6 @@
       "codec": ""
     },
     {
-      "id": "rm:rcv-99-fm",
-      "name": "RCV 99 fm",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/rcv99fm",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rcv-lille.radio-website.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:rcv-99fm",
       "name": "RCV 99FM",
       "country": "FR",
@@ -8283,6 +8253,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
+      "name": "RJR - Radio Jeunes Reims (Opus 128k",
+      "country": "FR",
+      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:rlocale-radio",
       "name": "Rlocale Radio",
       "country": "FR",
@@ -8738,6 +8718,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
