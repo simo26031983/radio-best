@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T06:37:52.539Z",
+  "generatedAt": "2026-08-03T07:32:52.593Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1216,7 +1216,7 @@
       "id": "rm:crazy-radio",
       "name": "Crazy Radio",
       "country": "FR",
-      "streamUrl": "https://radio10.pro-fhi.net/flux-bphdrtog/stream?1722411025208",
+      "streamUrl": "https://server36791.streamplus.de/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=crazyradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4483,16 +4483,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -5797,16 +5787,6 @@
       "name": "Public Health Radio Espanol",
       "country": "FR",
       "streamUrl": "https://publichealthradioes.ice.infomaniak.ch/publichealthradioes-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7728,6 +7708,16 @@
       "country": "FR",
       "streamUrl": "https://rcf.streamakaci.com/rcfoccitanie.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rcf.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rcv-99-fm",
+      "name": "RCV 99 fm",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/rcv99fm",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rcv-lille.radio-website.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
