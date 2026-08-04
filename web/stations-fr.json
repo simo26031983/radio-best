@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T07:32:52.593Z",
+  "generatedAt": "2026-08-04T06:31:34.344Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -218,16 +218,6 @@
       "country": "FR",
       "streamUrl": "https://webradio6.ice.infomaniak.ch/webradio6-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=africaradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:agora-cote-d-azur",
-      "name": "AGORA CÔTE D’AZUR",
-      "country": "FR",
-      "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2813,16 +2803,6 @@
       "codec": ""
     },
     {
-      "id": "rm:gure-irratia",
-      "name": "Gure irratia",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1345/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=gureirratia.eus&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:gwoka-radio",
       "name": "Gwoka Radio",
       "country": "FR",
@@ -3328,16 +3308,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/384/stream/1613",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=in2mixxradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:info-rc",
-      "name": "Info RC",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/InfoRC",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=inforc.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4483,6 +4453,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -4663,16 +4643,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mohammed-ayyub",
-      "name": "mohammed ayyub",
-      "country": "FR",
-      "streamUrl": "https://qurango.net/radio/mohammed_ayyub",
-      "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mon-petit-france-inter",
       "name": "Mon Petit France Inter",
       "country": "FR",
@@ -4728,16 +4698,6 @@
       "country": "FR",
       "streamUrl": "https://radio.musicradio.ai/listen/musicradio.ai/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=musicradio.ai&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:mydoom-666",
-      "name": "Mydoom-666",
-      "country": "FR",
-      "streamUrl": "https://mydoom666.radio.fm/md666-128k",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mydoom666.radio.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5793,6 +5753,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6018,16 +5988,6 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-beton-tours-93-6",
-      "name": "Radio Béton - Tours 93.6",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobeton.com:8001/stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobeton.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7253,6 +7213,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-scoop-comedies-musicales",
+      "name": "Radio SCOOP - Comédies Musicales",
+      "country": "FR",
+      "streamUrl": "https://scoopcomediemusicale.ice.infomaniak.ch/scoop-comediemusicale-64.aac",
+      "faviconUrl": "https://static-media.streema.com/media/cache/b4/70/b470c8cf54c77689db2c3c1de88638f9.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-scoop-lyon",
       "name": "Radio SCOOP - Lyon",
       "country": "FR",
@@ -7598,26 +7568,6 @@
       "country": "FR",
       "streamUrl": "https://d3m456gauclwb5.cloudfront.net/radiogospel_high",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogospel.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radios-libres-en-perigord-rlp102-3-aac-6",
-      "name": "Radios Libres en Perigord - RLP102.3 - AAC+ 64",
-      "country": "FR",
-      "streamUrl": "https://direct.radioslibresenperigord.com/rlp.64.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioslibresenperigord.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radios-libres-en-perigord-rlp102-3-mp3-1",
-      "name": "Radios Libres en Perigord - RLP102.3 - MP3 192",
-      "country": "FR",
-      "streamUrl": "https://direct.radioslibresenperigord.com/rlp.192.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioslibresenperigord.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8643,16 +8593,6 @@
       "codec": ""
     },
     {
-      "id": "rm:slowly-radio",
-      "name": "Slowly Radio",
-      "country": "FR",
-      "streamUrl": "https://stream.slowlyradio.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=slowlyradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:soft-radio",
       "name": "Soft Radio",
       "country": "FR",
@@ -9277,16 +9217,6 @@
       "name": "Zone Mix",
       "country": "FR",
       "streamUrl": "https://zone-mix.stream.laut.fm/zone-mix?t302=2018-02-12_08-42-17&uuid=960992d8-7019-468f-8628-5cec46e9fa42",
-      "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:-2",
-      "name": "مختصر التفسير",
-      "country": "FR",
-      "streamUrl": "https://qurango.net/radio/mukhtasartafsir",
       "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
