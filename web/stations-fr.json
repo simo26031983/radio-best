@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T06:31:34.344Z",
+  "generatedAt": "2026-08-05T06:32:50.480Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -317,16 +317,6 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -668,26 +658,6 @@
       "country": "FR",
       "streamUrl": "https://stream.aubymix.fr:8443/mp3?1771423833872",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=aubymix.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:b2b-dance-club",
-      "name": "B2B dance club",
-      "country": "FR",
-      "streamUrl": "https://www.b4bradio.com/flux/club-dance.m3u",
-      "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:b4b-club-dance-official",
-      "name": "B4B CLUB DANCE OFFICIAL",
-      "country": "FR",
-      "streamUrl": "https://www.b4bradio.com/flux/deep-house.m3u",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1288,16 +1258,6 @@
       "country": "FR",
       "streamUrl": "https://manager.dhectar.fr:1065/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=dhectar.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:digital-plus-nancy",
-      "name": "DIGITAL",
-      "country": "FR",
-      "streamUrl": "https://azurix.digital-plus.fr/listen/digitalplus/DP64k",
-      "faviconUrl": "https://static-media.streema.com/media/cache/44/27/4427a482bb25f6b29b53f75cce5f7afc.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2803,6 +2763,16 @@
       "codec": ""
     },
     {
+      "id": "rm:gure-irratia",
+      "name": "Gure irratia",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1345/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=gureirratia.eus&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:gwoka-radio",
       "name": "Gwoka Radio",
       "country": "FR",
@@ -4183,16 +4153,6 @@
       "codec": ""
     },
     {
-      "id": "rm:m12prod-urban-radio",
-      "name": "M12Prod Urban Radio",
-      "country": "FR",
-      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -4453,16 +4413,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -4508,16 +4458,6 @@
       "country": "FR",
       "streamUrl": "https://mdstrm.com/audio/66a0112844d3c94ecf11dd96/live.m3u8",
       "faviconUrl": "https://static-media.streema.com/media/cache/f0/8c/f08c11b9efa2448a89d95b7d951e2102.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:mayotte-fm",
-      "name": "Mayotte FM",
-      "country": "FR",
-      "streamUrl": "https://live.myradio.yt/mayottefm1",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d1/60/d1602481ab1d1ffcbd3c98b32a93fe0c.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4638,6 +4578,16 @@
       "country": "FR",
       "streamUrl": "https://broadcast.modular-station.com/radio/8000/radio.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=modular-station.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:mohammed-ayyub",
+      "name": "mohammed ayyub",
+      "country": "FR",
+      "streamUrl": "https://qurango.net/radio/mohammed_ayyub",
+      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5713,16 +5663,6 @@
       "codec": ""
     },
     {
-      "id": "rm:power-maxx",
-      "name": "POWER MAXX",
-      "country": "FR",
-      "streamUrl": "https://sr3.publicssl.net/srv/7016/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=onlineradiobox.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:proxi-radio",
       "name": "Proxi Radio",
       "country": "FR",
@@ -5988,6 +5928,16 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-beton-tours-93-6",
+      "name": "Radio Béton - Tours 93.6",
+      "country": "FR",
+      "streamUrl": "https://stream.radiobeton.com:8001/stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobeton.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7363,16 +7313,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-temps-rodez",
-      "name": "Radio Temps Rodez",
-      "country": "FR",
-      "streamUrl": "https://sd-151888.dedibox.fr/proxy/radiotemps/rtr",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotemps.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-titine",
       "name": "Radio Titine",
       "country": "FR",
@@ -7568,6 +7508,26 @@
       "country": "FR",
       "streamUrl": "https://d3m456gauclwb5.cloudfront.net/radiogospel_high",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogospel.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radios-libres-en-perigord-rlp102-3-aac-6",
+      "name": "Radios Libres en Perigord - RLP102.3 - AAC+ 64",
+      "country": "FR",
+      "streamUrl": "https://direct.radioslibresenperigord.com/rlp.64.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioslibresenperigord.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radios-libres-en-perigord-rlp102-3-mp3-1",
+      "name": "Radios Libres en Perigord - RLP102.3 - MP3 192",
+      "country": "FR",
+      "streamUrl": "https://direct.radioslibresenperigord.com/rlp.192.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioslibresenperigord.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9217,6 +9177,16 @@
       "name": "Zone Mix",
       "country": "FR",
       "streamUrl": "https://zone-mix.stream.laut.fm/zone-mix?t302=2018-02-12_08-42-17&uuid=960992d8-7019-468f-8628-5cec46e9fa42",
+      "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:-2",
+      "name": "مختصر التفسير",
+      "country": "FR",
+      "streamUrl": "https://qurango.net/radio/mukhtasartafsir",
       "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
