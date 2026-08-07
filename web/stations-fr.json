@@ -1,17 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T06:35:56.394Z",
+  "generatedAt": "2026-08-07T05:43:57.218Z",
   "stations": [
-    {
-      "id": "rm:1-splash-jazz",
-      "name": "1 Splash Jazz",
-      "country": "FR",
-      "streamUrl": "https://ais-sa2.cdnstream1.com/2346_128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
     {
       "id": "rm:100-radio-carcassonne",
       "name": "100% Radio Carcassonne",
@@ -223,6 +213,16 @@
       "codec": ""
     },
     {
+      "id": "rm:agora-cote-d-azur",
+      "name": "AGORA CÔTE D’AZUR",
+      "country": "FR",
+      "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:aioli-radio",
       "name": "Aïoli Radio",
       "country": "FR",
@@ -317,16 +317,6 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -1168,6 +1158,16 @@
       "country": "FR",
       "streamUrl": "https://sd-151888.dedibox.fr/proxy/cotesud/csfm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cotesudfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:couleurs-jazz",
+      "name": "Couleurs JAZZ",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/couleurs-jazz/216016",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=couleursjazz.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5643,6 +5643,16 @@
       "codec": ""
     },
     {
+      "id": "rm:pinata",
+      "name": "Pinata",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/96031/stream/134656",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pinataradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pistache-la-radio",
       "name": "Pistache La Radio",
       "country": "FR",
@@ -5708,16 +5718,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.positivity.radio/pr/posimeditation/icecast.audio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=multimedias.karibshebdo.info&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:power-maxx",
-      "name": "POWER MAXX",
-      "country": "FR",
-      "streamUrl": "https://sr3.publicssl.net/srv/7016/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=onlineradiobox.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5827,16 +5827,6 @@
       "name": "Puls Radio",
       "country": "FR",
       "streamUrl": "https://sc4.gergosnet.com/pulsHD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:puls-radio-trance",
-      "name": "Puls Radio - Trance",
-      "country": "FR",
-      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6878,16 +6868,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/oug7girb92oc?origine=tingfm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=nostagie.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-notre-dame-lower-bitrate",
-      "name": "Radio Notre Dame (lower bitrate",
-      "country": "FR",
-      "streamUrl": "https://windu.radionotredame.net/RadioNotreDame-Fm.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radionotredame.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
