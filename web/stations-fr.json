@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T05:43:57.218Z",
+  "generatedAt": "2026-08-08T05:02:05.382Z",
   "stations": [
+    {
+      "id": "rm:1-splash-jazz",
+      "name": "1 Splash Jazz",
+      "country": "FR",
+      "streamUrl": "https://ais-sa2.cdnstream1.com/2346_128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
     {
       "id": "rm:100-radio-carcassonne",
       "name": "100% Radio Carcassonne",
@@ -317,6 +327,16 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-uk-garage",
+      "name": "Algorythme UK Garage",
+      "country": "FR",
+      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -1088,6 +1108,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4183,6 +4233,16 @@
       "codec": ""
     },
     {
+      "id": "rm:m12prod-urban-radio",
+      "name": "M12Prod Urban Radio",
+      "country": "FR",
+      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
+      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -5723,6 +5783,16 @@
       "codec": ""
     },
     {
+      "id": "rm:power-maxx",
+      "name": "POWER MAXX",
+      "country": "FR",
+      "streamUrl": "https://sr3.publicssl.net/srv/7016/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=onlineradiobox.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:proxi-radio",
       "name": "Proxi Radio",
       "country": "FR",
@@ -7058,16 +7128,6 @@
       "country": "FR",
       "streamUrl": "https://publichealthradio.ice.infomaniak.ch/publichealthradio-192.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/a4/a3/a4a3325436c6beea5605889e7152cf04.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-pulsar",
-      "name": "Radio Pulsar",
-      "country": "FR",
-      "streamUrl": "https://radiopulsar.ice.infomaniak.ch/radiopulsar-192.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-pulsar.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8653,16 +8713,6 @@
       "codec": ""
     },
     {
-      "id": "rm:soulbox",
-      "name": "Soulbox",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/soulbox?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=soulbox.legtux.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:starsystem-fm-max",
       "name": "Starsystem FM (MAX",
       "country": "FR",
@@ -9008,16 +9058,6 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:veronica-60-s-70-s",
-      "name": "Veronica 60's & 70's",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
