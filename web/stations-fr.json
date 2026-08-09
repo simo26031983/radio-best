@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T05:02:05.382Z",
+  "generatedAt": "2026-08-09T05:10:24.683Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1993,16 +1993,6 @@
       "codec": ""
     },
     {
-      "id": "rm:flor-fm-mulhouse",
-      "name": "Flor FM - Mulhouse",
-      "country": "FR",
-      "streamUrl": "https://florfm.ice.infomaniak.ch/webmulhouse.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/43/32/4332d7ede210cb044bda78451f2159db.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:fly-foot-selecta",
       "name": "Fly Foot Selecta",
       "country": "FR",
@@ -3683,16 +3673,6 @@
       "codec": ""
     },
     {
-      "id": "rm:kizrock-rock",
-      "name": "Kizrock Rock",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -3708,16 +3688,6 @@
       "country": "FR",
       "streamUrl": "https://player.kohina.com/icecast/stream.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=kohina.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:kolectiv",
-      "name": "Kolectiv",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/480/stream/1844",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kolectiv.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4273,100 +4243,10 @@
       "codec": ""
     },
     {
-      "id": "rm:m40-by-oskana",
-      "name": "M40 by Oskana",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-by-oskana/m40-by-oskana-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-deep-dance",
-      "name": "M40 Deep dance",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-deep-dance/m40-deep-dance-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-electro-swing",
-      "name": "M40 Electro Swing",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-electro-swing/m40-electro-swing-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-eurodance",
-      "name": "M40 Eurodance",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-eurodance/m40-eurodance-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-fiesta",
-      "name": "M40 Fiesta",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-fiesta/m40-fiesta-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-funk",
-      "name": "M40 Funk",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-funk/m40-funk-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:m40-generation-do",
       "name": "M40 Génération Do",
       "country": "FR",
       "streamUrl": "https://live.m40radio.fr/listen/m40-generation-do/m40-generation-do-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-latino",
-      "name": "M40 Latino",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-latino/m40-latino-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-le-klub",
-      "name": "M40 le klub",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/le-klub-by-m40/le-klub-by-m40-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-makina",
-      "name": "M40 Makina",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-makina/m40-makina-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4387,26 +4267,6 @@
       "name": "M40 PopRock",
       "country": "FR",
       "streamUrl": "https://live.m40radio.fr/listen/m40-pop-rock/m40-pop-rock-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-rai",
-      "name": "M40 Raî",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-rai/m40-rai-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:m40-rnb",
-      "name": "M40 Rnb",
-      "country": "FR",
-      "streamUrl": "https://live.m40radio.fr/listen/m40-rnb/m40-rnb-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6553,16 +6413,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-fuze",
-      "name": "Radio Fuze",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-galaxie-31",
       "name": "Radio Galaxie 31",
       "country": "FR",
@@ -6963,16 +6813,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-odyssey",
-      "name": "Radio Odyssey",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/radio-odyssey",
-      "faviconUrl": "https://static-media.streema.com/media/cache/68/2d/682d4b055f7fd29a4ef1fc2171a9db7e.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-of-magic",
       "name": "Radio of Magic",
       "country": "FR",
@@ -7048,16 +6888,6 @@
       "country": "FR",
       "streamUrl": "https://viaradios.com:8002/stream/;",
       "faviconUrl": "https://static-media.streema.com/media/cache/6f/91/6f916b002ded3d9ad17a11ae2ca86c1b.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-pomme-d-api",
-      "name": "Radio Pomme D'api",
-      "country": "FR",
-      "streamUrl": "https://www.radiopommedapi.com/radio.aac",
-      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
