@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T05:36:54.561Z",
+  "generatedAt": "2026-08-11T05:13:43.993Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -4243,6 +4243,36 @@
       "codec": ""
     },
     {
+      "id": "rm:m40-by-oskana",
+      "name": "M40 by Oskana",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-by-oskana/m40-by-oskana-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-deep-dance",
+      "name": "M40 Deep dance",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-deep-dance/m40-deep-dance-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-electro-swing",
+      "name": "M40 Electro Swing",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-electro-swing/m40-electro-swing-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:m40-eurodance",
       "name": "M40 Eurodance",
       "country": "FR",
@@ -4253,10 +4283,100 @@
       "codec": ""
     },
     {
+      "id": "rm:m40-fiesta",
+      "name": "M40 Fiesta",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-fiesta/m40-fiesta-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-funk",
+      "name": "M40 Funk",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-funk/m40-funk-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-generation-do",
+      "name": "M40 Génération Do",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-generation-do/m40-generation-do-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-latino",
+      "name": "M40 Latino",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-latino/m40-latino-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-le-klub",
+      "name": "M40 le klub",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/le-klub-by-m40/le-klub-by-m40-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-makina",
+      "name": "M40 Makina",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-makina/m40-makina-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:m40-maxi-dance",
       "name": "M40 Maxi Dance",
       "country": "FR",
       "streamUrl": "https://live.m40radio.fr/listen/m40-maxi-dance/m40-maxi-dance-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-poprock",
+      "name": "M40 PopRock",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-pop-rock/m40-pop-rock-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-rai",
+      "name": "M40 Raî",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-rai/m40-rai-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:m40-rnb",
+      "name": "M40 Rnb",
+      "country": "FR",
+      "streamUrl": "https://live.m40radio.fr/listen/m40-rnb/m40-rnb-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=m40radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5683,6 +5803,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-sante-detente",
+      "name": "Public Sante Detente",
+      "country": "FR",
+      "streamUrl": "https://publicsantedetente.ice.infomaniak.ch/publicsantedetente-192.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-sante-generation-seniors",
       "name": "Public Santé Génération Seniors",
       "country": "FR",
@@ -6988,6 +7118,16 @@
       "country": "FR",
       "streamUrl": "https://radiorecord.hostingradio.ru/organic96.aacp",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=multimedias.karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-rempart",
+      "name": "Radio Rempart",
+      "country": "FR",
+      "streamUrl": "https://radio.pro-fhi.net:19112/;stream1",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiorempart.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
