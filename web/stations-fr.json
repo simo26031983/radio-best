@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T05:13:43.993Z",
+  "generatedAt": "2026-08-12T05:40:46.531Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -723,16 +723,6 @@
       "codec": ""
     },
     {
-      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
-      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
-      "country": "FR",
-      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:beemboomradio",
       "name": "beemboomradio",
       "country": "FR",
@@ -1083,16 +1073,6 @@
       "codec": ""
     },
     {
-      "id": "rm:cinemix",
-      "name": "Cinemix",
-      "country": "FR",
-      "streamUrl": "https://kathy.torontocast.com:1825/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemix.us&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:cinemix-fm",
       "name": "Cinemix FM",
       "country": "FR",
@@ -1113,6 +1093,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1128,16 +1138,6 @@
       "country": "FR",
       "streamUrl": "https://myradiostream.com/embed/assets/mp3/test.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cobfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:cocorico-radio",
-      "name": "Cocorico Radio",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/cocorico",
-      "faviconUrl": "https://static-media.streema.com/media/cache/7f/8c/7f8c5700243b18bf8d63c352a28512fa.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1298,6 +1298,16 @@
       "country": "FR",
       "streamUrl": "https://manager.dhectar.fr:1065/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=dhectar.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:digital-plus-nancy",
+      "name": "DIGITAL",
+      "country": "FR",
+      "streamUrl": "https://stream.digital-plus.fr/DP192k.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/44/27/4427a482bb25f6b29b53f75cce5f7afc.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2403,6 +2413,16 @@
       "codec": ""
     },
     {
+      "id": "rm:frequence-mistral-gap",
+      "name": "Fréquence Mistral Gap",
+      "country": "FR",
+      "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_gap/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/86/0f/860f2f2dc9458e2c766fd1dbe3fdbe5f.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:frequence-sille",
       "name": "Fréquence Sillé",
       "country": "FR",
@@ -2546,7 +2566,7 @@
       "id": "rm:gay-radio",
       "name": "Gay Radio",
       "country": "FR",
-      "streamUrl": "https://ecmanager.pro-fhi.net:2655/stream",
+      "streamUrl": "https://srv.webradiomanager.fr:1285/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=gayradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3123,30 +3143,10 @@
       "codec": ""
     },
     {
-      "id": "rm:iaradio-dance-house",
-      "name": "IAradio Dance House",
-      "country": "FR",
-      "streamUrl": "https://iaradiodance.ice.infomaniak.ch/iaradiodance-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:iaradio-disco-funk",
       "name": "IAradio Disco Funk",
       "country": "FR",
       "streamUrl": "https://iaradiodisco.ice.infomaniak.ch/iaradiodisco-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-guinguette",
-      "name": "IAradio Guinguette",
-      "country": "FR",
-      "streamUrl": "https://iaradioguinguette.ice.infomaniak.ch/iaradioguinguette-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3183,70 +3183,10 @@
       "codec": ""
     },
     {
-      "id": "rm:iaradio-new-wave",
-      "name": "IAradio New Wave",
-      "country": "FR",
-      "streamUrl": "https://iaradionewwave.ice.infomaniak.ch/iaradionewwave-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:iaradio-opera",
       "name": "IAradio Opéra",
       "country": "FR",
       "streamUrl": "https://iaradioopera.ice.infomaniak.ch/iaradioopera-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-pop-rock",
-      "name": "IAradio Pop Rock",
-      "country": "FR",
-      "streamUrl": "https://iaradiopoprock.ice.infomaniak.ch/iaradiopoprock-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-rap",
-      "name": "IAradio Rap",
-      "country": "FR",
-      "streamUrl": "https://iaradiorap.ice.infomaniak.ch/iaradiorap-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-reggae",
-      "name": "IAradio Reggae",
-      "country": "FR",
-      "streamUrl": "https://iaradioreggae.ice.infomaniak.ch/iaradioreggae-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-slow-crooner",
-      "name": "IAradio Slow & Crooner",
-      "country": "FR",
-      "streamUrl": "https://iaradioslowcrooner.ice.infomaniak.ch/iaradioslowcrooner-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-world-music",
-      "name": "IAradio World music",
-      "country": "FR",
-      "streamUrl": "https://iaradioworldmusic.ice.infomaniak.ch/iaradioworldmusic-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4623,16 +4563,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mix-maxi-radio",
-      "name": "Mix Maxi Radio",
-      "country": "FR",
-      "streamUrl": "https://ecmanager.pro-fhi.net:1455/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mixmaxiradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mixin-radio",
       "name": "Mix&#x27;in radio",
       "country": "FR",
@@ -5683,16 +5613,6 @@
       "codec": ""
     },
     {
-      "id": "rm:platine-45-radio",
-      "name": "Platine 45 Radio",
-      "country": "FR",
-      "streamUrl": "https://ecmanager.pro-fhi.net:1710/;",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=platine45radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:playlist-music-radio",
       "name": "Playlist Music Radio",
       "country": "FR",
@@ -6273,16 +6193,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-dance-annees-90",
-      "name": "RADIO DANCE années 90",
-      "country": "FR",
-      "streamUrl": "https://radiodance.streamingmedia.it/fr.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.dance&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-de-noel",
       "name": "Radio de Noël",
       "country": "FR",
@@ -6508,6 +6418,16 @@
       "country": "FR",
       "streamUrl": "https://stunnel2.cyber-streaming.com:9276/stream?type=http&nocache=27045",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofusion.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-fuze",
+      "name": "Radio Fuze",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7686,17 +7606,7 @@
       "id": "rm:rcf",
       "name": "RCF",
       "country": "FR",
-      "streamUrl": "https://rcf.streamakaci.com/rcfdigital.mp3?platform=site",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rcf.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rcf-occitanie",
-      "name": "RCF Occitanie",
-      "country": "FR",
-      "streamUrl": "https://rcf.streamakaci.com/rcfoccitanie.mp3",
+      "streamUrl": "https://rcf.streamakaci.com/rcfdigital.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rcf.fr&sz=128",
       "genre": "",
       "bitrate": 0,

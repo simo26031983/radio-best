@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T05:13:43.993Z",
+  "generatedAt": "2026-08-12T05:40:46.531Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -133,6 +133,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maher-al-muaiqly",
+      "name": "Maher Al-Muaiqly",
+      "country": "MA",
+      "streamUrl": "https://backup.qurango.net/radio/maher",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:marrakechplus",
       "name": "Marrakech Plus",
       "country": "MA",
@@ -158,6 +168,16 @@
       "country": "MA",
       "streamUrl": "https://cdn.live.easybroadcast.io/live/83_medi1radio-maghreb_8s9i4bn/playlist.m3u8",
       "faviconUrl": "https://static-media.streema.com/media/cache/31/c3/31c3363c1bd6adbe0c1f92967cd58f91.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medina",
+      "name": "Medina FM",
+      "country": "MA",
+      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=medinafm.ma&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -368,6 +388,16 @@
       "country": "MA",
       "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-medina-fm",
+      "name": "إذاعة مدينة إف إم المغرب",
+      "country": "MA",
+      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
