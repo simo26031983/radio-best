@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T05:40:37.756Z",
+  "generatedAt": "2026-08-15T04:35:54.255Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1108,6 +1108,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5803,6 +5833,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6988,16 +7028,6 @@
       "country": "FR",
       "streamUrl": "https://diff.radiopfm.com/flux.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-pitchoun",
-      "name": "Radio Pitchoun",
-      "country": "FR",
-      "streamUrl": "https://webradio.tvradio-pitchoun.fr:8443/radiopitchoun.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=tvradio-pitchoun.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
