@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T04:40:10.794Z",
+  "generatedAt": "2026-08-17T04:48:56.620Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1108,36 +1108,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3013,6 +2983,16 @@
       "codec": ""
     },
     {
+      "id": "rm:horizon-la-radio-libre-100-9fm",
+      "name": "Horizon la radio libre 100.9fm",
+      "country": "FR",
+      "streamUrl": "https://horizonlaradiolibre.ice.infomaniak.ch/horizonlaradiolibre-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=horizon-fm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:hotel-costes-radio",
       "name": "Hotel Costes Radio",
       "country": "FR",
@@ -3143,30 +3123,10 @@
       "codec": ""
     },
     {
-      "id": "rm:iaradio-classique",
-      "name": "IAradio Classique",
-      "country": "FR",
-      "streamUrl": "https://iaradioclassique.ice.infomaniak.ch/iaradioclassique-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:iaradio-dance-house",
       "name": "IAradio Dance House",
       "country": "FR",
       "streamUrl": "https://iaradiodance.ice.infomaniak.ch/iaradiodance-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:iaradio-disco-funk",
-      "name": "IAradio Disco Funk",
-      "country": "FR",
-      "streamUrl": "https://iaradiodisco.ice.infomaniak.ch/iaradiodisco-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6123,26 +6083,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-broussaille",
-      "name": "Radio Broussaille",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-hifi",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-broussaille-lo-fi-aac-128",
-      "name": "Radio Broussaille (Lo-Fi AAC 128",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-brume",
       "name": "radio brume",
       "country": "FR",
@@ -6998,6 +6938,16 @@
       "country": "FR",
       "streamUrl": "https://diff.radiopfm.com/flux.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopfm.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-pitchoun",
+      "name": "Radio Pitchoun",
+      "country": "FR",
+      "streamUrl": "https://webradio.tvradio-pitchoun.fr:8443/radiopitchoun.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=tvradio-pitchoun.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8666,7 +8616,7 @@
       "id": "rm:soov-radio",
       "name": "Soov Radio",
       "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/soovradio",
+      "streamUrl": "https://play.radioking.io/soovradio",
       "faviconUrl": "https://static-media.streema.com/media/cache/da/16/da16d76bee72f8a6f09a3f2b60338e8e.jpg",
       "genre": "",
       "bitrate": 0,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T04:40:10.794Z",
+  "generatedAt": "2026-08-17T04:48:56.620Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -143,16 +143,6 @@
       "codec": ""
     },
     {
-      "id": "rm:marrakechplus",
-      "name": "Marrakech Plus",
-      "country": "MA",
-      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=marrakechplus.ma&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:medi1",
       "name": "Médi 1",
       "country": "MA",
@@ -266,7 +256,7 @@
       "id": "rm:mars",
       "name": "Radio Mars",
       "country": "MA",
-      "streamUrl": "https://radiomars.ice.infomaniak.ch/radiomars-128.mp3",
+      "streamUrl": "https://stream3.xdevel.com/audio1s975454-173/stream/icecast.audio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiomars.ma&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -333,6 +323,16 @@
       "codec": ""
     },
     {
+      "id": "rm:tangermed",
+      "name": "Tanger Med",
+      "country": "MA",
+      "streamUrl": "https://radiotangermed-22.ice.infomaniak.ch/radiotangermed-22-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotangermed.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:uradio",
       "name": "U Radio",
       "country": "MA",
@@ -378,16 +378,6 @@
       "country": "MA",
       "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:web-radio-marrakech-plus",
-      "name": "راديو مراكش بلوس",
-      "country": "MA",
-      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d5/1b/d51b62d5ac353b2686020616831b214e.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
