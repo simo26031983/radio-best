@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T04:48:56.620Z",
+  "generatedAt": "2026-08-18T04:39:54.463Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -78,16 +78,6 @@
       "country": "FR",
       "streamUrl": "https://str1.openstream.co/589",
       "faviconUrl": "https://static-media.streema.com/media/cache/23/84/2384428d21b0bc3892c9b59dbfb52116.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:abc-relax",
-      "name": "ABC Relax",
-      "country": "FR",
-      "streamUrl": "https://listen.abcrelax.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=abcrelax.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1113,6 +1103,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1968,6 +1988,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radiofrance.fr/fipsacrefrancais/fipsacrefrancais.m3u8?id=radiofrance",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofrance.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:flor-fm-mulhouse",
+      "name": "Flor FM - Mulhouse",
+      "country": "FR",
+      "streamUrl": "https://florfm.ice.infomaniak.ch/webmulhouse.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/43/32/4332d7ede210cb044bda78451f2159db.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2983,16 +3013,6 @@
       "codec": ""
     },
     {
-      "id": "rm:horizon-la-radio-libre-100-9fm",
-      "name": "Horizon la radio libre 100.9fm",
-      "country": "FR",
-      "streamUrl": "https://horizonlaradiolibre.ice.infomaniak.ch/horizonlaradiolibre-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=horizon-fm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:hotel-costes-radio",
       "name": "Hotel Costes Radio",
       "country": "FR",
@@ -3123,10 +3143,30 @@
       "codec": ""
     },
     {
+      "id": "rm:iaradio-classique",
+      "name": "IAradio Classique",
+      "country": "FR",
+      "streamUrl": "https://iaradioclassique.ice.infomaniak.ch/iaradioclassique-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:iaradio-dance-house",
       "name": "IAradio Dance House",
       "country": "FR",
       "streamUrl": "https://iaradiodance.ice.infomaniak.ch/iaradiodance-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:iaradio-disco-funk",
+      "name": "IAradio Disco Funk",
+      "country": "FR",
+      "streamUrl": "https://iaradiodisco.ice.infomaniak.ch/iaradiodisco-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4458,6 +4498,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5843,6 +5893,16 @@
       "codec": ""
     },
     {
+      "id": "rm:puls-radio-trance",
+      "name": "Puls Radio - Trance",
+      "country": "FR",
+      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pulsradio-90",
       "name": "PulsRadio - 90",
       "country": "FR",
@@ -6078,6 +6138,26 @@
       "country": "FR",
       "streamUrl": "https://radio.radiobrony.fr/ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-broussaille",
+      "name": "Radio Broussaille",
+      "country": "FR",
+      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-hifi",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-broussaille-lo-fi-aac-128",
+      "name": "Radio Broussaille (Lo-Fi AAC 128",
+      "country": "FR",
+      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7353,16 +7433,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-temps-rodez",
-      "name": "Radio Temps Rodez",
-      "country": "FR",
-      "streamUrl": "https://sd-151888.dedibox.fr/proxy/radiotemps/rtr",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotemps.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-titine",
       "name": "Radio Titine",
       "country": "FR",
@@ -7438,6 +7508,16 @@
       "country": "FR",
       "streamUrl": "https://stream3.vestaradio.com/RADIOVALDOR?nocache=34033",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiovaldor.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-vallee-bergerac",
+      "name": "Radio Vallée Bergerac",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
