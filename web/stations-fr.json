@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T04:39:54.463Z",
+  "generatedAt": "2026-08-19T04:41:21.120Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -78,6 +78,16 @@
       "country": "FR",
       "streamUrl": "https://str1.openstream.co/589",
       "faviconUrl": "https://static-media.streema.com/media/cache/23/84/2384428d21b0bc3892c9b59dbfb52116.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:abc-relax",
+      "name": "ABC Relax",
+      "country": "FR",
+      "streamUrl": "https://listen.abcrelax.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=abcrelax.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -708,16 +718,6 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
-      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
-      "country": "FR",
-      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3223,16 +3223,6 @@
       "codec": ""
     },
     {
-      "id": "rm:iaradio-opera",
-      "name": "IAradio Opéra",
-      "country": "FR",
-      "streamUrl": "https://iaradioopera.ice.infomaniak.ch/iaradioopera-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:iaradio-pop-rock",
       "name": "IAradio Pop Rock",
       "country": "FR",
@@ -4778,6 +4768,16 @@
       "country": "FR",
       "streamUrl": "https://www.mylene.net/mp3/a_tout_jamais_npd_s_remix.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mylene.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:nebulah-radio",
+      "name": "Nebulah Radio",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/nebulah-radio",
+      "faviconUrl": "https://static-media.streema.com/media/cache/5e/e2/5ee239fd741ae019d7280cae4c49338a.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7958,16 +7958,6 @@
       "country": "FR",
       "streamUrl": "https://replaynewspl.ice.infomaniak.ch/replaynewspl-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=replaynewspl.ice.infomaniak.ch&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:replay-news-romanian",
-      "name": "Replay News Romanian",
-      "country": "FR",
-      "streamUrl": "https://replaynewsro.ice.infomaniak.ch/replaynewsro-128.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d7/78/d778aa39e682198369fd62b8d2b18344.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""

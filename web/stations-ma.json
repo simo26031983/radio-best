@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T04:39:54.463Z",
+  "generatedAt": "2026-08-19T04:41:21.120Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -138,6 +138,16 @@
       "country": "MA",
       "streamUrl": "https://backup.qurango.net/radio/maher",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:marrakechplus",
+      "name": "Marrakech Plus",
+      "country": "MA",
+      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=marrakechplus.ma&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -368,6 +378,16 @@
       "country": "MA",
       "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:web-radio-marrakech-plus",
+      "name": "راديو مراكش بلوس",
+      "country": "MA",
+      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream/;",
+      "faviconUrl": "https://static-media.streema.com/media/cache/d5/1b/d51b62d5ac353b2686020616831b214e.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
