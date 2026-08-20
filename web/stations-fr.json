@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T04:41:21.120Z",
+  "generatedAt": "2026-08-20T04:41:55.394Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -718,6 +718,16 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
+      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
+      "country": "FR",
+      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3217,6 +3227,16 @@
       "name": "IAradio New Wave",
       "country": "FR",
       "streamUrl": "https://iaradionewwave.ice.infomaniak.ch/iaradionewwave-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:iaradio-opera",
+      "name": "IAradio Opéra",
+      "country": "FR",
+      "streamUrl": "https://iaradioopera.ice.infomaniak.ch/iaradioopera-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=iaradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5893,16 +5913,6 @@
       "codec": ""
     },
     {
-      "id": "rm:puls-radio-trance",
-      "name": "Puls Radio - Trance",
-      "country": "FR",
-      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:pulsradio-90",
       "name": "PulsRadio - 90",
       "country": "FR",
@@ -7433,6 +7443,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-temps-rodez",
+      "name": "Radio Temps Rodez",
+      "country": "FR",
+      "streamUrl": "https://sd-151888.dedibox.fr/proxy/radiotemps/rtr",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotemps.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-titine",
       "name": "Radio Titine",
       "country": "FR",
@@ -7958,6 +7978,16 @@
       "country": "FR",
       "streamUrl": "https://replaynewspl.ice.infomaniak.ch/replaynewspl-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=replaynewspl.ice.infomaniak.ch&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:replay-news-romanian",
+      "name": "Replay News Romanian",
+      "country": "FR",
+      "streamUrl": "https://replaynewsro.ice.infomaniak.ch/replaynewsro-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/d7/78/d778aa39e682198369fd62b8d2b18344.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
