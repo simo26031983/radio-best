@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T04:41:55.394Z",
+  "generatedAt": "2026-08-21T04:43:06.232Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3023,6 +3023,16 @@
       "codec": ""
     },
     {
+      "id": "rm:horizon-la-radio-libre-100-9fm",
+      "name": "Horizon la radio libre 100.9fm",
+      "country": "FR",
+      "streamUrl": "https://horizonlaradiolibre.ice.infomaniak.ch/horizonlaradiolibre-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=horizon-fm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:hotel-costes-radio",
       "name": "Hotel Costes Radio",
       "country": "FR",
@@ -5843,16 +5853,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-portugues",
-      "name": "Public Health Radio Portugues",
-      "country": "FR",
-      "streamUrl": "https://publichealthradiopt.ice.infomaniak.ch/publichealthradiopt-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-sante-detente",
       "name": "Public Sante Detente",
       "country": "FR",
@@ -5907,6 +5907,16 @@
       "name": "Puls Radio",
       "country": "FR",
       "streamUrl": "https://sc4.gergosnet.com/pulsHD.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:puls-radio-trance",
+      "name": "Puls Radio - Trance",
+      "country": "FR",
+      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6248,16 +6258,6 @@
       "country": "FR",
       "streamUrl": "https://choco.hostingradio.ru:10010/fm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiochoco.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-ciel-bleu-107-1-fm",
-      "name": "Radio Ciel Bleu",
-      "country": "FR",
-      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
