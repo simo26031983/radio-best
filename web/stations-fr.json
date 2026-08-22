@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T04:43:06.232Z",
+  "generatedAt": "2026-08-22T04:37:51.245Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3373,16 +3373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:info-rc",
-      "name": "Info RC",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/InfoRC",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=inforc.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:infraordinary-five-radio-stations",
       "name": "Infraordinary Five Radio Stations",
       "country": "FR",
@@ -3908,16 +3898,6 @@
       "country": "FR",
       "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latitude",
-      "name": "Latitude",
-      "country": "FR",
-      "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5853,6 +5833,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-portugues",
+      "name": "Public Health Radio Portugues",
+      "country": "FR",
+      "streamUrl": "https://publichealthradiopt.ice.infomaniak.ch/publichealthradiopt-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-sante-detente",
       "name": "Public Sante Detente",
       "country": "FR",
@@ -7396,7 +7386,7 @@
       "id": "rm:radio-star",
       "name": "Radio STAR",
       "country": "FR",
-      "streamUrl": "https://stream.radiostar.be/",
+      "streamUrl": "https://cdnradio.streamakaci.com/radiostar.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-star.site-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
