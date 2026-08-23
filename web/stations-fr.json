@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T04:37:51.245Z",
+  "generatedAt": "2026-08-23T04:41:33.525Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1548,26 +1548,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-hd",
-      "name": "Europa Radio Jazz HD",
-      "country": "FR",
-      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-sd",
-      "name": "Europa Radio Jazz SD",
-      "country": "FR",
-      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3903,6 +3883,16 @@
       "codec": ""
     },
     {
+      "id": "rm:latitude",
+      "name": "Latitude",
+      "country": "FR",
+      "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:laurent-dine-iglesias",
       "name": "Laurent DINE IGLESIAS",
       "country": "FR",
@@ -4498,16 +4488,6 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6253,6 +6233,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-ciel-bleu-107-1-fm",
+      "name": "Radio Ciel Bleu",
+      "country": "FR",
+      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6808,16 +6798,6 @@
       "country": "FR",
       "streamUrl": "https://mbs.ice.infomaniak.ch/mbs-64.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiombs.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-mdm",
-      "name": "Radio MDM",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-mdm.fr:8443/stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-mdm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7386,7 +7366,7 @@
       "id": "rm:radio-star",
       "name": "Radio STAR",
       "country": "FR",
-      "streamUrl": "https://cdnradio.streamakaci.com/radiostar.mp3",
+      "streamUrl": "https://stream.radiostar.be/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-star.site-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
