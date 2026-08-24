@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T04:41:33.525Z",
+  "generatedAt": "2026-08-24T04:50:51.642Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -318,16 +318,6 @@
       "country": "MA",
       "streamUrl": "https://icecast.skyrock.net/s/casa_aac_64k",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=skyrock.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:snrt-radio-ujda",
-      "name": "SNRT Radio Ujda",
-      "country": "MA",
-      "streamUrl": "https://hts05.brascast.com:13546/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/b4/ae/b4ae4a1ed3eb295a141acb623c0ffed1.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""

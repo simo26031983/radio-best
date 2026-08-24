@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T04:41:33.525Z",
+  "generatedAt": "2026-08-24T04:50:51.642Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1553,6 +1553,26 @@
       "codec": ""
     },
     {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-sd",
+      "name": "Europa Radio Jazz SD",
+      "country": "FR",
+      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:europe1",
       "name": "Europe 1",
       "country": "FR",
@@ -2868,16 +2888,6 @@
       "country": "FR",
       "streamUrl": "https://hagfm.streamakaci.com/hagfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=hagfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:happy-radio-france",
-      "name": "Happy Radio France",
-      "country": "FR",
-      "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
