@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T04:50:51.642Z",
+  "generatedAt": "2026-08-25T04:43:30.784Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1108,36 +1108,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2893,6 +2863,16 @@
       "codec": ""
     },
     {
+      "id": "rm:happy-radio-france",
+      "name": "Happy Radio France",
+      "country": "FR",
+      "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:happyness-amiens",
       "name": "Happyness Amiens",
       "country": "FR",
@@ -2908,16 +2888,6 @@
       "country": "FR",
       "streamUrl": "https://azuracast-scrs-2.foxoud.synology.me/listen/happyness_oise/player",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:happyness-radio-amiens",
-      "name": "Happyness Radio Amiens",
-      "country": "FR",
-      "streamUrl": "https://azuracast-broadcast.happynessamiens.fr/listen/happyness_dab/player",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessamiens.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3358,6 +3328,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/384/stream/1613",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=in2mixxradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:info-rc",
+      "name": "Info RC",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/InfoRC",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=inforc.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4498,6 +4478,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5893,16 +5883,6 @@
       "codec": ""
     },
     {
-      "id": "rm:puls-radio-trance",
-      "name": "Puls Radio - Trance",
-      "country": "FR",
-      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:pulsradio-90",
       "name": "PulsRadio - 90",
       "country": "FR",
@@ -5917,16 +5897,6 @@
       "name": "PulsRadio 2000",
       "country": "FR",
       "streamUrl": "https://sc6.gergosnet.com/puls00HD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:pulsradio-2000-64k-aac",
-      "name": "PulsRadio 2000 (64k AAC",
-      "country": "FR",
-      "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6783,16 +6753,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-lenga-d-oc",
-      "name": "Radio lenga d'Oc",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-marseillette",
       "name": "Radio Marseillette",
       "country": "FR",
@@ -6808,6 +6768,16 @@
       "country": "FR",
       "streamUrl": "https://mbs.ice.infomaniak.ch/mbs-64.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiombs.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-mdm",
+      "name": "Radio MDM",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-mdm.fr:8443/stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-mdm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
