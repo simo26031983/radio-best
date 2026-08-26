@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T04:43:30.784Z",
+  "generatedAt": "2026-08-26T04:45:02.789Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -333,16 +333,6 @@
       "codec": ""
     },
     {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:allzic-french-mix",
       "name": "Allzic French Mix",
       "country": "FR",
@@ -668,16 +658,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.antxetamedia.eus:8443/antxeta1",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=antxetamedia.eus&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:aubymix",
-      "name": "AubyMix",
-      "country": "FR",
-      "streamUrl": "https://stream.aubymix.fr:8443/mp3?1771423833872",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=aubymix.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1108,6 +1088,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2858,16 +2868,6 @@
       "country": "FR",
       "streamUrl": "https://hagfm.streamakaci.com/hagfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=hagfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:happy-radio-france",
-      "name": "Happy Radio France",
-      "country": "FR",
-      "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5883,6 +5883,16 @@
       "codec": ""
     },
     {
+      "id": "rm:puls-radio-trance",
+      "name": "Puls Radio - Trance",
+      "country": "FR",
+      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pulsradio-90",
       "name": "PulsRadio - 90",
       "country": "FR",
@@ -5897,6 +5907,16 @@
       "name": "PulsRadio 2000",
       "country": "FR",
       "streamUrl": "https://sc6.gergosnet.com/puls00HD.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:pulsradio-2000-64k-aac",
+      "name": "PulsRadio 2000 (64k AAC",
+      "country": "FR",
+      "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6753,6 +6773,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-lenga-d-oc",
+      "name": "Radio lenga d'Oc",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-marseillette",
       "name": "Radio Marseillette",
       "country": "FR",
@@ -7483,16 +7513,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-vallee-bergerac",
-      "name": "Radio Vallée Bergerac",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -7958,16 +7978,6 @@
       "country": "FR",
       "streamUrl": "https://replaynewsve.ice.infomaniak.ch/replaynewsve-128.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/5f/a6/5fa6938292c697ab3aeb7f3dbd98c7b3.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:retro-souvenirs-radio",
-      "name": "Retro Souvenirs Radio",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/108/stream/890",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=retrosouvenirs.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9228,16 +9238,6 @@
       "country": "FR",
       "streamUrl": "https://s26.myradiostream.com:11428/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=xmove.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:xiberoko-botza",
-      "name": "Xiberoko botza",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
-      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
