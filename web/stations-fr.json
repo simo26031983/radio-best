@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T04:45:02.789Z",
+  "generatedAt": "2026-08-27T15:04:34.242Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -327,6 +327,16 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-uk-garage",
+      "name": "Algorythme UK Garage",
+      "country": "FR",
+      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -1823,16 +1833,6 @@
       "codec": ""
     },
     {
-      "id": "rm:f-hits-classics",
-      "name": "F. HITS Classics",
-      "country": "FR",
-      "streamUrl": "https://listen.f-group.fr/listen/fhitsclassics/fhits_classics_96.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=fhits.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:fip",
       "name": "FIP",
       "country": "FR",
@@ -2868,6 +2868,16 @@
       "country": "FR",
       "streamUrl": "https://hagfm.streamakaci.com/hagfm.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=hagfm.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:happy-radio-france",
+      "name": "Happy Radio France",
+      "country": "FR",
+      "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7513,6 +7523,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-vallee-bergerac",
+      "name": "Radio Vallée Bergerac",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -7853,16 +7873,6 @@
       "codec": ""
     },
     {
-      "id": "rm:reggae-fr",
-      "name": "Reggae.fr",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/50473/stream/87415",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=reggae.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:replay-news-eco-francais",
       "name": "REPLAY NEWS - Eco (Français",
       "country": "FR",
@@ -7978,6 +7988,16 @@
       "country": "FR",
       "streamUrl": "https://replaynewsve.ice.infomaniak.ch/replaynewsve-128.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/5f/a6/5fa6938292c697ab3aeb7f3dbd98c7b3.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:retro-souvenirs-radio",
+      "name": "Retro Souvenirs Radio",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/108/stream/890",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=retrosouvenirs.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9238,6 +9258,16 @@
       "country": "FR",
       "streamUrl": "https://s26.myradiostream.com:11428/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=xmove.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:xiberoko-botza",
+      "name": "Xiberoko botza",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
+      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
