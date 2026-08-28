@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T15:04:34.242Z",
+  "generatedAt": "2026-08-28T16:27:54.640Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -48,16 +48,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/15130/stream/28217",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=875naoned.wixsite.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:8beats",
-      "name": "8Beats",
-      "country": "FR",
-      "streamUrl": "https://n10.radiojar.com/2fa4wbch308uv",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=8beats.co&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2683,16 +2673,6 @@
       "codec": ""
     },
     {
-      "id": "rm:generations-g-funk",
-      "name": "Générations G-Funk",
-      "country": "FR",
-      "streamUrl": "https://generationsgfunk.ice.infomaniak.ch/generations-g-funk.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:generations-r-b",
       "name": "Générations R&B",
       "country": "FR",
@@ -2747,16 +2727,6 @@
       "name": "Générations Soul",
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:generations-west-indies",
-      "name": "Générations West Indies",
-      "country": "FR",
-      "streamUrl": "https://generationswestindies.ice.infomaniak.ch/generations-westindies.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7523,16 +7493,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-vallee-bergerac",
-      "name": "Radio Vallée Bergerac",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -7868,6 +7828,16 @@
       "country": "FR",
       "streamUrl": "https://france1.coollabel-productions.com/proxy/reggaemix340/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=reggaemixstation.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:reggae-fr",
+      "name": "Reggae.fr",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/50473/stream/87415",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=reggae.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
