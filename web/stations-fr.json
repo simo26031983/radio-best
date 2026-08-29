@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T16:27:54.640Z",
+  "generatedAt": "2026-08-29T10:56:19.012Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,36 +1088,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4883,16 +4853,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nostalgie-les-pepites-de-philippe-et-sandy",
-      "name": "Nostalgie - Les Pepites De Philippe Et Sandy",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/outp5s6ubafg?origine=streema&amp;aw_0_1st.station=Nostalgie-Les-Pepites-De-Philippe-Et-Sandy",
-      "faviconUrl": "https://static-media.streema.com/media/cache/da/7a/da7a14b9bad7ed5d52ffb73294e0c765.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nostalgie-megatubes",
       "name": "Nostalgie - Megatubes",
       "country": "FR",
@@ -5738,16 +5698,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.positivity.radio/pr/posimeditation/icecast.audio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=multimedias.karibshebdo.info&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:power-maxx",
-      "name": "POWER MAXX",
-      "country": "FR",
-      "streamUrl": "https://sr3.publicssl.net/srv/7016/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=onlineradiobox.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
