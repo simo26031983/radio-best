@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T10:56:19.012Z",
+  "generatedAt": "2026-08-30T09:50:55.693Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,6 +1088,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4493,6 +4523,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maxlaradio",
+      "name": "MaxLaRadio",
+      "country": "FR",
+      "streamUrl": "https://stream.votreradiosurlenet.eu/maxlaradio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=maxlaradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:mayotte-fm",
       "name": "Mayotte FM",
       "country": "FR",
@@ -5903,6 +5943,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-a-97-8",
+      "name": "Radio A 97.8",
+      "country": "FR",
+      "streamUrl": "https://stream.votreradiosurlenet.eu/radioa.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioa.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-ac-s",
       "name": "Radio AC'S",
       "country": "FR",
@@ -6078,16 +6128,6 @@
       "country": "FR",
       "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-brume",
-      "name": "radio brume",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/brume-campus-lyon/546695",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrume.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6633,6 +6673,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-junior",
+      "name": "Radio Junior",
+      "country": "FR",
+      "streamUrl": "https://stream.votreradiosurlenet.eu/radiojunior.mp3?ver=977036",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiojunior.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-karata",
       "name": "Radio Karata",
       "country": "FR",
@@ -6868,6 +6918,16 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-nova-la-plage",
+      "name": "Radio Nova - La Plage",
+      "country": "FR",
+      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
