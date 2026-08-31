@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T09:50:55.693Z",
+  "generatedAt": "2026-08-31T10:42:10.271Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -178,6 +178,16 @@
       "country": "MA",
       "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=medinafm.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:medradio",
+      "name": "MedRadio",
+      "country": "MA",
+      "streamUrl": "https://medradio.ice.infomaniak.ch/medradio-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=medradio.ma&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""

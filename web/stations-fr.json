@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T09:50:55.693Z",
+  "generatedAt": "2026-08-31T10:42:10.271Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2373,16 +2373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-des-loisirs-100-4",
-      "name": "Fréquence Des Loisirs 100.4",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-hit",
       "name": "Fréquence Hit",
       "country": "FR",
@@ -4463,16 +4453,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -5108,16 +5088,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/oua8h7w2dqao?origine=streema&amp;aw_0_1st.station=NRJ-Hits-De-L-ETE-2025",
       "faviconUrl": "https://static-media.streema.com/media/cache/ca/75/ca757f3968f4bf5e13f31765e024cd5b.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:nrj-les-hits-des-vacances",
-      "name": "NRJ - Les Hits Des Vacances",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ou2qzopw5hs7?origine=streema&amp;aw_0_1st.station=NRJ-Les-Hits-Des-Vacances",
-      "faviconUrl": "https://static-media.streema.com/media/cache/ce/cd/cecd1e45780af0eb3a58f6a92e2800b1.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5953,16 +5923,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-ac-s",
-      "name": "Radio AC'S",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/33824/stream/199675",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioacs.radio-website.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-activ",
       "name": "radio Activ",
       "country": "FR",
@@ -6128,6 +6088,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-brume",
+      "name": "radio brume",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/brume-campus-lyon/546695",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrume.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6348,16 +6318,6 @@
       "country": "FR",
       "streamUrl": "https://flux.radiody10.com/fallback.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiody10.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-dynamo",
-      "name": "Radio Dynamo",
-      "country": "FR",
-      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7503,6 +7463,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-vallee-bergerac",
+      "name": "Radio Vallée Bergerac",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -8416,7 +8386,7 @@
       "id": "rm:rtl",
       "name": "RTL",
       "country": "FR",
-      "streamUrl": "https://icecast.funradio.fr/rtl-1-44-64",
+      "streamUrl": "https://icecast.rtl.fr/rtl-1-44-128",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rtl.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8427,16 +8397,6 @@
       "name": "RTL 100% 80",
       "country": "FR",
       "streamUrl": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl100pc80/130/audio-64000/index.m3u8",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rtl.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rtl-100-hits",
-      "name": "RTL 100% Hits",
-      "country": "FR",
-      "streamUrl": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/201/audio-64000/index.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rtl.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8718,16 +8678,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
