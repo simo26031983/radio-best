@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T10:42:10.271Z",
+  "generatedAt": "2026-09-01T09:17:46.975Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2373,6 +2373,16 @@
       "codec": ""
     },
     {
+      "id": "rm:frequence-des-loisirs-100-4",
+      "name": "Fréquence Des Loisirs 100.4",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:frequence-hit",
       "name": "Fréquence Hit",
       "country": "FR",
@@ -4453,6 +4463,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -4468,26 +4488,6 @@
       "country": "FR",
       "streamUrl": "https://audio1.maxi80.com/;?1722579303309",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=maxi80.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maxi-france",
-      "name": "Maxi France",
-      "country": "FR",
-      "streamUrl": "https://stream.maxifrance.radio/stream?nocache=52665#",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=maxifrance.radio&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maxi-france-radio",
-      "name": "Maxi France radio",
-      "country": "FR",
-      "streamUrl": "https://stream.maxifrance.radio/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=maxifrance.radio&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5923,6 +5923,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-ac-s",
+      "name": "Radio AC'S",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/33824/stream/199675",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioacs.radio-website.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-activ",
       "name": "radio Activ",
       "country": "FR",
@@ -6183,6 +6193,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6318,6 +6338,16 @@
       "country": "FR",
       "streamUrl": "https://flux.radiody10.com/fallback.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiody10.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-dynamo",
+      "name": "Radio Dynamo",
+      "country": "FR",
+      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8403,6 +8433,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rtl-100-hits",
+      "name": "RTL 100% Hits",
+      "country": "FR",
+      "streamUrl": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/201/audio-64000/index.m3u8",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rtl.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:rtl-2",
       "name": "RTL 2",
       "country": "FR",
@@ -8678,6 +8718,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
