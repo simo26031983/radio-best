@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T09:17:46.975Z",
+  "generatedAt": "2026-09-02T08:38:46.532Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -508,16 +508,6 @@
       "country": "FR",
       "streamUrl": "https://allzic17.ice.infomaniak.ch/allzic17.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=allzicradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:allzic-radio-top-10",
-      "name": "Allzic Radio TOP 10",
-      "country": "FR",
-      "streamUrl": "https://allzic22.ice.infomaniak.ch/allzic22.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1328,16 +1318,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:divergence-fm",
-      "name": "Divergence FM",
-      "country": "FR",
-      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2673,6 +2653,16 @@
       "codec": ""
     },
     {
+      "id": "rm:generations-g-funk",
+      "name": "Générations G-Funk",
+      "country": "FR",
+      "streamUrl": "https://generationsgfunk.ice.infomaniak.ch/generations-g-funk.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:generations-r-b",
       "name": "Générations R&B",
       "country": "FR",
@@ -2727,6 +2717,16 @@
       "name": "Générations Soul",
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generations-west-indies",
+      "name": "Générations West Indies",
+      "country": "FR",
+      "streamUrl": "https://generationswestindies.ice.infomaniak.ch/generations-westindies.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4493,6 +4493,26 @@
       "codec": ""
     },
     {
+      "id": "rm:maxi-france",
+      "name": "Maxi France",
+      "country": "FR",
+      "streamUrl": "https://stream.maxifrance.radio/stream?nocache=52665#",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=maxifrance.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maxi-france-radio",
+      "name": "Maxi France radio",
+      "country": "FR",
+      "streamUrl": "https://stream.maxifrance.radio/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=maxifrance.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:maxima-2",
       "name": "Maxima",
       "country": "FR",
@@ -5743,16 +5763,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -5767,16 +5777,6 @@
       "name": "Public Sante Detente",
       "country": "FR",
       "streamUrl": "https://publicsantedetente.ice.infomaniak.ch/publicsantedetente-192.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:public-sante-generation-seniors",
-      "name": "Public Santé Génération Seniors",
-      "country": "FR",
-      "streamUrl": "https://publicsantegenerationsenior.ice.infomaniak.ch/publicsantegenerationsenior-192.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6738,16 +6738,6 @@
       "country": "FR",
       "streamUrl": "https://stream.radiolarzac.org/hls/master.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolarzac.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-lenga-d-oc",
-      "name": "Radio lenga d'Oc",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8718,16 +8708,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
