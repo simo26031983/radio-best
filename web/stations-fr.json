@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T08:38:46.532Z",
+  "generatedAt": "2026-09-03T08:47:13.652Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -508,6 +508,16 @@
       "country": "FR",
       "streamUrl": "https://allzic17.ice.infomaniak.ch/allzic17.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=allzicradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:allzic-radio-top-10",
+      "name": "Allzic Radio TOP 10",
+      "country": "FR",
+      "streamUrl": "https://allzic22.ice.infomaniak.ch/allzic22.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=global.superradio.cc&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5783,6 +5793,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-sante-generation-seniors",
+      "name": "Public Santé Génération Seniors",
+      "country": "FR",
+      "streamUrl": "https://publicsantegenerationsenior.ice.infomaniak.ch/publicsantegenerationsenior-192.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-sante-loisirs-sports",
       "name": "Public Santé Loisirs & Sports",
       "country": "FR",
@@ -6738,6 +6758,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radiolarzac.org/hls/master.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolarzac.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-lenga-d-oc",
+      "name": "Radio lenga d'Oc",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8708,6 +8738,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""

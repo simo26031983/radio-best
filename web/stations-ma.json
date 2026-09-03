@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T08:38:46.532Z",
+  "generatedAt": "2026-09-03T08:47:13.652Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -128,6 +128,16 @@
       "country": "MA",
       "streamUrl": "https://play.radiomaxxfm.com/deluxe-high",
       "faviconUrl": "https://static-media.streema.com/media/cache/29/13/2913a1e7c82a7a12d65596909c5ae605.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maher-al-muaiqly",
+      "name": "Maher Al-Muaiqly",
+      "country": "MA",
+      "streamUrl": "https://backup.qurango.net/radio/maher",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=backup.qurango.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -308,16 +318,6 @@
       "country": "MA",
       "streamUrl": "https://icecast.skyrock.net/s/casa_aac_64k",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=skyrock.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:snrt-radio-ujda",
-      "name": "SNRT Radio Ujda",
-      "country": "MA",
-      "streamUrl": "https://hts05.brascast.com:13546/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/b4/ae/b4ae4a1ed3eb295a141acb623c0ffed1.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
