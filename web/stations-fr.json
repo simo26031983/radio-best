@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T08:47:13.652Z",
+  "generatedAt": "2026-09-04T08:46:31.962Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -5213,16 +5213,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nrj-summer-latino",
-      "name": "NRJ - SUMMER LATINO 2025",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ou2nh6pw5hs7?origine=streema&amp;aw_0_1st.station=NRJ-Summer-Latino-2025",
-      "faviconUrl": "https://static-media.streema.com/media/cache/2c/5f/2c5f7d73dc92891dc9eab0244f9f4586.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nrj-urban-summer-hits",
       "name": "NRJ - URBAN SUMMER HITS",
       "country": "FR",
@@ -5767,6 +5757,16 @@
       "name": "Public Health Radio Espanol",
       "country": "FR",
       "streamUrl": "https://publichealthradioes.ice.infomaniak.ch/publichealthradioes-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8267,16 +8267,6 @@
       "name": "RJR - Radio Jeunes Reims (MP3 128k",
       "country": "FR",
       "streamUrl": "https://stream.rjrradio.fr/rjr.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
-      "name": "RJR - Radio Jeunes Reims (Opus 128k",
-      "country": "FR",
-      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
