@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T08:46:31.962Z",
+  "generatedAt": "2026-09-05T08:13:54.594Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1328,6 +1328,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:divergence-fm",
+      "name": "Divergence FM",
+      "country": "FR",
+      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4943,16 +4953,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nostalgie-vos-pepites",
-      "name": "Nostalgie - Vos Pepites 80",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/oumov98fnozc?origine=streema&amp;aw_0_1st.station=Nostalgie-Vos-Pepites-80",
-      "faviconUrl": "https://static-media.streema.com/media/cache/64/2e/642e8b96b98414d127cd1779af39f895.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nouvo-nova",
       "name": "Nouvo Nova",
       "country": "FR",
@@ -5213,6 +5213,16 @@
       "codec": ""
     },
     {
+      "id": "rm:nrj-summer-latino",
+      "name": "NRJ - SUMMER LATINO 2025",
+      "country": "FR",
+      "streamUrl": "https://streaming.nrjaudio.fm/ou2nh6pw5hs7?origine=streema&amp;aw_0_1st.station=NRJ-Summer-Latino-2025",
+      "faviconUrl": "https://static-media.streema.com/media/cache/2c/5f/2c5f7d73dc92891dc9eab0244f9f4586.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:nrj-urban-summer-hits",
       "name": "NRJ - URBAN SUMMER HITS",
       "country": "FR",
@@ -5347,16 +5357,6 @@
       "name": "Open Sky (128kbps mp3, \"HD",
       "country": "FR",
       "streamUrl": "https://audio.opensky.radio:8082/stream128",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:open-sky-192kbps-mp3-oise",
-      "name": "Open Sky (192kbps mp3, \"OISE",
-      "country": "FR",
-      "streamUrl": "https://audio.opensky.radio:8082/oise",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6213,16 +6213,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6918,6 +6908,16 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/oug7girb92oc?origine=tingfm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=nostagie.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-notre-dame-lower-bitrate",
+      "name": "Radio Notre Dame (lower bitrate",
+      "country": "FR",
+      "streamUrl": "https://windu.radionotredame.net/RadioNotreDame-Fm.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radionotredame.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8267,6 +8267,16 @@
       "name": "RJR - Radio Jeunes Reims (MP3 128k",
       "country": "FR",
       "streamUrl": "https://stream.rjrradio.fr/rjr.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
+      "name": "RJR - Radio Jeunes Reims (Opus 128k",
+      "country": "FR",
+      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
