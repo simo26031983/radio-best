@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T08:32:40.147Z",
+  "generatedAt": "2026-09-07T09:10:35.282Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1078,6 +1078,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2318,16 +2348,6 @@
       "country": "FR",
       "streamUrl": "https://frequence3.net-radio.fr/frequence3world.flac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence3.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:frequence-7",
-      "name": "Fréquence 7",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/Frequence7",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence7.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4913,6 +4933,16 @@
       "codec": ""
     },
     {
+      "id": "rm:nostalgie-vos-pepites",
+      "name": "Nostalgie - Vos Pepites 80",
+      "country": "FR",
+      "streamUrl": "https://streaming.nrjaudio.fm/oumov98fnozc?origine=streema&amp;aw_0_1st.station=Nostalgie-Vos-Pepites-80",
+      "faviconUrl": "https://static-media.streema.com/media/cache/64/2e/642e8b96b98414d127cd1779af39f895.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:nouvo-nova",
       "name": "Nouvo Nova",
       "country": "FR",
@@ -5306,27 +5336,7 @@
       "id": "rm:open-sky",
       "name": "Open Sky",
       "country": "FR",
-      "streamUrl": "https://audio.opensky.radio:8082/stream96",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:open-sky-128kbps-mp3-hd",
-      "name": "Open Sky (128kbps mp3, \"HD",
-      "country": "FR",
-      "streamUrl": "https://audio.opensky.radio:8082/stream128",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:open-sky-96kbps-mp3-low",
-      "name": "Open Sky (96kbps mp3, \"low",
-      "country": "FR",
-      "streamUrl": "https://audio.opensky.radio:8082/stream96",
+      "streamUrl": "https://audio.opensky.radio:8082/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5823,26 +5833,6 @@
       "codec": ""
     },
     {
-      "id": "rm:pulsradio-2000",
-      "name": "PulsRadio 2000",
-      "country": "FR",
-      "streamUrl": "https://sc6.gergosnet.com/puls00HD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:pulsradio-2000-64k-aac",
-      "name": "PulsRadio 2000 (64k AAC",
-      "country": "FR",
-      "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:pulsradio-trance",
       "name": "PulsRadio Trance",
       "country": "FR",
@@ -6173,6 +6163,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6228,6 +6228,16 @@
       "country": "FR",
       "streamUrl": "https://ice.creacast.com/radio-courtoisie",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocourtoisie.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-dance-annees-90",
+      "name": "RADIO DANCE années 90",
+      "country": "FR",
+      "streamUrl": "https://radiodance.streamingmedia.it/fr.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.dance&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8678,6 +8688,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
