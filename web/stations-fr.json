@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T09:10:35.282Z",
+  "generatedAt": "2026-09-08T08:45:25.923Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -317,6 +317,16 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-uk-garage",
+      "name": "Algorythme UK Garage",
+      "country": "FR",
+      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -2348,6 +2358,16 @@
       "country": "FR",
       "streamUrl": "https://frequence3.net-radio.fr/frequence3world.flac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence3.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:frequence-7",
+      "name": "Fréquence 7",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/Frequence7",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence7.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4733,16 +4753,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mydoom-666",
-      "name": "Mydoom-666",
-      "country": "FR",
-      "streamUrl": "https://mydoom666.radio.fm/md666-128k",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mydoom666.radio.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mylenefarmer",
       "name": "MyleneFarmer",
       "country": "FR",
@@ -5337,6 +5347,26 @@
       "name": "Open Sky",
       "country": "FR",
       "streamUrl": "https://audio.opensky.radio:8082/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:open-sky-128kbps-mp3-hd",
+      "name": "Open Sky (128kbps mp3, \"HD",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/stream128",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:open-sky-96kbps-mp3-low",
+      "name": "Open Sky (96kbps mp3, \"low",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/stream96",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7193,6 +7223,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-saint-louis",
+      "name": "Radio Saint Louis",
+      "country": "FR",
+      "streamUrl": "https://stunnel2.cyber-streaming.com:9142/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=webradio.radiosaintlouis.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-scarpe-sensee",
       "name": "Radio Scarpe Sensée",
       "country": "FR",
@@ -8618,16 +8658,6 @@
       "country": "FR",
       "streamUrl": "https://play.radioking.io/slow-radio/601307",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=slow-village.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:slowly-radio",
-      "name": "Slowly Radio",
-      "country": "FR",
-      "streamUrl": "https://stream.slowlyradio.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=slowlyradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
