@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T08:51:30.056Z",
+  "generatedAt": "2026-09-10T08:50:30.842Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1333,6 +1333,16 @@
       "codec": ""
     },
     {
+      "id": "rm:divergence-fm",
+      "name": "Divergence FM",
+      "country": "FR",
+      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:djam-radio-aac192lc",
       "name": "Djam Radio - AAC192LC",
       "country": "FR",
@@ -1518,6 +1528,26 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-sd",
+      "name": "Europa Radio Jazz SD",
+      "country": "FR",
+      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2906,7 +2936,7 @@
       "id": "rm:hits-1",
       "name": "Hits 1",
       "country": "FR",
-      "streamUrl": "https://hits1-audiomediaradio.radioca.st/hits1",
+      "streamUrl": "https://hits1cognac-audiomediaradio.radioca.st/hits1cognac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=hits1radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3328,46 +3358,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1365/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=irulegikoirratia.eus&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio",
-      "name": "ISEKOI Radio",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-chill-zone",
-      "name": "ISEKOI Radio - Chill Zone",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/24/48/2448531a36214e749d454b60776c2951.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-chill-zone-2",
-      "name": "ISEKOI Radio | Chill Zone",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.flac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-non-stop-ambient",
-      "name": "ISEKOI Radio | Non-Stop Ambient",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4706,7 +4696,7 @@
       "id": "rm:music-radio",
       "name": "Music Radio",
       "country": "FR",
-      "streamUrl": "https://radio.musicradio.ai/listen/musicradio.ai/radio.mp3",
+      "streamUrl": "https://radio13.pro-fhi.net/listen/pdpyrses/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=musicradio.ai&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6163,6 +6153,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6926,7 +6926,7 @@
       "id": "rm:radio-orient",
       "name": "Radio Orient",
       "country": "FR",
-      "streamUrl": "https://arabica.streamabc.net/76-radioorient-mp3-256-1050481",
+      "streamUrl": "https://allzic33.ice.infomaniak.ch/allzic33.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=https&sz=128",
       "genre": "",
       "bitrate": 0,
