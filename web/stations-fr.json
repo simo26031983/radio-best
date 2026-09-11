@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T08:50:30.842Z",
+  "generatedAt": "2026-09-11T08:47:49.916Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2383,16 +2383,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-hit",
-      "name": "Fréquence Hit",
-      "country": "FR",
-      "streamUrl": "https://stream.frequencehit.com/frequencehit.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequencehit.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-luz",
       "name": "Frequence Luz",
       "country": "FR",
@@ -3363,6 +3353,46 @@
       "codec": ""
     },
     {
+      "id": "rm:isekoi-radio",
+      "name": "ISEKOI Radio",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone",
+      "name": "ISEKOI Radio - Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/24/48/2448531a36214e749d454b60776c2951.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone-2",
+      "name": "ISEKOI Radio | Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-non-stop-ambient",
+      "name": "ISEKOI Radio | Non-Stop Ambient",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:jack-rocks-live",
       "name": "Jack Rocks LIVE",
       "country": "FR",
@@ -3838,6 +3868,16 @@
       "country": "FR",
       "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:laurent-dine-iglesias",
+      "name": "Laurent DINE IGLESIAS",
+      "country": "FR",
+      "streamUrl": "https://radio7.pro-fhi.net:19141/milleniumfm.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=milleniumfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
