@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T08:47:49.916Z",
+  "generatedAt": "2026-09-12T08:31:29.320Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,36 +1088,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6193,16 +6163,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6478,6 +6438,16 @@
       "country": "FR",
       "streamUrl": "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rfi.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-fuego-2",
+      "name": "Radio Fuego",
+      "country": "FR",
+      "streamUrl": "https://sp.onliveperu.com/8128/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/75/4e/754e7f748c9c8eb534867085e48a29ad.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8703,6 +8673,16 @@
       "codec": ""
     },
     {
+      "id": "rm:soulbox",
+      "name": "Soulbox",
+      "country": "FR",
+      "streamUrl": "https://eu1.fastcast4u.com/proxy/soulbox?mp=/1",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=soulbox.legtux.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:starsystem-fm-max",
       "name": "Starsystem FM (MAX",
       "country": "FR",
@@ -9048,6 +9028,16 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:veronica-60-s-70-s",
+      "name": "Veronica 60's & 70's",
+      "country": "FR",
+      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
