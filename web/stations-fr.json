@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T08:31:29.320Z",
+  "generatedAt": "2026-09-13T09:23:03.110Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2348,16 +2348,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:frequence-luz",
-      "name": "Frequence Luz",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/frequenceluz",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequenceluz.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4923,16 +4913,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nouvo-nova",
-      "name": "Nouvo Nova",
-      "country": "FR",
-      "streamUrl": "https://nova-nouvo.ice.infomaniak.ch/nova-nouvo-256.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=nova.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nova-danse",
       "name": "Nova Danse",
       "country": "FR",
@@ -5963,16 +5943,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-bartas",
-      "name": "Radio Bartas",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-beton-tours-93-6",
       "name": "Radio Béton - Tours 93.6",
       "country": "FR",
@@ -6473,26 +6443,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-fuze",
-      "name": "Radio Fuze",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-galaxie-31",
-      "name": "Radio Galaxie 31",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiogalaxie",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogalaxie31.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-gandharva-gana",
       "name": "Radio Gandharva Gana",
       "country": "FR",
@@ -6693,31 +6643,11 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-lapurdi-irratia",
-      "name": "Radio Lapurdi Irratia",
-      "country": "FR",
-      "streamUrl": "https://direct.lapurdi.net/radio-lapurdi",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lapurdi.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-larzac",
       "name": "Radio Larzac",
       "country": "FR",
       "streamUrl": "https://stream.radiolarzac.org/hls/master.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolarzac.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-lenga-d-oc",
-      "name": "Radio lenga d'Oc",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7008,46 +6938,6 @@
       "country": "FR",
       "streamUrl": "https://www.radiopommedapi.com/radio.aac",
       "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-presence-figeac",
-      "name": "Radio Presence Figeac",
-      "country": "FR",
-      "streamUrl": "https://direct.radiopresence.com/radio-presence-figeac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopresence.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-presence-lot",
-      "name": "Radio Presence Lot",
-      "country": "FR",
-      "streamUrl": "https://direct.radiopresence.com/radio-presence-lot",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopresence.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-presence-pyrenees",
-      "name": "Radio Presence Pyrenees",
-      "country": "FR",
-      "streamUrl": "https://live.radiopresence.com/radio-presence-pyrenees",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopresence.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-presence-toulouse",
-      "name": "Radio Présence Toulouse",
-      "country": "FR",
-      "streamUrl": "https://direct.radiopresence.com/presence",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopresence.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8673,16 +8563,6 @@
       "codec": ""
     },
     {
-      "id": "rm:soulbox",
-      "name": "Soulbox",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/soulbox?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=soulbox.legtux.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:starsystem-fm-max",
       "name": "Starsystem FM (MAX",
       "country": "FR",
@@ -9028,16 +8908,6 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:veronica-60-s-70-s",
-      "name": "Veronica 60's & 70's",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
