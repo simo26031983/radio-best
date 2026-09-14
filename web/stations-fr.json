@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T09:23:03.110Z",
+  "generatedAt": "2026-09-14T09:42:52.321Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -208,16 +208,6 @@
       "country": "FR",
       "streamUrl": "https://webradio6.ice.infomaniak.ch/webradio6-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=africaradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:agora-cote-d-azur",
-      "name": "AGORA CÔTE D’AZUR",
-      "country": "FR",
-      "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1088,6 +1078,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2348,6 +2368,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:frequence-luz",
+      "name": "Frequence Luz",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/frequenceluz",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequenceluz.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5343,206 +5373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:oui-fm-acoustic",
-      "name": "OUI FM ACOUSTIC",
-      "country": "FR",
-      "streamUrl": "https://ouifmacoustic.ice.infomaniak.ch/ouifmacoustic.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-alternatif",
-      "name": "OUI FM ALTERNATIF",
-      "country": "FR",
-      "streamUrl": "https://ouifm2.ice.infomaniak.ch/ouifm2.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-blues-n-rock",
-      "name": "OUI FM BLUES'N'ROCK",
-      "country": "FR",
-      "streamUrl": "https://ouifmbluesnrock.ice.infomaniak.ch/ouifmbluesnrock-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-bring-the-noise",
-      "name": "OUI FM BRING THE NOISE",
-      "country": "FR",
-      "streamUrl": "https://ouifmbringthenoise.ice.infomaniak.ch/ouifmbringthenoise.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-classic-rock",
-      "name": "OUI FM CLASSIC ROCK",
-      "country": "FR",
-      "streamUrl": "https://ouifm3.ice.infomaniak.ch/ouifm3.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-garage",
-      "name": "OUI FM GARAGE",
-      "country": "FR",
-      "streamUrl": "https://ouifmgaragerock.ice.infomaniak.ch/ouifmgaragerock-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-girls-rock",
-      "name": "OUI FM GIRLS ROCK",
-      "country": "FR",
-      "streamUrl": "https://ouifmgirlsrock.ice.infomaniak.ch/ouifmgirlsrock.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-girls-rock-aac-64k",
-      "name": "OUI FM GIRLS ROCK [AAC 64k",
-      "country": "FR",
-      "streamUrl": "https://ouifmgirlsrock.ice.infomaniak.ch/ouifmgirlsrock.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-les-slows-du-rock",
-      "name": "OUI FM LES SLOWS DU ROCK",
-      "country": "FR",
-      "streamUrl": "https://ouifmlesslowsdurock.ice.infomaniak.ch/ouifmslowrock.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-reggae",
-      "name": "OUI FM REGGAE",
-      "country": "FR",
-      "streamUrl": "https://ouifmganja.ice.infomaniak.ch/ouifmganja-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-2000",
-      "name": "OUI FM ROCK 2000",
-      "country": "FR",
-      "streamUrl": "https://ouifmrock2000s.ice.infomaniak.ch/ouifmrock2000.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-60-s",
-      "name": "OUI FM ROCK 60's",
-      "country": "FR",
-      "streamUrl": "https://ouifmrock60s.ice.infomaniak.ch/ouifmsixties.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-70-s",
-      "name": "OUI FM ROCK 70's",
-      "country": "FR",
-      "streamUrl": "https://ouifmrock70s.ice.infomaniak.ch/ouifmseventies.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-80-s",
-      "name": "OUI FM ROCK 80's",
-      "country": "FR",
-      "streamUrl": "https://ouifmrock80s.ice.infomaniak.ch/ouifmeighties.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-90-s",
-      "name": "OUI FM ROCK 90's",
-      "country": "FR",
-      "streamUrl": "https://ouifmrock90s.ice.infomaniak.ch/ouifmnineties.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-francais",
-      "name": "OUI FM ROCK FRANCAIS",
-      "country": "FR",
-      "streamUrl": "https://ouifmrockfrancais.ice.infomaniak.ch/ouifmrockfrancais.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-rock-inde",
-      "name": "OUI FM ROCK INDÉ",
-      "country": "FR",
-      "streamUrl": "https://ouifm5.ice.infomaniak.ch/ouifm5.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-summertime",
-      "name": "OUI FM SUMMERTIME",
-      "country": "FR",
-      "streamUrl": "https://ouifmsummertime.ice.infomaniak.ch/ouifmsummertime.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-top-of-the-week",
-      "name": "OUI FM TOP OF THE WEEK",
-      "country": "FR",
-      "streamUrl": "https://ouifmtopoftheweek.ice.infomaniak.ch/ouifmtopweek.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:oui-fm-woodstock",
-      "name": "OUI FM WOODSTOCK",
-      "country": "FR",
-      "streamUrl": "https://ouifmwoodstock.ice.infomaniak.ch/ouifmwoodstock.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ouifm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:oxygene-radio",
       "name": "Oxygène Radio",
       "country": "FR",
@@ -5943,6 +5773,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-bartas",
+      "name": "Radio Bartas",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-beton-tours-93-6",
       "name": "Radio Béton - Tours 93.6",
       "country": "FR",
@@ -6128,6 +5968,16 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6443,6 +6293,26 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-fuze",
+      "name": "Radio Fuze",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/fuze",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuze.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-galaxie-31",
+      "name": "Radio Galaxie 31",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiogalaxie",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogalaxie31.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-gandharva-gana",
       "name": "Radio Gandharva Gana",
       "country": "FR",
@@ -6648,6 +6518,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radiolarzac.org/hls/master.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolarzac.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-lenga-d-oc",
+      "name": "Radio lenga d'Oc",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8718,36 +8598,6 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/tempo-62",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=tempo62.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:tendance-radio-gold",
-      "name": "Tendance GOLD",
-      "country": "FR",
-      "streamUrl": "https://live.csenet.ovh/listen/t-gold/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/29/75/2975f07f84580df6dccfd8d58a64d5d0.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:tendance-radio-hits",
-      "name": "Tendance HITS",
-      "country": "FR",
-      "streamUrl": "https://live.csenet.ovh/listen/t-hits/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/13/a3/13a3641f7962d7f88af82c3f360f0874.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:tendance-radio-pop-rock",
-      "name": "Tendance POP ROCK",
-      "country": "FR",
-      "streamUrl": "https://live.csenet.ovh/listen/t-poprock/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/a8/d6/a8d62fe9134366835501709eb7eccc25.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
