@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T09:18:14.625Z",
+  "generatedAt": "2026-09-16T09:11:18.812Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1053,6 +1053,16 @@
       "codec": ""
     },
     {
+      "id": "rm:christmas-hits-1",
+      "name": "Christmas hits 1",
+      "country": "FR",
+      "streamUrl": "https://hits1christmas-audiomediaradio.radioca.st/christmas",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=hits1radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:cinemix",
       "name": "Cinemix",
       "country": "FR",
@@ -1158,6 +1168,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/530131/stream/588580",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lamusiquequifaitdubien.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:cool-radio-france",
+      "name": "COOL RADIO FRANCE",
+      "country": "FR",
+      "streamUrl": "https://cool-radio.fr/listen/coolradio/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/81/36/8136112be1f2217ef7bab38c3540e3b7.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4583,16 +4603,6 @@
       "codec": ""
     },
     {
-      "id": "rm:meuse-fm-montmedy",
-      "name": "Meuse FM Montmédy",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/meuse-fm-montmedy/237130",
-      "faviconUrl": "https://static-media.streema.com/media/cache/3e/20/3e2049f94a22556e5eefead95144e0eb.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:meuse-fm-verdun",
       "name": "Meuse FM Verdun",
       "country": "FR",
@@ -4923,16 +4933,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nostalgie-vivement-lete",
-      "name": "Nostalgie - Vivement l&#x27;été",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ousvp3m4z85f?origine=streema&amp;aw_0_1st.station=Nostalgie-Vivement-L-Ete",
-      "faviconUrl": "https://static-media.streema.com/media/cache/e0/3c/e03c279b79f93d2aaa3daa9758b7409c.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nostalgie-vos-pepites",
       "name": "Nostalgie - Vos Pepites 80",
       "country": "FR",
@@ -5198,16 +5198,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/ou5z8wirv93h?origine=streema&amp;aw_0_1st.station=NRJ-Rnb-2000",
       "faviconUrl": "https://static-media.streema.com/media/cache/a7/67/a7676dca1ba3ef4ce59d155c1f84d9b6.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:nrj-summer-latino",
-      "name": "NRJ - SUMMER LATINO 2025",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ou2nh6pw5hs7?origine=streema&amp;aw_0_1st.station=NRJ-Summer-Latino-2025",
-      "faviconUrl": "https://static-media.streema.com/media/cache/2c/5f/2c5f7d73dc92891dc9eab0244f9f4586.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6133,16 +6123,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-campus-grenoble-90-8",
-      "name": "Radio Campus Grenoble 90.8",
-      "country": "FR",
-      "streamUrl": "https://live.campusgrenoble.org/rcg112",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=campusgrenoble.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-campus-orleans",
       "name": "Radio Campus Orléans",
       "country": "FR",
@@ -7003,16 +6983,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-pitchoun",
-      "name": "Radio Pitchoun",
-      "country": "FR",
-      "streamUrl": "https://webradio.tvradio-pitchoun.fr:8443/radiopitchoun.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=tvradio-pitchoun.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-plein-air-jura-la-radio-hit-region",
       "name": "Radio Plein Air Jura - La Radio Hit Régionale",
       "country": "FR",
@@ -7346,7 +7316,7 @@
       "id": "rm:radio-show",
       "name": "Radio Show",
       "country": "FR",
-      "streamUrl": "https://radiosar.com:8074/stream",
+      "streamUrl": "https://listen.radioking.com/radio/22937/stream/63601",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radioshow.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8743,36 +8713,6 @@
       "codec": ""
     },
     {
-      "id": "rm:sun-classique",
-      "name": "SUN Classique",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/sun-classique.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:sun-hip-hop",
-      "name": "SUN Hip Hop",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/sun-hip-hop.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:sun-jazz",
-      "name": "SUN Jazz",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/sun-jazz.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:sun-nantes",
       "name": "SUN Nantes",
       "country": "FR",
@@ -8788,26 +8728,6 @@
       "country": "FR",
       "streamUrl": "https://radio2.vip-radios.fm:18065/stream-128kmp3-BarSoulside",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=vip-radios.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:sun-rock",
-      "name": "SUN Rock",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/sun-rock.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:sun-soul-funk",
-      "name": "SUN Soul & Funk",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/sun-soul.funk.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9018,16 +8938,6 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:veronica-60-s-70-s",
-      "name": "Veronica 60's & 70's",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
