@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T09:11:18.812Z",
+  "generatedAt": "2026-09-17T09:19:28.769Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -143,16 +143,6 @@
       "codec": ""
     },
     {
-      "id": "rm:marrakechplus",
-      "name": "Marrakech Plus",
-      "country": "MA",
-      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=marrakechplus.ma&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:medi1",
       "name": "Médi 1",
       "country": "MA",
@@ -276,7 +266,7 @@
       "id": "rm:radio-one-8",
       "name": "RADIO ONE",
       "country": "MA",
-      "streamUrl": "https://stream.laut.fm/finnradioone",
+      "streamUrl": "https://edge.mixlr.com/channel/gtqpn",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/6d/736dae7eb9c6ca10cbb2fbc598359e4c.png",
       "genre": "",
       "bitrate": 0,
@@ -353,51 +343,11 @@
       "codec": ""
     },
     {
-      "id": "rm:yabiladi-amazigh",
-      "name": "Yabiladi Amazigh",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:9002/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yabiladi-chaabi",
-      "name": "Yabiladi Chaabi",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:8102/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yabiladi",
-      "name": "Yabiladi Radio",
-      "country": "MA",
-      "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-medina-fm",
       "name": "إذاعة مدينة إف إم المغرب",
       "country": "MA",
       "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:web-radio-marrakech-plus",
-      "name": "راديو مراكش بلوس",
-      "country": "MA",
-      "streamUrl": "https://cast5.my-control-panel.com/proxy/marrakec/stream/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d5/1b/d51b62d5ac353b2686020616831b214e.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T09:11:18.812Z",
+  "generatedAt": "2026-09-17T09:19:28.769Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -288,16 +288,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-drum-bass",
-      "name": "Algorythme Drum & Bass",
-      "country": "FR",
-      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1528,26 +1518,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-hd",
-      "name": "Europa Radio Jazz HD",
-      "country": "FR",
-      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-sd",
-      "name": "Europa Radio Jazz SD",
-      "country": "FR",
-      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4473,16 +4443,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mathis-fm",
-      "name": "MATHIS FM",
-      "country": "FR",
-      "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:maurice-radio-libre",
       "name": "Maurice Radio Libre",
       "country": "FR",
@@ -4598,6 +4558,16 @@
       "country": "FR",
       "streamUrl": "https://fqboy.com/labo/weather/rss/audio/meteo.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fqboy.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:meuse-fm-montmedy",
+      "name": "Meuse FM Montmédy",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/meuse-fm-montmedy/237130",
+      "faviconUrl": "https://static-media.streema.com/media/cache/3e/20/3e2049f94a22556e5eefead95144e0eb.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6123,6 +6093,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-campus-grenoble-90-8",
+      "name": "Radio Campus Grenoble 90.8",
+      "country": "FR",
+      "streamUrl": "https://live.campusgrenoble.org/rcg112",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=campusgrenoble.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-campus-orleans",
       "name": "Radio Campus Orléans",
       "country": "FR",
@@ -6148,16 +6128,6 @@
       "country": "FR",
       "streamUrl": "https://choco.hostingradio.ru:10010/fm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiochoco.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-ciel-bleu-107-1-fm",
-      "name": "Radio Ciel Bleu",
-      "country": "FR",
-      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6983,6 +6953,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-pitchoun",
+      "name": "Radio Pitchoun",
+      "country": "FR",
+      "streamUrl": "https://webradio.tvradio-pitchoun.fr:8443/radiopitchoun.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=tvradio-pitchoun.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-plein-air-jura-la-radio-hit-region",
       "name": "Radio Plein Air Jura - La Radio Hit Régionale",
       "country": "FR",
@@ -7548,16 +7528,6 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8713,6 +8683,36 @@
       "codec": ""
     },
     {
+      "id": "rm:sun-classique",
+      "name": "SUN Classique",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/sun-classique.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:sun-hip-hop",
+      "name": "SUN Hip Hop",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/sun-hip-hop.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:sun-jazz",
+      "name": "SUN Jazz",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/sun-jazz.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:sun-nantes",
       "name": "SUN Nantes",
       "country": "FR",
@@ -8728,6 +8728,26 @@
       "country": "FR",
       "streamUrl": "https://radio2.vip-radios.fm:18065/stream-128kmp3-BarSoulside",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=vip-radios.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:sun-rock",
+      "name": "SUN Rock",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/sun-rock.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:sun-soul-funk",
+      "name": "SUN Soul & Funk",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/sun-soul.funk.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lesonunique.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8943,6 +8963,16 @@
       "codec": ""
     },
     {
+      "id": "rm:veronica-60-s-70-s",
+      "name": "Veronica 60's & 70's",
+      "country": "FR",
+      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:vertige-radio",
       "name": "Vertige Radio",
       "country": "FR",
@@ -9088,16 +9118,6 @@
       "country": "FR",
       "streamUrl": "https://ecmanager3.pro-fhi.net:1190/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/97/b0/97b076c2476fdd9ca07a3e4e20b5eb9d.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:weihnachtstraum",
-      "name": "Weihnachtstraum",
-      "country": "FR",
-      "streamUrl": "https://stream.laut.fm/weihnachtstraum",
-      "faviconUrl": "https://static-media.streema.com/media/cache/f3/c9/f3c93ca3b526dcae4f6b2c7cda458e2c.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
