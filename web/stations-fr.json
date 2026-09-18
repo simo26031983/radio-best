@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T09:19:28.769Z",
+  "generatedAt": "2026-09-18T08:54:38.632Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -288,6 +288,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-drum-bass",
+      "name": "Algorythme Drum & Bass",
+      "country": "FR",
+      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1518,6 +1528,26 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-sd",
+      "name": "Europa Radio Jazz SD",
+      "country": "FR",
+      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3903,16 +3933,6 @@
       "codec": ""
     },
     {
-      "id": "rm:le-bouquet-granvillais",
-      "name": "Le bouquet Granvillais",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/lebouquetgranvillais",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.lebouquetgranvillais.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:le-grand-studio-rtl",
       "name": "Le Grand Studio RTL",
       "country": "FR",
@@ -4438,6 +4458,16 @@
       "country": "FR",
       "streamUrl": "https://www.marsanaryas.com/radio/live/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=marsanaryas.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:mathis-fm",
+      "name": "MATHIS FM",
+      "country": "FR",
+      "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6133,6 +6163,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-ciel-bleu-107-1-fm",
+      "name": "Radio Ciel Bleu",
+      "country": "FR",
+      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
       "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
       "country": "FR",
@@ -7453,16 +7493,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-vallee-bergerac",
-      "name": "Radio Vallée Bergerac",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -7538,16 +7568,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radiocanut",
-      "name": "RadioCanut",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/radiocanut",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9118,6 +9138,16 @@
       "country": "FR",
       "streamUrl": "https://ecmanager3.pro-fhi.net:1190/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/97/b0/97b076c2476fdd9ca07a3e4e20b5eb9d.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:weihnachtstraum",
+      "name": "Weihnachtstraum",
+      "country": "FR",
+      "streamUrl": "https://stream.laut.fm/weihnachtstraum",
+      "faviconUrl": "https://static-media.streema.com/media/cache/f3/c9/f3c93ca3b526dcae4f6b2c7cda458e2c.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
