@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T08:54:38.632Z",
+  "generatedAt": "2026-09-19T08:41:54.894Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3933,6 +3933,16 @@
       "codec": ""
     },
     {
+      "id": "rm:le-bouquet-granvillais",
+      "name": "Le bouquet Granvillais",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/lebouquetgranvillais",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.lebouquetgranvillais.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:le-grand-studio-rtl",
       "name": "Le Grand Studio RTL",
       "country": "FR",
@@ -5743,16 +5753,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -7493,6 +7493,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-vallee-bergerac",
+      "name": "Radio Vallée Bergerac",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-valois-multien",
       "name": "Radio Valois Multien",
       "country": "FR",
@@ -7568,6 +7578,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radiocanut",
+      "name": "RadioCanut",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/radiocanut",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
