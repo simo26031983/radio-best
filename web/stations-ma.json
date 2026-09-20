@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T08:41:54.894Z",
+  "generatedAt": "2026-09-20T09:10:45.764Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -348,6 +348,36 @@
       "country": "MA",
       "streamUrl": "https://panel.innovatestream.pe:10924/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=uradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi-amazigh",
+      "name": "Yabiladi Amazigh",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:9002/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi-chaabi",
+      "name": "Yabiladi Chaabi",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:8102/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi",
+      "name": "Yabiladi Radio",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
