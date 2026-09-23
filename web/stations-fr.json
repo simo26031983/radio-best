@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T09:11:23.540Z",
+  "generatedAt": "2026-09-23T09:12:01.571Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -8,6 +8,16 @@
       "country": "FR",
       "streamUrl": "https://ais-sa2.cdnstream1.com/2346_128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:100-radio-carcassonne",
+      "name": "100% Radio Carcassonne",
+      "country": "FR",
+      "streamUrl": "https://100radio-carcassonne.ice.infomaniak.ch/100radio-carcassonne-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=centpourcent.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1378,16 +1388,6 @@
       "country": "FR",
       "streamUrl": "https://puma.streemlion.com:5505/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=dubsideradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:duuu",
-      "name": "Duuu",
-      "country": "FR",
-      "streamUrl": "https://duuu.out.airtime.pro/duuu_a",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=duuuradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3093,6 +3093,16 @@
       "codec": ""
     },
     {
+      "id": "rm:i2-radio",
+      "name": "i2 Radio",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/i2-radio",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioking.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:iaradio",
       "name": "IAradio",
       "country": "FR",
@@ -3338,6 +3348,46 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1365/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=irulegikoirratia.eus&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio",
+      "name": "ISEKOI Radio",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone",
+      "name": "ISEKOI Radio - Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/24/48/2448531a36214e749d454b60776c2951.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone-2",
+      "name": "ISEKOI Radio | Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-non-stop-ambient",
+      "name": "ISEKOI Radio | Non-Stop Ambient",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6193,6 +6243,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-dance-annees-90",
+      "name": "RADIO DANCE années 90",
+      "country": "FR",
+      "streamUrl": "https://radiodance.streamingmedia.it/fr.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.dance&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-de-noel",
       "name": "Radio de Noël",
       "country": "FR",
@@ -8648,6 +8708,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
