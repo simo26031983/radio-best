@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T09:12:01.571Z",
+  "generatedAt": "2026-09-24T09:10:05.944Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -288,16 +288,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-drum-bass",
-      "name": "Algorythme Drum & Bass",
-      "country": "FR",
-      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1388,6 +1378,16 @@
       "country": "FR",
       "streamUrl": "https://puma.streemlion.com:5505/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=dubsideradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:duuu",
+      "name": "Duuu",
+      "country": "FR",
+      "streamUrl": "https://duuu.out.airtime.pro/duuu_a",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=duuuradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7568,16 +7568,6 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
