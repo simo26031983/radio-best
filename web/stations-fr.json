@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T09:10:05.944Z",
+  "generatedAt": "2026-09-25T09:29:44.246Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -288,6 +288,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-drum-bass",
+      "name": "Algorythme Drum & Bass",
+      "country": "FR",
+      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6773,16 +6783,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-medley-prod-rmp",
-      "name": "RADIO MEDLEY PROD (RMP",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:2645/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/7e/9b/7e9b1919887dab4bccf36b11d6ad6e4b.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-mega",
       "name": "Radio Méga",
       "country": "FR",
@@ -7568,6 +7568,16 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
