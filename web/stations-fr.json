@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T09:29:44.246Z",
+  "generatedAt": "2026-09-26T09:14:49.918Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3833,40 +3833,10 @@
       "codec": ""
     },
     {
-      "id": "rm:latina-work",
-      "name": "Latina @work",
-      "country": "FR",
-      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-fiesta",
-      "name": "Latina fiesta",
-      "country": "FR",
-      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-reggaeton",
-      "name": "Latina reggaeton",
-      "country": "FR",
-      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4668,16 +4638,6 @@
       "country": "FR",
       "streamUrl": "https://listen.mixfeever.com/feevermix",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mixfeever.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:modular-station",
-      "name": "Modular-Station",
-      "country": "FR",
-      "streamUrl": "https://broadcast.modular-station.com/radio/8000/radio.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=modular-station.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6523,16 +6483,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-gandharva-gana",
-      "name": "Radio Gandharva Gana",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/radiogandharvagana",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rggweb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-gatine",
       "name": "Radio Gâtine",
       "country": "FR",
@@ -6778,6 +6728,16 @@
       "country": "FR",
       "streamUrl": "https://stream.radio-mdm.fr:8443/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-mdm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-medley-prod-rmp",
+      "name": "RADIO MEDLEY PROD (RMP",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:2645/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/7e/9b/7e9b1919887dab4bccf36b11d6ad6e4b.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7573,16 +7533,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8308,16 +8258,6 @@
       "country": "FR",
       "streamUrl": "https://audio.bfmtv.com/rmcradio_128.mp3?aw_0_1st.playerId=RMC_audio_web&aggregator=RMC_audio_web",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rmc.bfmtv.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rmf-radio",
-      "name": "RMF Radio",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/rmf-radio/376729",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rmf-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
