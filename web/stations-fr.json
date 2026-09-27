@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:14:49.918Z",
+  "generatedAt": "2026-09-27T09:54:42.577Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,36 +1088,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3833,10 +3803,40 @@
       "codec": ""
     },
     {
+      "id": "rm:latina-work",
+      "name": "Latina @work",
+      "country": "FR",
+      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-fiesta",
+      "name": "Latina fiesta",
+      "country": "FR",
+      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-reggaeton",
+      "name": "Latina reggaeton",
+      "country": "FR",
+      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6143,16 +6143,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6478,6 +6468,16 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiogalaxie",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogalaxie31.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-gandharva-gana",
+      "name": "Radio Gandharva Gana",
+      "country": "FR",
+      "streamUrl": "https://play.radioking.io/radiogandharvagana",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rggweb.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7533,6 +7533,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8258,6 +8268,16 @@
       "country": "FR",
       "streamUrl": "https://audio.bfmtv.com/rmcradio_128.mp3?aw_0_1st.playerId=RMC_audio_web&aggregator=RMC_audio_web",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rmc.bfmtv.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rmf-radio",
+      "name": "RMF Radio",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/rmf-radio/376729",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rmf-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
