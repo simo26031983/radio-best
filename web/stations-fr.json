@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:43:55.735Z",
+  "generatedAt": "2026-09-29T10:31:44.298Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1998,16 +1998,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/467555/stream/523739",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fm80.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:fm43",
-      "name": "FM43",
-      "country": "FR",
-      "streamUrl": "https://fm43.ice.infomaniak.ch/fm43-64.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofm43.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6173,16 +6163,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -7573,16 +7553,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8358,16 +8328,6 @@
       "country": "FR",
       "streamUrl": "https://player.rockenfolie.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rockenfolie.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rockline-pop-rock",
-      "name": "Rockline Soft Rock",
-      "country": "FR",
-      "streamUrl": "https://ice.creacast.com/rockline_pop_rock",
-      "faviconUrl": "https://static-media.streema.com/media/cache/81/24/81242207a764266ca1309ec9c71605cc.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
