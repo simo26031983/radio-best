@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T10:31:44.298Z",
+  "generatedAt": "2026-09-30T10:22:23.949Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1333,16 +1333,6 @@
       "codec": ""
     },
     {
-      "id": "rm:divergence-fm",
-      "name": "Divergence FM",
-      "country": "FR",
-      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:djam-radio-aac192lc",
       "name": "Djam Radio - AAC192LC",
       "country": "FR",
@@ -1998,6 +1988,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/467555/stream/523739",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fm80.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:fm43",
+      "name": "FM43",
+      "country": "FR",
+      "streamUrl": "https://fm43.ice.infomaniak.ch/fm43-64.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofm43.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4663,6 +4663,16 @@
       "codec": ""
     },
     {
+      "id": "rm:modular-station",
+      "name": "Modular-Station",
+      "country": "FR",
+      "streamUrl": "https://broadcast.modular-station.com/radio/8000/radio.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=modular-station.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:mohammed-ayyub",
       "name": "mohammed ayyub",
       "country": "FR",
@@ -5958,16 +5968,6 @@
       "country": "FR",
       "streamUrl": "https://stream.rcvfm.fr:8000/barbouillots-192k.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobarbouillots.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-bartas",
-      "name": "Radio Bartas",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7553,6 +7553,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8333,6 +8343,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rockline-pop-rock",
+      "name": "Rockline Soft Rock",
+      "country": "FR",
+      "streamUrl": "https://ice.creacast.com/rockline_pop_rock",
+      "faviconUrl": "https://static-media.streema.com/media/cache/81/24/81242207a764266ca1309ec9c71605cc.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:roots-legacy",
       "name": "Roots Legacy",
       "country": "FR",
@@ -8668,16 +8688,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
