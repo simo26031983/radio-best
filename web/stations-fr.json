@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T10:22:23.949Z",
+  "generatedAt": "2026-10-01T10:49:13.773Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -863,16 +863,6 @@
       "codec": ""
     },
     {
-      "id": "rm:c-lab",
-      "name": "C-Lab",
-      "country": "FR",
-      "streamUrl": "https://www.c-lab.fr/stream/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=c-lab.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:c9-radio",
       "name": "C9 Radio",
       "country": "FR",
@@ -1328,6 +1318,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:divergence-fm",
+      "name": "Divergence FM",
+      "country": "FR",
+      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5613,26 +5613,6 @@
       "codec": ""
     },
     {
-      "id": "rm:phare-fm-louange",
-      "name": "Phare FM Louange",
-      "country": "FR",
-      "streamUrl": "https://str0.creacast.com/pharefm_louange",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pharefm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:phare-fm-worship",
-      "name": "Phare FM Worship",
-      "country": "FR",
-      "streamUrl": "https://str0.creacast.com/pharefm_worship",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pharefm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:pinata",
       "name": "Pinata",
       "country": "FR",
@@ -5973,6 +5953,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-bartas",
+      "name": "Radio Bartas",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/radiobartas",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobartas.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-beton-tours-93-6",
       "name": "Radio Béton - Tours 93.6",
       "country": "FR",
@@ -6158,6 +6148,16 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8688,6 +8688,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
