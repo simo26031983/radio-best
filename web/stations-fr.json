@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T10:49:13.773Z",
+  "generatedAt": "2026-10-02T10:23:33.050Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2353,16 +2353,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-7",
-      "name": "Fréquence 7",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/Frequence7",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence7.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-des-loisirs-100-4",
       "name": "Fréquence Des Loisirs 100.4",
       "country": "FR",
@@ -2548,26 +2538,6 @@
       "country": "FR",
       "streamUrl": "https://fr.radioking.com/play/galaxietek",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=galaxieradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:gay-radio",
-      "name": "Gay Radio",
-      "country": "FR",
-      "streamUrl": "https://srv.webradiomanager.fr:1285/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=gayradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:gay-radio-fr",
-      "name": "Gay Radio FR",
-      "country": "FR",
-      "streamUrl": "https://srv.webradiomanager.fr:1285/stream?x=1745084131773",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=gayradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5613,6 +5583,26 @@
       "codec": ""
     },
     {
+      "id": "rm:phare-fm-louange",
+      "name": "Phare FM Louange",
+      "country": "FR",
+      "streamUrl": "https://str0.creacast.com/pharefm_louange",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pharefm.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:phare-fm-worship",
+      "name": "Phare FM Worship",
+      "country": "FR",
+      "streamUrl": "https://str0.creacast.com/pharefm_worship",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pharefm.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pinata",
       "name": "Pinata",
       "country": "FR",
@@ -6888,16 +6878,6 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-nova-la-plage",
-      "name": "Radio Nova - La Plage",
-      "country": "FR",
-      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8306,7 +8286,7 @@
       "id": "rm:rmn",
       "name": "RMN",
       "country": "FR",
-      "streamUrl": "https://bretagnetv.bzh/concarneau",
+      "streamUrl": "https://us2.amfmph.com:2199/tunein/rmnbacolod-stream.pls",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rmn.bzh&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8626,7 +8606,7 @@
       "id": "rm:slow-radio",
       "name": "Slow Radio",
       "country": "FR",
-      "streamUrl": "https://play.radioking.io/slow-radio/601307",
+      "streamUrl": "https://streams.slowradio.com/slowradio192.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=slow-village.fr&sz=128",
       "genre": "",
       "bitrate": 0,
