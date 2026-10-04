@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T09:45:19.137Z",
+  "generatedAt": "2026-10-04T10:28:59.830Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,36 +1088,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6163,16 +6133,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6408,6 +6368,16 @@
       "country": "FR",
       "streamUrl": "https://radio.fatx.fr/radio_fatx",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fatx.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-fil-de-l-eau",
+      "name": "Radio Fil de l'eau",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:2495/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofildeleau.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6713,6 +6683,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-lenga-d-oc",
+      "name": "Radio lenga d'Oc",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-marseillette",
       "name": "Radio Marseillette",
       "country": "FR",
@@ -6938,16 +6918,6 @@
       "country": "FR",
       "streamUrl": "https://radio.almogavers.net:8000/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/8b/25/8b25c80085f30381e6bcb27654646763.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-pfm",
-      "name": "Radio PFM",
-      "country": "FR",
-      "streamUrl": "https://diff.radiopfm.com/flux.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7548,16 +7518,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radiocanut",
-      "name": "RadioCanut",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/radiocanut",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
