@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T10:28:59.830Z",
+  "generatedAt": "2026-10-05T11:18:19.691Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1088,6 +1088,36 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2818,26 +2848,6 @@
       "country": "FR",
       "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:happyness-amiens",
-      "name": "Happyness Amiens",
-      "country": "FR",
-      "streamUrl": "https://azuracast-scrs-2.foxoud.synology.me/listen/happyness_amiens/player",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:happyness-oise",
-      "name": "Happyness Oise",
-      "country": "FR",
-      "streamUrl": "https://azuracast-scrs-2.foxoud.synology.me/listen/happyness_oise/player",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6133,6 +6143,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6863,6 +6883,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-nova-la-plage",
+      "name": "Radio Nova - La Plage",
+      "country": "FR",
+      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-nunc",
       "name": "Radio Nunc",
       "country": "FR",
@@ -6913,11 +6943,11 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-patio-de-marujas",
-      "name": "Radio Patio De Marujas",
+      "id": "rm:radio-pfm",
+      "name": "Radio PFM",
       "country": "FR",
-      "streamUrl": "https://radio.almogavers.net:8000/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/8b/25/8b25c80085f30381e6bcb27654646763.jpg",
+      "streamUrl": "https://diff.radiopfm.com/flux.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7363,6 +7393,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-tou-caen",
+      "name": "RADIO TOU'CAEN",
+      "country": "FR",
+      "streamUrl": "https://str0.creacast.com/direct-toucaen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-toucaen.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-troutrou",
       "name": "Radio Troutrou",
       "country": "FR",
@@ -7518,6 +7558,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radiocanut",
+      "name": "RadioCanut",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/radiocanut",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
