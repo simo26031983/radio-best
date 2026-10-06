@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T11:18:19.691Z",
+  "generatedAt": "2026-10-06T11:07:45.240Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -858,16 +858,6 @@
       "country": "FR",
       "streamUrl": "https://radio4.vip-radios.fm:18054/stream-128kmp3-BuddhaBeach",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=vip-radios.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:c-lab",
-      "name": "C-Lab",
-      "country": "FR",
-      "streamUrl": "https://www.c-lab.fr/stream/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=c-lab.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2848,6 +2838,26 @@
       "country": "FR",
       "streamUrl": "https://radio.pro-fhi.net:2199/tunein/efumjbrb.pls",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=happy-radio.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:happyness-amiens",
+      "name": "Happyness Amiens",
+      "country": "FR",
+      "streamUrl": "https://azuracast-scrs-2.foxoud.synology.me/listen/happyness_amiens/player",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:happyness-oise",
+      "name": "Happyness Oise",
+      "country": "FR",
+      "streamUrl": "https://azuracast-scrs-2.foxoud.synology.me/listen/happyness_oise/player",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=happynessradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5713,16 +5723,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -5848,16 +5848,6 @@
       "country": "FR",
       "streamUrl": "https://sc.creacast.com/radio8.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio8fm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-80-4",
-      "name": "Radio 80",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/180148/stream/221857",
-      "faviconUrl": "https://static-media.streema.com/media/cache/f3/dc/f3dc76faead8f0938693d8a6c8e6c029.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6393,16 +6383,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-fil-de-l-eau",
-      "name": "Radio Fil de l'eau",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:2495/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofildeleau.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-fmr",
       "name": "Radio FMR",
       "country": "FR",
@@ -6878,16 +6858,6 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-nova-la-plage",
-      "name": "Radio Nova - La Plage",
-      "country": "FR",
-      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
