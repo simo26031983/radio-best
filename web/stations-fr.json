@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T11:07:45.240Z",
+  "generatedAt": "2026-10-07T10:56:35.234Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -863,6 +863,16 @@
       "codec": ""
     },
     {
+      "id": "rm:c-lab",
+      "name": "C-Lab",
+      "country": "FR",
+      "streamUrl": "https://www.c-lab.fr/stream/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=c-lab.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:c9-radio",
       "name": "C9 Radio",
       "country": "FR",
@@ -1078,36 +1088,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3803,40 +3783,10 @@
       "codec": ""
     },
     {
-      "id": "rm:latina-work",
-      "name": "Latina @work",
-      "country": "FR",
-      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-fiesta",
-      "name": "Latina fiesta",
-      "country": "FR",
-      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-reggaeton",
-      "name": "Latina reggaeton",
-      "country": "FR",
-      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5723,6 +5673,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6128,16 +6088,6 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6913,6 +6863,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-patio-de-marujas",
+      "name": "Radio Patio De Marujas",
+      "country": "FR",
+      "streamUrl": "https://radio.almogavers.net:8000/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/8b/25/8b25c80085f30381e6bcb27654646763.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-pfm",
       "name": "Radio PFM",
       "country": "FR",
@@ -7448,16 +7408,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.radio-valois-multien.fr/live.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-valois-multien.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-vaticana-francais",
-      "name": "Radio Vaticana Francais",
-      "country": "FR",
-      "streamUrl": "https://radio.vaticannews.va/stream-fr",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=vaticannews.va&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8187,16 +8137,6 @@
       "name": "RJR - Radio Jeunes Reims (MP3 128k",
       "country": "FR",
       "streamUrl": "https://stream.rjrradio.fr/rjr.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
-      "name": "RJR - Radio Jeunes Reims (Opus 128k",
-      "country": "FR",
-      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
