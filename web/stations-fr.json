@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T10:56:35.234Z",
+  "generatedAt": "2026-10-08T11:13:46.821Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3426,7 +3426,7 @@
       "id": "rm:jazz-piano",
       "name": "Jazz Piano",
       "country": "FR",
-      "streamUrl": "https://live.radioart.com/fJazz_piano.mp3",
+      "streamUrl": "https://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jazzradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3636,7 +3636,7 @@
       "id": "rm:kohina",
       "name": "Kohina",
       "country": "FR",
-      "streamUrl": "https://player.kohina.com/icecast/stream.aac",
+      "streamUrl": "https://kohina.duckdns.org/icecast/stream.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=kohina.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3783,10 +3783,40 @@
       "codec": ""
     },
     {
+      "id": "rm:latina-work",
+      "name": "Latina @work",
+      "country": "FR",
+      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-fiesta",
+      "name": "Latina fiesta",
+      "country": "FR",
+      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-reggaeton",
+      "name": "Latina reggaeton",
+      "country": "FR",
+      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5663,30 +5693,10 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-espanol",
-      "name": "Public Health Radio Espanol",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioes.ice.infomaniak.ch/publichealthradioes-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-italiano",
       "name": "Public Health Radio Italiano",
       "country": "FR",
       "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:public-health-radio-portugues",
-      "name": "Public Health Radio Portugues",
-      "country": "FR",
-      "streamUrl": "https://publichealthradiopt.ice.infomaniak.ch/publichealthradiopt-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5956,7 +5966,7 @@
       "id": "rm:radio-brony",
       "name": "Radio Brony",
       "country": "FR",
-      "streamUrl": "https://radio.radiobrony.fr/mp3",
+      "streamUrl": "https://radiobrony.live/aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7413,6 +7423,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-vaticana-francais",
+      "name": "Radio Vaticana Francais",
+      "country": "FR",
+      "streamUrl": "https://radio.vaticannews.va/stream-fr",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=vaticannews.va&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-vibration",
       "name": "Radio Vibration",
       "country": "FR",
@@ -8143,6 +8163,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
+      "name": "RJR - Radio Jeunes Reims (Opus 128k",
+      "country": "FR",
+      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:rlocale-radio",
       "name": "Rlocale Radio",
       "country": "FR",
@@ -8588,16 +8618,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
