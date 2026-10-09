@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T11:13:46.821Z",
+  "generatedAt": "2026-10-09T11:12:41.851Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -278,16 +278,6 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/api/radio/alefamusic.pls",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alefamusic.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:alencon-fm",
-      "name": "Alençon FM",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1093,6 +1083,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1498,26 +1518,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-hd",
-      "name": "Europa Radio Jazz HD",
-      "country": "FR",
-      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-sd",
-      "name": "Europa Radio Jazz SD",
-      "country": "FR",
-      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3358,16 +3358,6 @@
       "country": "FR",
       "streamUrl": "https://radio12.pro-fhi.net/radio/9174/stream?fbclid=IwAR3SdOLxThn4vewpYN2LWNu1a_R8iZAmAU4hT7_VTD5wRNTiuKzQ3h5liE8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jackrockslive.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:jade-fm",
-      "name": "Jade FM",
-      "country": "FR",
-      "streamUrl": "https://diffusion.lafrap.fr/radiochrono.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=jadefm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5693,10 +5683,30 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-espanol",
+      "name": "Public Health Radio Espanol",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioes.ice.infomaniak.ch/publichealthradioes-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-italiano",
       "name": "Public Health Radio Italiano",
       "country": "FR",
       "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:public-health-radio-portugues",
+      "name": "Public Health Radio Portugues",
+      "country": "FR",
+      "streamUrl": "https://publichealthradiopt.ice.infomaniak.ch/publichealthradiopt-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6103,6 +6113,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6338,6 +6358,16 @@
       "country": "FR",
       "streamUrl": "https://radio.fatx.fr/radio_fatx",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=fatx.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-fil-de-l-eau",
+      "name": "Radio Fil de l'eau",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:2495/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofildeleau.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7483,31 +7513,11 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radiocanut",
-      "name": "RadioCanut",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/radiocanut",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8618,6 +8628,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
