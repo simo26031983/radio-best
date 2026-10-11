@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T10:29:56.491Z",
+  "generatedAt": "2026-10-11T10:41:59.200Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2433,16 +2433,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-tropicale",
-      "name": "Frequence tropicale",
-      "country": "FR",
-      "streamUrl": "https://ecmanager2.pro-fhi.net:1640/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence-tropicale.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:friendly-radio",
       "name": "Friendly Radio",
       "country": "FR",
@@ -2568,16 +2558,6 @@
       "country": "FR",
       "streamUrl": "https://generations-jul.ice.infomaniak.ch/generations-jul.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=generations.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:generation-mix",
-      "name": "Génération Mix",
-      "country": "FR",
-      "streamUrl": "https://ecmanager2.pro-fhi.net/generationmix",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=generation-mix.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2808,16 +2788,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1345/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=gureirratia.eus&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:gwoka-radio",
-      "name": "Gwoka Radio",
-      "country": "FR",
-      "streamUrl": "https://ecmanager2.pro-fhi.net:1650/;",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4448,16 +4418,6 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7548,16 +7508,6 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
