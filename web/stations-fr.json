@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T10:41:59.200Z",
+  "generatedAt": "2026-10-12T11:46:57.693Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2433,6 +2433,16 @@
       "codec": ""
     },
     {
+      "id": "rm:frequence-tropicale",
+      "name": "Frequence tropicale",
+      "country": "FR",
+      "streamUrl": "https://ecmanager2.pro-fhi.net:1640/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence-tropicale.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:friendly-radio",
       "name": "Friendly Radio",
       "country": "FR",
@@ -2558,6 +2568,16 @@
       "country": "FR",
       "streamUrl": "https://generations-jul.ice.infomaniak.ch/generations-jul.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=generations.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generation-mix",
+      "name": "Génération Mix",
+      "country": "FR",
+      "streamUrl": "https://ecmanager2.pro-fhi.net/generationmix",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=generation-mix.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2788,6 +2808,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1345/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=gureirratia.eus&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:gwoka-radio",
+      "name": "Gwoka Radio",
+      "country": "FR",
+      "streamUrl": "https://ecmanager2.pro-fhi.net:1650/;",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=karibshebdo.info&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3358,6 +3388,16 @@
       "country": "FR",
       "streamUrl": "https://radio12.pro-fhi.net/radio/9174/stream?fbclid=IwAR3SdOLxThn4vewpYN2LWNu1a_R8iZAmAU4hT7_VTD5wRNTiuKzQ3h5liE8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=jackrockslive.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:jade-fm",
+      "name": "Jade FM",
+      "country": "FR",
+      "streamUrl": "https://diffusion.lafrap.fr/radiochrono.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=jadefm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4418,6 +4458,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6413,16 +6463,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-fuori-campo",
-      "name": "Radio Fuori Campo",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/397948/stream/449947",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuoricampo.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-fusion",
       "name": "RADIO FUSION",
       "country": "FR",
@@ -6507,16 +6547,6 @@
       "name": "Radio Gresivaudan",
       "country": "FR",
       "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-gresivaudan-chambery",
-      "name": "Radio Gresivaudan Chambery",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan-Chambery",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6848,6 +6878,16 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-nova-la-plage",
+      "name": "Radio Nova - La Plage",
+      "country": "FR",
+      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7508,6 +7548,16 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
