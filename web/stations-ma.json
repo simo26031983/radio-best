@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:46:57.693Z",
+  "generatedAt": "2026-10-13T11:34:34.100Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -198,6 +198,16 @@
       "country": "MA",
       "streamUrl": "https://a5.asurahosting.com:7980/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mfmradio.ma&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:morocco-english-radio",
+      "name": "Morocco English Radio",
+      "country": "MA",
+      "streamUrl": "https://streamer.radio.co/s6cba51492/listen",
+      "faviconUrl": "https://static-media.streema.com/media/cache/3b/39/3b39851da55b041d279903a18c7c82ec.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""

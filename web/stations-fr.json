@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T11:46:57.693Z",
+  "generatedAt": "2026-10-13T11:34:34.100Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -4533,16 +4533,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mayotte-fm",
-      "name": "Mayotte FM",
-      "country": "FR",
-      "streamUrl": "https://live.myradio.yt/mayottefm1",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d1/60/d1602481ab1d1ffcbd3c98b32a93fe0c.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mbs-gold",
       "name": "MBS Gold",
       "country": "FR",
@@ -5883,6 +5873,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-80-4",
+      "name": "Radio 80",
+      "country": "FR",
+      "streamUrl": "https://sonic.portalfoxmix.club/8394/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/f3/dc/f3dc76faead8f0938693d8a6c8e6c029.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-a-97-8",
       "name": "Radio A 97.8",
       "country": "FR",
@@ -6463,6 +6463,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-fuori-campo",
+      "name": "Radio Fuori Campo",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/397948/stream/449947",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuoricampo.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-fusion",
       "name": "RADIO FUSION",
       "country": "FR",
@@ -6547,6 +6557,16 @@
       "name": "Radio Gresivaudan",
       "country": "FR",
       "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-gresivaudan-chambery",
+      "name": "Radio Gresivaudan Chambery",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan-Chambery",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6878,16 +6898,6 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-nova-la-plage",
-      "name": "Radio Nova - La Plage",
-      "country": "FR",
-      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8668,16 +8678,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
