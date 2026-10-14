@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T11:34:34.100Z",
+  "generatedAt": "2026-10-14T09:23:26.373Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2563,6 +2563,26 @@
       "codec": ""
     },
     {
+      "id": "rm:gay-radio",
+      "name": "Gay Radio",
+      "country": "FR",
+      "streamUrl": "https://srv.webradiomanager.fr:1285/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=gayradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:gay-radio-fr",
+      "name": "Gay Radio FR",
+      "country": "FR",
+      "streamUrl": "https://srv.webradiomanager.fr:1285/stream?x=1745084131773",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=gayradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:generation-jul",
       "name": "Génération JUL",
       "country": "FR",
@@ -4533,6 +4553,16 @@
       "codec": ""
     },
     {
+      "id": "rm:mayotte-fm",
+      "name": "Mayotte FM",
+      "country": "FR",
+      "streamUrl": "https://live.myradio.yt/mayottefm1",
+      "faviconUrl": "https://static-media.streema.com/media/cache/d1/60/d1602481ab1d1ffcbd3c98b32a93fe0c.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:mbs-gold",
       "name": "MBS Gold",
       "country": "FR",
@@ -5128,16 +5158,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/oun39nqn5eyc?origine=streema&amp;aw_0_1st.station=NRJ-Nouveaux-Hits-Dance",
       "faviconUrl": "https://static-media.streema.com/media/cache/3b/07/3b07af90f37e13fee373c161c5279986.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:nrj-plus-de-30-min-de-hits-non-stop",
-      "name": "NRJ - Plus De 30 Min De Hits Non Stop",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ouycsj36zcw2?origine=streema&amp;aw_0_1st.station=NRJ-Plus-De-Min-De-Hits-Non-Stop",
-      "faviconUrl": "https://static-media.streema.com/media/cache/0c/d0/0cd087062b692003f7e780e395a1fe5b.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6563,16 +6583,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-gresivaudan-chambery",
-      "name": "Radio Gresivaudan Chambery",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan-Chambery",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-heavy-metal",
       "name": "Radio Heavy Metal",
       "country": "FR",
@@ -6608,16 +6618,6 @@
       "country": "FR",
       "streamUrl": "https://cheetah.streemlion.com:2775/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/7c/02/7c02ac018c87d789ad33005c4095db16.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-italienne-de-grenoble",
-      "name": "Radio Italienne de Grenoble",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/204517/stream/247270",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioitaliennegrenoble.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7563,16 +7563,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8373,16 +8363,6 @@
       "codec": ""
     },
     {
-      "id": "rm:rstlss",
-      "name": "RSTLSS",
-      "country": "FR",
-      "streamUrl": "https://stream.radiosolution.fr/rstlss.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rstlss.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:rtbf-classic-21-metal",
       "name": "RTBF Classic 21 - Metal",
       "country": "FR",
@@ -8678,6 +8658,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9158,16 +9148,6 @@
       "country": "FR",
       "streamUrl": "https://s26.myradiostream.com:11428/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=xmove.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:xiberoko-botza",
-      "name": "Xiberoko botza",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
-      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
