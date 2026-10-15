@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T09:23:26.373Z",
+  "generatedAt": "2026-10-15T09:01:35.117Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2053,16 +2053,6 @@
       "codec": ""
     },
     {
-      "id": "rm:france-antilles-radio",
-      "name": "France Antilles Radio",
-      "country": "FR",
-      "streamUrl": "https://2stream.net/fa_radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -3653,26 +3643,6 @@
       "codec": ""
     },
     {
-      "id": "rm:kizrock-metal",
-      "name": "Kizrock Métal",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock_metal",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:kizrock-rock",
-      "name": "Kizrock Rock",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/kizrock",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -4553,16 +4523,6 @@
       "codec": ""
     },
     {
-      "id": "rm:mayotte-fm",
-      "name": "Mayotte FM",
-      "country": "FR",
-      "streamUrl": "https://live.myradio.yt/mayottefm1",
-      "faviconUrl": "https://static-media.streema.com/media/cache/d1/60/d1602481ab1d1ffcbd3c98b32a93fe0c.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:mbs-gold",
       "name": "MBS Gold",
       "country": "FR",
@@ -4796,7 +4756,7 @@
       "id": "rm:nia-pacifique",
       "name": "NIA Pacifique",
       "country": "FR",
-      "streamUrl": "https://radio.nia.nc/radio/8000/pacific-hq-stream.aac?1772351904",
+      "streamUrl": "https://radio.nia.nc/radio/8000/pacific-hq-stream.aac?1734100041",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=nia.nc&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5843,16 +5803,6 @@
       "codec": ""
     },
     {
-      "id": "rm:pulsradio-2000",
-      "name": "PulsRadio 2000",
-      "country": "FR",
-      "streamUrl": "https://sc3.gergosnet.com/puls00HD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:pulsradio-trance",
       "name": "PulsRadio Trance",
       "country": "FR",
@@ -6098,16 +6048,6 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/brume-campus-lyon/546695",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrume.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-cagnac",
-      "name": "Radio Cagnac",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7173,16 +7113,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-saint-barth",
-      "name": "Radio Saint Barth",
-      "country": "FR",
-      "streamUrl": "https://go.2stream.net/rsb",
-      "faviconUrl": "https://static-media.streema.com/media/cache/fb/d9/fbd94de575f6f4c902ac63fad5e2aad9.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-saint-ferreol",
       "name": "Radio Saint Ferréol",
       "country": "FR",
@@ -7558,6 +7488,16 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8217,16 +8157,6 @@
       "name": "RJR - Radio Jeunes Reims (MP3 128k",
       "country": "FR",
       "streamUrl": "https://stream.rjrradio.fr/rjr.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
-      "name": "RJR - Radio Jeunes Reims (Opus 128k",
-      "country": "FR",
-      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -9148,6 +9078,16 @@
       "country": "FR",
       "streamUrl": "https://s26.myradiostream.com:11428/stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=xmove.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:xiberoko-botza",
+      "name": "Xiberoko botza",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
+      "faviconUrl": "",
       "genre": "",
       "bitrate": 0,
       "codec": ""
