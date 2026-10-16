@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T09:01:35.117Z",
+  "generatedAt": "2026-10-16T08:53:44.059Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -2053,6 +2053,16 @@
       "codec": ""
     },
     {
+      "id": "rm:france-antilles-radio",
+      "name": "France Antilles Radio",
+      "country": "FR",
+      "streamUrl": "https://2stream.net/fa_radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -3638,6 +3648,26 @@
       "country": "FR",
       "streamUrl": "https://radiola.me/listen/kiss_pop_rock/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=kiss-pop-rock.net&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:kizrock-metal",
+      "name": "Kizrock Métal",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock_metal",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:kizrock-rock",
+      "name": "Kizrock Rock",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6053,6 +6083,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-cagnac",
+      "name": "Radio Cagnac",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-campus-bordeaux",
       "name": "Radio campus bordeaux",
       "country": "FR",
@@ -6523,6 +6563,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-gresivaudan-chambery",
+      "name": "Radio Gresivaudan Chambery",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/Radio-Gresivaudan-Chambery",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-gresivaudan.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-heavy-metal",
       "name": "Radio Heavy Metal",
       "country": "FR",
@@ -6668,6 +6718,16 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-lengadoc",
+      "name": "Ràdio Lengadòc",
+      "country": "FR",
+      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/lengadocnarbonne",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lengadoc.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7108,6 +7168,16 @@
       "country": "FR",
       "streamUrl": "https://ecmanager3.pro-fhi.net:1835/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiorwl.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-saint-barth",
+      "name": "Radio Saint Barth",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/rsb",
+      "faviconUrl": "https://static-media.streema.com/media/cache/fb/d9/fbd94de575f6f4c902ac63fad5e2aad9.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7773,16 +7843,6 @@
       "codec": ""
     },
     {
-      "id": "rm:replay-news-eco-francais",
-      "name": "REPLAY NEWS - Eco (Français",
-      "country": "FR",
-      "streamUrl": "https://replaynewseco.ice.infomaniak.ch/replaynewseco-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=replaynews.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:replay-news-sport-francais",
       "name": "REPLAY NEWS - Sport (Français",
       "country": "FR",
@@ -8157,6 +8217,16 @@
       "name": "RJR - Radio Jeunes Reims (MP3 128k",
       "country": "FR",
       "streamUrl": "https://stream.rjrradio.fr/rjr.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rjr-radio-jeunes-reims-opus-128k",
+      "name": "RJR - Radio Jeunes Reims (Opus 128k",
+      "country": "FR",
+      "streamUrl": "https://stream.rjrradio.fr/rjr.ogg",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rjrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
