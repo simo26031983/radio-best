@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T08:53:44.059Z",
+  "generatedAt": "2026-10-17T08:25:00.868Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -276,7 +276,7 @@
       "id": "rm:mars",
       "name": "Radio Mars",
       "country": "MA",
-      "streamUrl": "https://stream3.xdevel.com/audio1s975454-173/stream/icecast.audio",
+      "streamUrl": "https://radiomars.ice.infomaniak.ch/radiomars-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiomars.ma&sz=128",
       "genre": "",
       "bitrate": 0,
