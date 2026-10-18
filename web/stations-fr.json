@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T08:25:00.868Z",
+  "generatedAt": "2026-10-18T08:44:01.448Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -317,6 +317,16 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-uk-garage",
+      "name": "Algorythme UK Garage",
+      "country": "FR",
+      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -1353,6 +1363,16 @@
       "codec": ""
     },
     {
+      "id": "rm:djmxiradio",
+      "name": "Djmxiradio",
+      "country": "FR",
+      "streamUrl": "https://radio4.pro-fhi.net/flux-rjwfxyhz/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/7e/42/7e42c1d6ede2249184d9e5da0a074528.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:douce-france",
       "name": "Douce France",
       "country": "FR",
@@ -1508,6 +1528,26 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-sd",
+      "name": "Europa Radio Jazz SD",
+      "country": "FR",
+      "streamUrl": "https://streams.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3693,16 +3733,6 @@
       "codec": ""
     },
     {
-      "id": "rm:la-grande-ourse",
-      "name": "La Grande Ourse",
-      "country": "FR",
-      "streamUrl": "https://cast.lagrandeourse.radio.fm/listen/radio/live.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lagrandeourse.radio.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:la-grosse-radio-metal-192-kbit-s",
       "name": "La Grosse Radio METAL - 192 kbit/s",
       "country": "FR",
@@ -3793,40 +3823,10 @@
       "codec": ""
     },
     {
-      "id": "rm:latina-work",
-      "name": "Latina @work",
-      "country": "FR",
-      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-fiesta",
-      "name": "Latina fiesta",
-      "country": "FR",
-      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:latina-reggaeton",
-      "name": "Latina reggaeton",
-      "country": "FR",
-      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -4438,16 +4438,6 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5697,6 +5687,16 @@
       "name": "Public Health Radio Espanol",
       "country": "FR",
       "streamUrl": "https://publichealthradioes.ice.infomaniak.ch/publichealthradioes-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7523,16 +7523,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8416,7 +8406,7 @@
       "id": "rm:rvr",
       "name": "RVR",
       "country": "FR",
-      "streamUrl": "https://live.aurafm.org:7443/rvr-tarareplata",
+      "streamUrl": "https://italymusic.stream.laut.fm/italymusic?t302=2025-02-25_22-42-40&uuid=9befc61c-117b-4108-b8da-60675b605924",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rvrradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8618,16 +8608,6 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:stone-rock-radio",
-      "name": "Stone Rock Radio",
-      "country": "FR",
-      "streamUrl": "https://stonerockradio.radioca.st/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
