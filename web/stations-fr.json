@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T08:44:01.448Z",
+  "generatedAt": "2026-10-19T09:44:35.731Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -68,16 +68,6 @@
       "country": "FR",
       "streamUrl": "https://str1.openstream.co/589",
       "faviconUrl": "https://static-media.streema.com/media/cache/23/84/2384428d21b0bc3892c9b59dbfb52116.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:abc-relax",
-      "name": "ABC Relax",
-      "country": "FR",
-      "streamUrl": "https://listen.abcrelax.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=abcrelax.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2383,16 +2373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-hit",
-      "name": "Fréquence Hit",
-      "country": "FR",
-      "streamUrl": "https://stream.frequencehit.com/frequencehit.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequencehit.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-luz",
       "name": "Frequence Luz",
       "country": "FR",
@@ -3006,18 +2986,8 @@
       "id": "rm:hotmix",
       "name": "hotmix",
       "country": "FR",
-      "streamUrl": "https://streaming.hotmixradio.com/hotmix-frenchy-fr-mp3?",
+      "streamUrl": "https://streaming.hotmixradio.fr/hotmix-blues-en-mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=web.hotmixradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:hotmix-happy",
-      "name": "Hotmix - Happy",
-      "country": "FR",
-      "streamUrl": "https://streaming.hotmixradio.fr/hotmix-happy-en-mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/6e/fd/6efdda12fbb4d24a94dca5934d802a81.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3733,6 +3703,16 @@
       "codec": ""
     },
     {
+      "id": "rm:la-grande-ourse",
+      "name": "La Grande Ourse",
+      "country": "FR",
+      "streamUrl": "https://cast.lagrandeourse.radio.fm/listen/radio/live.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=lagrandeourse.radio.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:la-grosse-radio-metal-192-kbit-s",
       "name": "La Grosse Radio METAL - 192 kbit/s",
       "country": "FR",
@@ -3823,10 +3803,40 @@
       "codec": ""
     },
     {
+      "id": "rm:latina-work",
+      "name": "Latina @work",
+      "country": "FR",
+      "streamUrl": "https://latinawork.ice.infomaniak.ch/latinawork.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:latina-bachata",
       "name": "Latina bachata",
       "country": "FR",
       "streamUrl": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-fiesta",
+      "name": "Latina fiesta",
+      "country": "FR",
+      "streamUrl": "https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:latina-reggaeton",
+      "name": "Latina reggaeton",
+      "country": "FR",
+      "streamUrl": "https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=latina.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6423,16 +6433,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-fuori-campo",
-      "name": "Radio Fuori Campo",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/397948/stream/449947",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuoricampo.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-fusion",
       "name": "RADIO FUSION",
       "country": "FR",
@@ -7523,6 +7523,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio230",
       "name": "Radio230",
       "country": "FR",
@@ -8608,6 +8618,16 @@
       "country": "FR",
       "streamUrl": "https://stream.lastationb.fr/stationb",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lastationb.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:stone-rock-radio",
+      "name": "Stone Rock Radio",
+      "country": "FR",
+      "streamUrl": "https://stonerockradio.radioca.st/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stonerockradio.wixsite.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
