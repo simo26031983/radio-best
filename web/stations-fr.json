@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T09:44:35.731Z",
+  "generatedAt": "2026-10-20T09:17:55.117Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -68,6 +68,16 @@
       "country": "FR",
       "streamUrl": "https://str1.openstream.co/589",
       "faviconUrl": "https://static-media.streema.com/media/cache/23/84/2384428d21b0bc3892c9b59dbfb52116.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:abc-relax",
+      "name": "ABC Relax",
+      "country": "FR",
+      "streamUrl": "https://listen.abcrelax.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=abcrelax.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -723,16 +733,6 @@
       "codec": ""
     },
     {
-      "id": "rm:bfmbiz",
-      "name": "BFM Business",
-      "country": "FR",
-      "streamUrl": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=bfmtv.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:bfm-radio",
       "name": "BFM radio",
       "country": "FR",
@@ -1283,16 +1283,6 @@
       "codec": ""
     },
     {
-      "id": "rm:d4b",
-      "name": "D4B",
-      "country": "FR",
-      "streamUrl": "https://d4b.ice.infomaniak.ch/d4b-96.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiod4b.asso.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:dhectar",
       "name": "DHECTAR",
       "country": "FR",
@@ -1546,27 +1536,7 @@
       "id": "rm:europe1",
       "name": "Europe 1",
       "country": "FR",
-      "streamUrl": "https://stream.europe1.fr/europe1.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europe1.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europe-1-musique",
-      "name": "Europe 1 Musique",
-      "country": "FR",
       "streamUrl": "https://wr.lmn.fm/e1-wr5.aac?aw_0_1st.playerid=lgrdnwsRadioplayer",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europe1.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europe-1-musique-classique",
-      "name": "Europe 1 Musique Classique",
-      "country": "FR",
-      "streamUrl": "https://wr.lmn.fm/e1-wr3.aac?aw_0_1st.playerid=lgrdnwsRadioplayer",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=europe1.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -1576,18 +1546,8 @@
       "id": "rm:europe2",
       "name": "Europe 2",
       "country": "FR",
-      "streamUrl": "https://europe2.lmn.fm/europe2.mp3",
+      "streamUrl": "https://europe2.lmn.fm/vr-wr8.mp3?aw_0_1st.playerid=lagardereappVirgin",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=europe2.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europe-2-100-french",
-      "name": "Europe 2 - 100% French",
-      "country": "FR",
-      "streamUrl": "https://europe2.lmn.fm/vr-wr9.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/46/5e/465ea1c2b2ece357dccc6a996d64a732.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2373,6 +2333,16 @@
       "codec": ""
     },
     {
+      "id": "rm:frequence-hit",
+      "name": "Fréquence Hit",
+      "country": "FR",
+      "streamUrl": "https://stream.frequencehit.com/frequencehit.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequencehit.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:frequence-luz",
       "name": "Frequence Luz",
       "country": "FR",
@@ -2988,6 +2958,16 @@
       "country": "FR",
       "streamUrl": "https://streaming.hotmixradio.fr/hotmix-blues-en-mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=web.hotmixradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hotmix-happy",
+      "name": "Hotmix - Happy",
+      "country": "FR",
+      "streamUrl": "https://streaming.hotmixradio.fr/hotmix-happy-en-mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/6e/fd/6efdda12fbb4d24a94dca5934d802a81.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3843,16 +3823,6 @@
       "codec": ""
     },
     {
-      "id": "rm:latitude",
-      "name": "Latitude",
-      "country": "FR",
-      "streamUrl": "https://latitude.ice.infomaniak.ch/troyes.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=latitude.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:laurent-dine-iglesias",
       "name": "Laurent DINE IGLESIAS",
       "country": "FR",
@@ -4448,6 +4418,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6433,6 +6413,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-fuori-campo",
+      "name": "Radio Fuori Campo",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/397948/stream/449947",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofuoricampo.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-fusion",
       "name": "RADIO FUSION",
       "country": "FR",
@@ -7538,16 +7528,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radiocanut",
-      "name": "RadioCanut",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/radiocanut",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
