@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T09:14:26.569Z",
+  "generatedAt": "2026-10-22T09:17:16.586Z",
   "stations": [
     {
-      "id": "rm:1-splash-jazz",
-      "name": "1 Splash Jazz",
+      "id": "rm:100-pop-new-wave",
+      "name": "100% POP - NEW WAVE",
       "country": "FR",
-      "streamUrl": "https://ais-sa2.cdnstream1.com/2346_128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
+      "streamUrl": "https://streaming.brol.tech/jamendolounge",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rb.gy&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -18,6 +18,16 @@
       "country": "FR",
       "streamUrl": "https://100radio-carcassonne.ice.infomaniak.ch/100radio-carcassonne-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=centpourcent.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:1000-hits-90s",
+      "name": "1000 Hits 90s",
+      "country": "FR",
+      "streamUrl": "https://c4.auracast.net:8050/;",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1528,6 +1538,16 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3318,6 +3338,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/384/stream/1613",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=in2mixxradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:info-rc",
+      "name": "Info RC",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/InfoRC",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=inforc.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5723,6 +5753,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6298,16 +6338,6 @@
       "country": "FR",
       "streamUrl": "https://flux.radiody10.com/fallback.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiody10.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-dynamo",
-      "name": "Radio Dynamo",
-      "country": "FR",
-      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7568,6 +7598,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radio230.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio230.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radiocanut",
+      "name": "RadioCanut",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/radiocanut",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
