@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T09:17:16.586Z",
+  "generatedAt": "2026-10-23T09:13:00.849Z",
   "stations": [
     {
-      "id": "rm:100-pop-new-wave",
-      "name": "100% POP - NEW WAVE",
+      "id": "rm:1-splash-jazz",
+      "name": "1 Splash Jazz",
       "country": "FR",
-      "streamUrl": "https://streaming.brol.tech/jamendolounge",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rb.gy&sz=128",
+      "streamUrl": "https://ais-sa2.cdnstream1.com/2346_128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1098,36 +1098,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/422/stream/62785",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cinemusic.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2616,18 +2586,8 @@
       "id": "rm:generation-soul",
       "name": "génération Soul",
       "country": "FR",
-      "streamUrl": "https://gestream.fr/g-radio-hd.mp3",
+      "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.mp3",
       "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:generation-soul-disco-funk",
-      "name": "GENERATION SOUL DISCO FUNK",
-      "country": "FR",
-      "streamUrl": "https://gestream.fr/g-radio-sd.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=generationdiscofunk.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5163,16 +5123,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nrj-nouveaux-hits-dance",
-      "name": "NRJ - NOUVEAUX HITS DANCE",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/oun39nqn5eyc?origine=streema&amp;aw_0_1st.station=NRJ-Nouveaux-Hits-Dance",
-      "faviconUrl": "https://static-media.streema.com/media/cache/3b/07/3b07af90f37e13fee373c161c5279986.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nrj-pop-2026",
       "name": "NRJ - Pop 2026",
       "country": "FR",
@@ -6043,36 +5993,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-brony",
-      "name": "Radio Brony",
-      "country": "FR",
-      "streamUrl": "https://radiobrony.live/aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-brony-aac",
-      "name": "Radio Brony (AAC",
-      "country": "FR",
-      "streamUrl": "https://radiobrony.live/aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-brony-ogg",
-      "name": "Radio Brony (OGG",
-      "country": "FR",
-      "streamUrl": "https://radio.radiobrony.fr/ogg",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-broussaille",
       "name": "Radio Broussaille",
       "country": "FR",
@@ -6183,16 +6103,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6218,16 +6128,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/251653/stream/296545",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocollection.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-contact-vosges",
-      "name": "Radio Contact Vosges",
-      "country": "FR",
-      "streamUrl": "https://s2.ssl-stream.com/listen/radio_contact/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rcvradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6338,6 +6238,16 @@
       "country": "FR",
       "streamUrl": "https://flux.radiody10.com/fallback.m3u",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiody10.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-dynamo",
+      "name": "Radio Dynamo",
+      "country": "FR",
+      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6748,16 +6658,6 @@
       "country": "FR",
       "streamUrl": "https://stream-ssl.radios-arra.fr:8443/lengadocnarbonne",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lengadoc.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-marseillette",
-      "name": "Radio Marseillette",
-      "country": "FR",
-      "streamUrl": "https://rcast.pro-fhi.net:9006/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=marseillettefm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7578,16 +7478,6 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-shoppe-com",
-      "name": "radio-shoppe.com",
-      "country": "FR",
-      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
