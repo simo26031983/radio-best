@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T09:13:00.849Z",
+  "generatedAt": "2026-10-24T08:46:10.455Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1103,6 +1103,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1118,16 +1148,6 @@
       "country": "FR",
       "streamUrl": "https://myradiostream.com/embed/assets/mp3/test.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cobfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:cocorico-radio",
-      "name": "Cocorico Radio",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/cocorico",
-      "faviconUrl": "https://static-media.streema.com/media/cache/7f/8c/7f8c5700243b18bf8d63c352a28512fa.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2353,16 +2373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:frequence-des-loisirs-100-4",
-      "name": "Fréquence Des Loisirs 100.4",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
-      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:frequence-hit",
       "name": "Fréquence Hit",
       "country": "FR",
@@ -2588,6 +2598,16 @@
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.mp3",
       "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generation-soul-disco-funk",
+      "name": "GENERATION SOUL DISCO FUNK",
+      "country": "FR",
+      "streamUrl": "https://gestream.fr/g-radio-sd.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=generationdiscofunk.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4183,16 +4203,6 @@
       "codec": ""
     },
     {
-      "id": "rm:m12prod-urban-radio",
-      "name": "M12Prod Urban Radio",
-      "country": "FR",
-      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -4676,7 +4686,7 @@
       "id": "rm:mon-tout-petit-france-inter",
       "name": "Mon tout petit France Inter",
       "country": "FR",
-      "streamUrl": "https://stream.radiofrance.fr/montoutpetitfranceinter/montoutpetitfranceinter_hifi.m3u8?id=radiofrance",
+      "streamUrl": "https://stream.radiofrance.fr/monpetitfranceinter/monpetitfranceinter_hifi.m3u8?id=radiofrance",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiofrance.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6103,6 +6113,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -7478,6 +7498,16 @@
       "country": "FR",
       "streamUrl": "https://zig.syndicastream.fr:8443/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiozigzag.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-shoppe-com",
+      "name": "radio-shoppe.com",
+      "country": "FR",
+      "streamUrl": "https://stream.radio-shoppe.ydns.eu/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-shoppe.ydns.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
