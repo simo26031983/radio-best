@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T09:02:12.409Z",
+  "generatedAt": "2026-10-26T09:56:18.026Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -38,26 +38,6 @@
       "country": "FR",
       "streamUrl": "https://c4.auracast.net:8050/;",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=splashradio.eu&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:4u-70s-flower",
-      "name": "4U 70s Flower",
-      "country": "FR",
-      "streamUrl": "https://str4uice.streamakaci.com/4u70s.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=4urock.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:4u-classic-rock",
-      "name": "4U Classic Rock",
-      "country": "FR",
-      "streamUrl": "https://str4uice.streamakaci.com/4uclassicrock.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=4urock.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1463,16 +1443,6 @@
       "codec": ""
     },
     {
-      "id": "rm:efr12-radio",
-      "name": "EFR12 Radio",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/151768/stream/192217",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=efr12.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:egregore-radio",
       "name": "Egregore Radio",
       "country": "FR",
@@ -2083,6 +2053,16 @@
       "codec": ""
     },
     {
+      "id": "rm:france-antilles-radio",
+      "name": "France Antilles Radio",
+      "country": "FR",
+      "streamUrl": "https://2stream.net/fa_radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=martinique.franceantilles.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:france-bleu-100-chanson-francaise",
       "name": "France Bleu 100% chanson française",
       "country": "FR",
@@ -2393,6 +2373,16 @@
       "codec": ""
     },
     {
+      "id": "rm:frequence-des-loisirs-100-4",
+      "name": "Fréquence Des Loisirs 100.4",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1215/stream",
+      "faviconUrl": "https://static-media.streema.com/media/cache/33/d7/33d7e58838c6c07b6d9f785d1d21c301.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:frequence-hit",
       "name": "Fréquence Hit",
       "country": "FR",
@@ -2428,6 +2418,16 @@
       "country": "FR",
       "streamUrl": "https://azuracast.fmistral-serveur.com/listen/fm_gap/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/86/0f/860f2f2dc9458e2c766fd1dbe3fdbe5f.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:frequence-sille",
+      "name": "Fréquence Sillé",
+      "country": "FR",
+      "streamUrl": "https://stric6.streamakaci.com/frequencesille.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=frequence-sille.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3653,6 +3653,26 @@
       "codec": ""
     },
     {
+      "id": "rm:kizrock-metal",
+      "name": "Kizrock Métal",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock_metal",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:kizrock-rock",
+      "name": "Kizrock Rock",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/kizrock",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=kizrock.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:klm-fm",
       "name": "KLM FM",
       "country": "FR",
@@ -4008,6 +4028,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/200437/stream/243028",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=levillagepop.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:les-enfants-du-rhone",
+      "name": "Les enfants du Rhône",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/les-enfants-du-rhone",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=ledr.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6013,6 +6043,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-cagnac",
+      "name": "Radio Cagnac",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/cagnac_sd.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocagnac.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-campus-bordeaux",
       "name": "Radio campus bordeaux",
       "country": "FR",
@@ -7098,6 +7138,16 @@
       "country": "FR",
       "streamUrl": "https://ecmanager3.pro-fhi.net:1835/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiorwl.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-saint-barth",
+      "name": "Radio Saint Barth",
+      "country": "FR",
+      "streamUrl": "https://go.2stream.net/rsb",
+      "faviconUrl": "https://static-media.streema.com/media/cache/fb/d9/fbd94de575f6f4c902ac63fad5e2aad9.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9058,6 +9108,16 @@
       "country": "FR",
       "streamUrl": "https://start-witfm.ice.infomaniak.ch/start-witfm-high.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=witfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:x-move",
+      "name": "X-Move",
+      "country": "FR",
+      "streamUrl": "https://s26.myradiostream.com:11428/stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=xmove.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
