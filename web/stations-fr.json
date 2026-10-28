@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T09:41:37.511Z",
+  "generatedAt": "2026-10-28T10:26:41.899Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1203,6 +1203,16 @@
       "codec": ""
     },
     {
+      "id": "rm:cote-sud-fm",
+      "name": "COTE SUD FM",
+      "country": "FR",
+      "streamUrl": "https://sd-151888.dedibox.fr/proxy/cotesud/csfm",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=cotesudfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:couleurs-jazz",
       "name": "Couleurs JAZZ",
       "country": "FR",
@@ -1538,6 +1548,26 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-hd",
+      "name": "Europa Radio Jazz HD",
+      "country": "FR",
+      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:europa-radio-jazz-sd",
+      "name": "Europa Radio Jazz SD",
+      "country": "FR",
+      "streamUrl": "https://streams.radiomast.io/e947f0b4-cf71-4ed7-934d-2f4661acb0a3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3343,46 +3373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:isekoi-radio",
-      "name": "ISEKOI Radio",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-chill-zone",
-      "name": "ISEKOI Radio - Chill Zone",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/24/48/2448531a36214e749d454b60776c2951.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-chill-zone-2",
-      "name": "ISEKOI Radio | Chill Zone",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.flac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:isekoi-radio-non-stop-ambient",
-      "name": "ISEKOI Radio | Non-Stop Ambient",
-      "country": "FR",
-      "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:jack-rocks-live",
       "name": "Jack Rocks LIVE",
       "country": "FR",
@@ -4913,16 +4903,6 @@
       "codec": ""
     },
     {
-      "id": "rm:nostalgie-tous-les-tubes",
-      "name": "Nostalgie - Tous Les Tubes 80",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ougfjarb92oc?origine=streema&amp;aw_0_1st.station=Nostalgie-Tous-les-Tubes-80",
-      "faviconUrl": "https://static-media.streema.com/media/cache/ec/55/ec559798138958a2aae63e2e41189820.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:nostalgie-vos-pepites",
       "name": "Nostalgie - Vos Pepites 80",
       "country": "FR",
@@ -5743,6 +5723,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-sante-generation-seniors",
+      "name": "Public Santé Génération Seniors",
+      "country": "FR",
+      "streamUrl": "https://publicsantegenerationsenior.ice.infomaniak.ch/publicsantegenerationsenior-192.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-sante-loisirs-sports",
       "name": "Public Santé Loisirs & Sports",
       "country": "FR",
@@ -6268,6 +6258,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.radiomedia.fr:2005/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiorec.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-equinoxe",
+      "name": "Radio Equinoxe",
+      "country": "FR",
+      "streamUrl": "https://s6.citrus3.com/stream/radioequinoxe",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioequinoxe.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7323,6 +7323,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-temps-rodez",
+      "name": "Radio Temps Rodez",
+      "country": "FR",
+      "streamUrl": "https://sd-151888.dedibox.fr/proxy/radiotemps/rtr",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotemps.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-titine",
       "name": "Radio Titine",
       "country": "FR",
@@ -7667,6 +7677,16 @@
       "name": "RDWA",
       "country": "FR",
       "streamUrl": "https://live.aurafm.org/R-Dwa",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rdwa-luc",
+      "name": "RDWA Luc",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/R-Dwa-LUC",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8278,6 +8298,16 @@
       "country": "FR",
       "streamUrl": "https://l.rootslegacy.fr/;",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rootslegacy.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rstlss",
+      "name": "RSTLSS",
+      "country": "FR",
+      "streamUrl": "https://stream.radiosolution.fr/rstlss.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rstlss.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
