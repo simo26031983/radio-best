@@ -42,6 +42,7 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.touti.score.model.Announce
 import com.touti.score.model.GameState
 import com.touti.score.model.Rules
 import com.touti.score.model.Team
@@ -55,6 +56,8 @@ fun SetupScreen(
     initial: GameState,
     editing: Boolean,
     onCancel: () -> Unit,
+    arabicVoiceAvailable: Boolean?,
+    onTestVoice: (TeamInfo, TeamInfo, Announce) -> Unit,
     onConfirm: (TeamInfo, TeamInfo, Rules, Int) -> Unit,
 ) {
     var nameA by rememberSaveable { mutableStateOf(initial.teamA.name) }
@@ -65,11 +68,15 @@ fun SetupScreen(
     var b2 by rememberSaveable { mutableStateOf(initial.teamB.players[1]) }
     var target by rememberSaveable { mutableIntStateOf(initial.rules.target) }
     var firstDealer by rememberSaveable { mutableIntStateOf(initial.firstDealer) }
+    var announce by rememberSaveable { mutableStateOf(initial.rules.announce) }
 
     fun orDefault(value: String, fallback: String) = value.trim().ifEmpty { fallback }
     val seats = remember(a1, a2, b1, b2) {
         listOf(orDefault(a1, "Joueur 1"), orDefault(b1, "Joueur 2"), orDefault(a2, "Joueur 3"), orDefault(b2, "Joueur 4"))
     }
+
+    fun teamA() = TeamInfo(orDefault(nameA, "Équipe A"), listOf(seats[0], seats[2]))
+    fun teamB() = TeamInfo(orDefault(nameB, "Équipe B"), listOf(seats[1], seats[3]))
 
     Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         Column(
@@ -125,13 +132,44 @@ fun SetupScreen(
                 }
             }
 
+            Section("🔊 Annonce du score à voix haute") {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    listOf(
+                        Announce.BOTH to "Français + العربية",
+                        Announce.FRENCH to "Français",
+                        Announce.ARABIC to "العربية",
+                    ).forEach { (value, label) ->
+                        FilterChip(
+                            selected = announce == value,
+                            onClick = { announce = value },
+                            label = { Text(label) },
+                        )
+                    }
+                }
+                TextButton(onClick = { onTestVoice(teamA(), teamB(), announce) }) { Text("▶ Écouter un exemple") }
+                if (arabicVoiceAvailable == false && announce != Announce.FRENCH) {
+                    Text(
+                        "⚠️ Pas de voix arabe sur ce téléphone : installe-la dans Paramètres › Synthèse vocale " +
+                            "(moteur Google › Installer des données vocales › العربية).",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.error,
+                    )
+                }
+                Text(
+                    "Astuce : écris le nom d'une équipe en arabe pour que la voix arabe le prononce ; " +
+                        "sinon elle dit « l'équipe verte » ou « l'équipe rouge ».",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+
             Spacer(Modifier.height(4.dp))
             Button(
                 onClick = {
                     onConfirm(
-                        TeamInfo(orDefault(nameA, "Équipe A"), listOf(seats[0], seats[2])),
-                        TeamInfo(orDefault(nameB, "Équipe B"), listOf(seats[1], seats[3])),
-                        Rules(target),
+                        teamA(),
+                        teamB(),
+                        Rules(target, announce, initial.rules.muted),
                         firstDealer,
                     )
                 },

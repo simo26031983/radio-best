@@ -23,6 +23,8 @@ fun ToutiApp(viewModel: GameViewModel) {
                 initial = state,
                 editing = viewModel.editingSetup,
                 onCancel = viewModel::cancelEditSetup,
+                arabicVoiceAvailable = viewModel.arabicVoiceAvailable,
+                onTestVoice = viewModel::testVoice,
                 onConfirm = viewModel::startOrSave,
             )
         } else {

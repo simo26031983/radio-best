@@ -9,9 +9,15 @@ enum class Team {
     val other: Team get() = if (this == A) B else A
 }
 
+/** Which languages the score is read out in after each round. */
+@Serializable
+enum class Announce { BOTH, FRENCH, ARABIC }
+
 @Serializable
 data class Rules(
     val target: Int = 600,
+    val announce: Announce = Announce.BOTH,
+    val muted: Boolean = false,
 )
 
 /** One deal: the team that won it scores exactly the bid, the other team scores nothing. */

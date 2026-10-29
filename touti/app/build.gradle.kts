@@ -12,8 +12,19 @@ android {
         applicationId = "com.touti.score"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.1.0"
+        versionCode = 3
+        versionName = "1.2.0"
+    }
+
+    signingConfigs {
+        // A committed debug key (no secret here) so every CI build is signed the same way
+        // and a new APK installs over the old one, keeping the saved game.
+        getByName("debug") {
+            storeFile = file("touti-debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
     }
 
     buildTypes {

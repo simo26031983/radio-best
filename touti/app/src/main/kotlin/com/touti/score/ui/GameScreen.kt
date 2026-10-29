@@ -101,6 +101,9 @@ fun GameScreen(viewModel: GameViewModel) {
                         actionIconContentColor = MaterialTheme.colorScheme.onPrimary,
                     ),
                     actions = {
+                        TextButton(onClick = { viewModel.toggleMuted() }) {
+                            Text(if (game.rules.muted) "🔇" else "🔊", fontSize = 20.sp)
+                        }
                         if (game.rounds.isNotEmpty()) {
                             TextButton(onClick = { viewModel.undoLastRound() }) {
                                 Text("↩ Annuler", color = MaterialTheme.colorScheme.onPrimary, fontWeight = FontWeight.Bold)

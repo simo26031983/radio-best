@@ -6,11 +6,14 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import com.touti.score.data.GameStore
+import com.touti.score.model.Announce
 import com.touti.score.model.GameState
 import com.touti.score.model.Round
+import com.touti.score.model.Speech
 import com.touti.score.model.Rules
 import com.touti.score.model.Team
 import com.touti.score.model.TeamInfo
+import com.touti.score.speech.Announcer
 
 class GameViewModel(application: Application) : AndroidViewModel(application) {
     private val store = GameStore(application)
@@ -21,6 +24,12 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
     /** True while the setup screen is shown on top of a running game. */
     var editingSetup by mutableStateOf(false)
         private set
+
+    /** Null until the speech engine has started; false if the phone has no Arabic voice. */
+    var arabicVoiceAvailable by mutableStateOf<Boolean?>(null)
+        private set
+
+    private val announcer = Announcer(application) { arabicVoiceAvailable = it }
 
     private fun update(transform: (GameState) -> GameState) {
         state = transform(state)
@@ -40,7 +49,19 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
         editingSetup = false
     }
 
-    fun addRound(round: Round) = update { it.copy(rounds = it.rounds + round) }
+    fun addRound(round: Round) {
+        update { it.copy(rounds = it.rounds + round) }
+        if (!state.rules.muted) announcer.say(Speech.afterRound(state, round))
+    }
+
+    fun toggleMuted() = update { it.copy(rules = it.rules.copy(muted = !it.rules.muted)) }
+
+    fun testVoice(teamA: TeamInfo, teamB: TeamInfo, announce: Announce) =
+        announcer.say(Speech.sample(teamA, teamB, announce))
+
+    override fun onCleared() {
+        announcer.shutdown()
+    }
 
     fun removeRound(index: Int) = update { it.copy(rounds = it.rounds.filterIndexed { i, _ -> i != index }) }
 
