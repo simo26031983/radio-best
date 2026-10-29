@@ -1,6 +1,11 @@
 package com.touti.score.model
 
-enum class Lang { FR, AR }
+enum class Lang {
+    FR,
+
+    /** Moroccan darija, written in Arabic script for the phone's Arabic voice. */
+    DARIJA,
+}
 
 data class Line(val lang: Lang, val text: String)
 
@@ -31,9 +36,9 @@ object Speech {
             Lang.FR ->
                 "Plus ${round.bid} pour ${game.team(round.winner).name}. " +
                     "Score : ${game.teamA.name} $a, ${game.teamB.name} $b."
-            Lang.AR ->
-                "${arabicName(game, round.winner)}، زائد ${round.bid}. " +
-                    "النتيجة: ${arabicName(game, Team.A)} $a، ${arabicName(game, Team.B)} $b."
+            Lang.DARIJA ->
+                "${arabicName(game, round.winner)} داو ${Darija.number(round.bid)}. " +
+                    "دابا: ${arabicName(game, Team.A)} ${Darija.number(a)}، ${arabicName(game, Team.B)} ${Darija.number(b)}."
         }
     }
 
@@ -42,7 +47,7 @@ object Speech {
         val l = game.total(winner.other)
         return when (lang) {
             Lang.FR -> "Mabrouk ! Victoire pour ${game.team(winner).name}, $w à $l !"
-            Lang.AR -> "مبروك! فاز ${arabicName(game, winner)} بالطرح، $w مقابل $l!"
+            Lang.DARIJA -> "مبروك! ${arabicName(game, winner)} ربحو الطرح، ${Darija.number(w)} على ${Darija.number(l)}!"
         }
     }
 
@@ -54,14 +59,14 @@ object Speech {
         val name = game.team(team).name
         return when {
             name.any { it in '؀'..'ۿ' } -> name
-            team == Team.A -> "الفريق الأخضر"
-            else -> "الفريق الأحمر"
+            team == Team.A -> "الفرقة الخضرا"
+            else -> "الفرقة الحمرا"
         }
     }
 
     private fun Announce.langs(): List<Lang> = when (this) {
-        Announce.BOTH -> listOf(Lang.FR, Lang.AR)
+        Announce.BOTH -> listOf(Lang.FR, Lang.DARIJA)
         Announce.FRENCH -> listOf(Lang.FR)
-        Announce.ARABIC -> listOf(Lang.AR)
+        Announce.ARABIC -> listOf(Lang.DARIJA)
     }
 }

@@ -135,9 +135,9 @@ fun SetupScreen(
             Section("🔊 Annonce du score à voix haute") {
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     listOf(
-                        Announce.BOTH to "Français + العربية",
+                        Announce.BOTH to "Français + الدارجة",
                         Announce.FRENCH to "Français",
-                        Announce.ARABIC to "العربية",
+                        Announce.ARABIC to "الدارجة",
                     ).forEach { (value, label) ->
                         FilterChip(
                             selected = announce == value,
@@ -149,15 +149,15 @@ fun SetupScreen(
                 TextButton(onClick = { onTestVoice(teamA(), teamB(), announce) }) { Text("▶ Écouter un exemple") }
                 if (arabicVoiceAvailable == false && announce != Announce.FRENCH) {
                     Text(
-                        "⚠️ Pas de voix arabe sur ce téléphone : installe-la dans Paramètres › Synthèse vocale " +
+                        "⚠️ Pas de voix arabe sur ce téléphone (la darija utilise la voix arabe) : installe-la dans Paramètres › Synthèse vocale " +
                             "(moteur Google › Installer des données vocales › العربية).",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.error,
                     )
                 }
                 Text(
-                    "Astuce : écris le nom d'une équipe en arabe pour que la voix arabe le prononce ; " +
-                        "sinon elle dit « l'équipe verte » ou « l'équipe rouge ».",
+                    "Astuce : écris le nom d'une équipe en lettres arabes pour qu'il soit dit en darija ; " +
+                        "sinon la voix dit « الفرقة الخضرا » ou « الفرقة الحمرا ».",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )

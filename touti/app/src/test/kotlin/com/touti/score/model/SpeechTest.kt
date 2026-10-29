@@ -6,14 +6,14 @@ import org.junit.Test
 class SpeechTest {
 
     @Test
-    fun readsRoundValueThenScoreInFrenchThenArabic() {
+    fun readsRoundValueThenScoreInFrenchThenDarija() {
         val round = Round(Team.A, 70)
         val game = GameState(rounds = listOf(Round(Team.B, 90), round))
         val lines = Speech.afterRound(game, round)
         assertEquals(
             listOf(
                 Line(Lang.FR, "Plus 70 pour Les Lions. Score : Les Lions 70, Les Aigles 90."),
-                Line(Lang.AR, "الفريق الأخضر، زائد 70. النتيجة: الفريق الأخضر 70، الفريق الأحمر 90."),
+                Line(Lang.DARIJA, "الفرقة الخضرا داو سبعين. دابا: الفرقة الخضرا سبعين، الفرقة الحمرا تسعين."),
             ),
             lines,
         )
@@ -30,6 +30,19 @@ class SpeechTest {
     fun arabicTeamNamesAreKept() {
         val game = GameState(teamA = TeamInfo("السباع", listOf("a", "b")))
         assertEquals("السباع", Speech.arabicName(game, Team.A))
-        assertEquals("الفريق الأحمر", Speech.arabicName(game, Team.B))
+        assertEquals("الفرقة الحمرا", Speech.arabicName(game, Team.B))
+    }
+
+    @Test
+    fun spellsNumbersInDarija() {
+        assertEquals("سبعين", Darija.number(70))
+        assertEquals("مية", Darija.number(100))
+        assertEquals("مية و عشرة", Darija.number(110))
+        assertEquals("مية و سبعين", Darija.number(170))
+        assertEquals("ميتين و تلاتين", Darija.number(230))
+        assertEquals("ست مية و عشرة", Darija.number(610))
+        assertEquals("ألف و ميتين", Darija.number(1200))
+        assertEquals("خمسة و عشرين", Darija.number(25))
+        assertEquals("صفر", Darija.number(0))
     }
 }
