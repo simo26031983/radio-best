@@ -43,6 +43,8 @@ data class TeamInfo(
     val players: List<String>,
 )
 
+private const val MAX_HISTORY = 500
+
 /** A finished game, kept in the history. Names are copied so renaming teams later doesn't rewrite it. */
 @Serializable
 data class PlayedGame(
@@ -117,9 +119,5 @@ data class GameState(
     fun archived(endedAt: Long): GameState {
         val played = toPlayedGame(endedAt) ?: return this
         return copy(history = (history + played).takeLast(MAX_HISTORY))
-    }
-
-    private companion object {
-        const val MAX_HISTORY = 500
     }
 }
