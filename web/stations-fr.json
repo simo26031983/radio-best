@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T10:26:41.899Z",
+  "generatedAt": "2026-10-29T10:46:38.291Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -3368,6 +3368,46 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:1365/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=irulegikoirratia.eus&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio",
+      "name": "ISEKOI Radio",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone",
+      "name": "ISEKOI Radio - Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/24/48/2448531a36214e749d454b60776c2951.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-chill-zone-2",
+      "name": "ISEKOI Radio | Chill Zone",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:isekoi-radio-non-stop-ambient",
+      "name": "ISEKOI Radio | Non-Stop Ambient",
+      "country": "FR",
+      "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=isekoi-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6843,6 +6883,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-nova-la-plage",
+      "name": "Radio Nova - La Plage",
+      "country": "FR",
+      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-nunc",
       "name": "Radio Nunc",
       "country": "FR",
@@ -7323,16 +7373,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-temps-rodez",
-      "name": "Radio Temps Rodez",
-      "country": "FR",
-      "streamUrl": "https://sd-151888.dedibox.fr/proxy/radiotemps/rtr",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotemps.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-titine",
       "name": "Radio Titine",
       "country": "FR",
@@ -7386,7 +7426,7 @@
       "id": "rm:radio-univers",
       "name": "Radio Univers",
       "country": "FR",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHAGTAAC.aac",
+      "streamUrl": "https://stream4.vestaradio.com/RadioUnivers",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-univers.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7858,6 +7898,16 @@
       "country": "FR",
       "streamUrl": "https://replaynewskr.ice.infomaniak.ch/replaynewskr-128.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/1a/d4/1ad474e54e95a0fcbb1c8003519586fd.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:replay-news-polish",
+      "name": "Replay News Polish",
+      "country": "FR",
+      "streamUrl": "https://replaynewspl.ice.infomaniak.ch/replaynewspl-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=replaynewspl.ice.infomaniak.ch&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
