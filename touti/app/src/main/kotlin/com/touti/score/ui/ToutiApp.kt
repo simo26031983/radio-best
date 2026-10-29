@@ -10,25 +10,42 @@ import androidx.compose.runtime.Composable
 @Composable
 fun ToutiApp(viewModel: GameViewModel) {
     val state = viewModel.state
-    val showSetup = !state.started || viewModel.editingSetup
+    val screen = when {
+        viewModel.showingHistory -> Screen.HISTORY
+        !state.started || viewModel.editingSetup -> Screen.SETUP
+        else -> Screen.GAME
+    }
 
     AnimatedContent(
-        targetState = showSetup,
+        targetState = screen,
         transitionSpec = { fadeIn() togetherWith fadeOut() },
         label = "screen",
-    ) { setup ->
-        if (setup) {
-            if (viewModel.editingSetup) BackHandler { viewModel.cancelEditSetup() }
-            SetupScreen(
-                initial = state,
-                editing = viewModel.editingSetup,
-                onCancel = viewModel::cancelEditSetup,
-                arabicVoiceAvailable = viewModel.arabicVoiceAvailable,
-                onTestVoice = viewModel::testVoice,
-                onConfirm = viewModel::startOrSave,
-            )
-        } else {
-            GameScreen(viewModel)
+    ) { target ->
+        when (target) {
+            Screen.HISTORY -> {
+                BackHandler { viewModel.closeHistory() }
+                HistoryScreen(
+                    history = state.history,
+                    onBack = viewModel::closeHistory,
+                    onDelete = viewModel::deleteGame,
+                    onClear = viewModel::clearHistory,
+                )
+            }
+            Screen.SETUP -> {
+                if (viewModel.editingSetup) BackHandler { viewModel.cancelEditSetup() }
+                SetupScreen(
+                    initial = state,
+                    editing = viewModel.editingSetup,
+                    onCancel = viewModel::cancelEditSetup,
+                    arabicVoiceAvailable = viewModel.arabicVoiceAvailable,
+                    onTestVoice = viewModel::testVoice,
+                    onOpenHistory = viewModel::openHistory,
+                    onConfirm = viewModel::startOrSave,
+                )
+            }
+            Screen.GAME -> GameScreen(viewModel)
         }
     }
 }
+
+private enum class Screen { SETUP, GAME, HISTORY }

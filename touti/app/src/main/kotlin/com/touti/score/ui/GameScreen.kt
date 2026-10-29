@@ -122,6 +122,13 @@ fun GameScreen(viewModel: GameViewModel) {
                                     },
                                 )
                                 DropdownMenuItem(
+                                    text = { Text("📜 Historique des parties") },
+                                    onClick = {
+                                        menuOpen = false
+                                        viewModel.openHistory()
+                                    },
+                                )
+                                DropdownMenuItem(
                                     text = { Text("🔄 Nouvelle partie") },
                                     onClick = {
                                         menuOpen = false

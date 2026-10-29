@@ -43,6 +43,23 @@ data class TeamInfo(
     val players: List<String>,
 )
 
+/** A finished game, kept in the history. Names are copied so renaming teams later doesn't rewrite it. */
+@Serializable
+data class PlayedGame(
+    val endedAt: Long,
+    val teamA: TeamInfo,
+    val teamB: TeamInfo,
+    val scoreA: Int,
+    val scoreB: Int,
+    val winner: Team,
+    val rounds: Int,
+    val target: Int,
+) {
+    fun team(team: Team): TeamInfo = if (team == Team.A) teamA else teamB
+
+    fun score(team: Team): Int = if (team == Team.A) scoreA else scoreB
+}
+
 @Serializable
 data class GameState(
     val teamA: TeamInfo = TeamInfo("Les Lions", listOf("Joueur 1", "Joueur 3")),
@@ -54,6 +71,8 @@ data class GameState(
     val winsA: Int = 0,
     val winsB: Int = 0,
     val started: Boolean = false,
+    /** Finished games, oldest first. */
+    val history: List<PlayedGame> = emptyList(),
 ) {
     fun team(team: Team): TeamInfo = if (team == Team.A) teamA else teamB
 
@@ -87,4 +106,20 @@ data class GameState(
         }
 
     fun wins(team: Team): Int = if (team == Team.A) winsA else winsB
+
+    /** The current game as a history entry, or null while nobody has won yet. */
+    fun toPlayedGame(endedAt: Long): PlayedGame? {
+        val winner = winner ?: return null
+        return PlayedGame(endedAt, teamA, teamB, total(Team.A), total(Team.B), winner, rounds.size, rules.target)
+    }
+
+    /** Appends the current game to the history if it has a winner. */
+    fun archived(endedAt: Long): GameState {
+        val played = toPlayedGame(endedAt) ?: return this
+        return copy(history = (history + played).takeLast(MAX_HISTORY))
+    }
+
+    private companion object {
+        const val MAX_HISTORY = 500
+    }
 }

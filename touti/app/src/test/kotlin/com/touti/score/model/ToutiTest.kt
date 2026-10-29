@@ -26,4 +26,18 @@ class ToutiTest {
         assertEquals("Joueur 4", game.dealer)
         assertEquals("Joueur 1", game.copy(rounds = listOf(Round(Team.A, 70))).dealer)
     }
+
+    @Test
+    fun finishedGamesAreArchivedButUnfinishedOnesAreNot() {
+        val unfinished = GameState(rounds = listOf(Round(Team.A, 70)))
+        assertEquals(0, unfinished.archived(endedAt = 1L).history.size)
+
+        val won = GameState(rules = Rules(target = 100), rounds = listOf(Round(Team.B, 70), Round(Team.B, 80), Round(Team.A, 90)))
+        val played = won.archived(endedAt = 42L).history.single()
+        assertEquals(Team.B, played.winner)
+        assertEquals(90, played.scoreA)
+        assertEquals(150, played.scoreB)
+        assertEquals(3, played.rounds)
+        assertEquals(42L, played.endedAt)
+    }
 }

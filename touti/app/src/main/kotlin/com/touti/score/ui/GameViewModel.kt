@@ -69,7 +69,7 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
 
     /** Banks the win for the current winner, then deals a fresh game with the same teams. */
     fun rematch() = update {
-        it.copy(
+        it.archived(System.currentTimeMillis()).copy(
             rounds = emptyList(),
             winsA = it.winsA + if (it.winner == Team.A) 1 else 0,
             winsB = it.winsB + if (it.winner == Team.B) 1 else 0,
@@ -80,7 +80,22 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
 
     /** Back to the setup screen with the same names, scores and win tally cleared. */
     fun newGame() {
-        update { it.copy(rounds = emptyList(), winsA = 0, winsB = 0, started = false) }
+        update { it.archived(System.currentTimeMillis()).copy(rounds = emptyList(), winsA = 0, winsB = 0, started = false) }
         editingSetup = false
     }
+
+    var showingHistory by mutableStateOf(false)
+        private set
+
+    fun openHistory() {
+        showingHistory = true
+    }
+
+    fun closeHistory() {
+        showingHistory = false
+    }
+
+    fun deleteGame(endedAt: Long) = update { s -> s.copy(history = s.history.filterNot { it.endedAt == endedAt }) }
+
+    fun clearHistory() = update { it.copy(history = emptyList()) }
 }

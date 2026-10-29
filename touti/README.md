@@ -13,6 +13,7 @@ Projet Gradle indépendant de best-radio (il réutilise juste le même catalogue
 - Rotation automatique du **donneur** (« Karim distribue »).
 - Historique des manches, annulation de la dernière manche, suppression d'une manche par appui long.
 - Victoire : confettis, « Mabrouk ! مبروك », bouton **Revanche** et compteur de parties gagnées 🏆.
+- **Historique des parties** : chaque partie gagnée est enregistrée (date, équipes, joueurs, score final, nombre de manches), avec un classement des victoires par équipe.
 - Partie sauvegardée en continu (rien n'est perdu si l'appli est fermée) ; l'écran reste allumé pendant la partie.
 
 ## Règle de score

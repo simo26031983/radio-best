@@ -58,6 +58,7 @@ fun SetupScreen(
     onCancel: () -> Unit,
     arabicVoiceAvailable: Boolean?,
     onTestVoice: (TeamInfo, TeamInfo, Announce) -> Unit,
+    onOpenHistory: () -> Unit,
     onConfirm: (TeamInfo, TeamInfo, Rules, Int) -> Unit,
 ) {
     var nameA by rememberSaveable { mutableStateOf(initial.teamA.name) }
@@ -179,6 +180,11 @@ fun SetupScreen(
                 shape = RoundedCornerShape(18.dp),
             ) {
                 Text(if (editing) "Enregistrer" else "Yallah, on joue ! 🎉", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+            }
+            if (initial.history.isNotEmpty()) {
+                TextButton(onClick = onOpenHistory, modifier = Modifier.fillMaxWidth()) {
+                    Text("📜 Historique des parties (${initial.history.size})")
+                }
             }
             if (editing) {
                 TextButton(onClick = onCancel, modifier = Modifier.fillMaxWidth()) { Text("Annuler") }
