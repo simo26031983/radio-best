@@ -233,14 +233,8 @@ fun GameScreen(viewModel: GameViewModel) {
     }
 }
 
-private fun roundSummary(game: GameState, round: Round): String {
-    val head = when {
-        round.taker == null -> "✍️ Manche ajoutée"
-        round.made -> "🎉 ${game.team(round.taker).name} réussit son ${round.bid} !"
-        else -> "💥 ${game.team(round.taker).name} chute à ${round.bid} !"
-    }
-    return "$head  +${round.pointsA} / +${round.pointsB}"
-}
+private fun roundSummary(game: GameState, round: Round): String =
+    "🎉 +${round.bid} pour ${game.team(round.winner).name}"
 
 @Composable
 private fun ScoreCard(game: GameState, team: Team, modifier: Modifier) {
@@ -386,8 +380,8 @@ private fun History(game: GameState, onLongPress: (Int) -> Unit, modifier: Modif
                         Text("n°${index + 1}", fontWeight = FontWeight.Bold)
                         Text(describe(game, round), fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
-                    Text("+${round.pointsA}", Modifier.width(76.dp), textAlign = TextAlign.End, fontSize = 20.sp, fontWeight = FontWeight.Black, color = teamColor(Team.A))
-                    Text("+${round.pointsB}", Modifier.width(76.dp), textAlign = TextAlign.End, fontSize = 20.sp, fontWeight = FontWeight.Black, color = teamColor(Team.B))
+                    Text(round.points(Team.A).let { if (it > 0) "+$it" else "—" }, Modifier.width(76.dp), textAlign = TextAlign.End, fontSize = 20.sp, fontWeight = FontWeight.Black, color = teamColor(Team.A))
+                    Text(round.points(Team.B).let { if (it > 0) "+$it" else "—" }, Modifier.width(76.dp), textAlign = TextAlign.End, fontSize = 20.sp, fontWeight = FontWeight.Black, color = teamColor(Team.B))
                 }
             }
         }
@@ -403,17 +397,8 @@ private fun History(game: GameState, onLongPress: (Int) -> Unit, modifier: Modif
     }
 }
 
-private fun describe(game: GameState, round: Round): String {
-    val taker = round.taker ?: return "Saisie libre"
-    val announces = round.announceA + round.announceB
-    return buildString {
-        append(if (round.made) "✅ " else "💥 ")
-        append(game.team(taker).name)
-        append(" · ")
-        append(round.bid)
-        if (announces > 0) append(" · 👑 $announces")
-    }
-}
+private fun describe(game: GameState, round: Round): String =
+    "${game.team(round.winner).name} · ${round.bid}"
 
 @Composable
 private fun WinnerOverlay(game: GameState, winner: Team, onRematch: () -> Unit, onUndo: () -> Unit) {

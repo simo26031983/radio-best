@@ -9,108 +9,26 @@ enum class Team {
     val other: Team get() = if (this == A) B else A
 }
 
-/** What the bidding team scores when it makes its contract. */
-@Serializable
-enum class TakerScoring {
-    /** Its card points plus its announcements. */
-    POINTS,
-
-    /** Exactly the amount it bid. */
-    BID,
-}
-
-/** What happens when the bidding team fails its contract ("chute"). */
-@Serializable
-enum class FailRule {
-    /** Defenders take the whole deal: 130 plus every announcement. */
-    DEFENSE_TAKES_ALL,
-
-    /** Defenders keep only their own card points and announcements. */
-    DEFENSE_KEEPS_OWN,
-}
-
 @Serializable
 data class Rules(
     val target: Int = 600,
-    val takerScoring: TakerScoring = TakerScoring.POINTS,
-    val failRule: FailRule = FailRule.DEFENSE_TAKES_ALL,
 )
 
-/**
- * One deal. [taker] is null for a free entry, where [pointsA]/[pointsB] were typed directly.
- * Points are stored as scored at the time, so changing the rules mid-game never rewrites history.
- */
+/** One deal: the team that won it scores exactly the bid, the other team scores nothing. */
 @Serializable
 data class Round(
-    val taker: Team? = null,
-    val bid: Int = 0,
-    val takerCardPoints: Int = 0,
-    val announceA: Int = 0,
-    val announceB: Int = 0,
-    val made: Boolean = true,
-    val pointsA: Int,
-    val pointsB: Int,
+    val winner: Team,
+    val bid: Int,
 ) {
-    fun points(team: Team): Int = if (team == Team.A) pointsA else pointsB
+    fun points(team: Team): Int = if (team == winner) bid else 0
 }
 
 object Touti {
-    /** 120 in card points + 10 for the last trick. */
-    const val DEAL_POINTS = 130
     const val MIN_BID = 70
     const val BID_STEP = 10
-
-    /** 130 + the theoretical 100 of announcements. */
     const val MAX_BID = 230
-    const val MAX_ANNOUNCES = 100
-    const val ANNOUNCE = 20
-    const val TRUMP_ANNOUNCE = 40
 
     val bids: List<Int> = (MIN_BID..MAX_BID step BID_STEP).toList()
-
-    fun scoreDeal(
-        taker: Team,
-        bid: Int,
-        takerCardPoints: Int,
-        announceA: Int,
-        announceB: Int,
-        rules: Rules,
-    ): Round {
-        val cards = takerCardPoints.coerceIn(0, DEAL_POINTS)
-        val takerAnnounce = if (taker == Team.A) announceA else announceB
-        val defenseAnnounce = if (taker == Team.A) announceB else announceA
-        val defenseCards = DEAL_POINTS - cards
-        val made = cards + takerAnnounce >= bid
-
-        val takerPoints: Int
-        val defensePoints: Int
-        if (made) {
-            takerPoints = when (rules.takerScoring) {
-                TakerScoring.POINTS -> cards + takerAnnounce
-                TakerScoring.BID -> bid
-            }
-            defensePoints = defenseCards + defenseAnnounce
-        } else {
-            takerPoints = 0
-            defensePoints = when (rules.failRule) {
-                FailRule.DEFENSE_TAKES_ALL -> DEAL_POINTS + announceA + announceB
-                FailRule.DEFENSE_KEEPS_OWN -> defenseCards + defenseAnnounce
-            }
-        }
-        return Round(
-            taker = taker,
-            bid = bid,
-            takerCardPoints = cards,
-            announceA = announceA,
-            announceB = announceB,
-            made = made,
-            pointsA = if (taker == Team.A) takerPoints else defensePoints,
-            pointsB = if (taker == Team.B) takerPoints else defensePoints,
-        )
-    }
-
-    fun freeEntry(pointsA: Int, pointsB: Int): Round =
-        Round(pointsA = pointsA.coerceAtLeast(0), pointsB = pointsB.coerceAtLeast(0))
 }
 
 @Serializable

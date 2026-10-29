@@ -18,7 +18,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
@@ -43,10 +42,8 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.touti.score.model.FailRule
 import com.touti.score.model.GameState
 import com.touti.score.model.Rules
-import com.touti.score.model.TakerScoring
 import com.touti.score.model.Team
 import com.touti.score.model.TeamInfo
 
@@ -67,8 +64,6 @@ fun SetupScreen(
     var b1 by rememberSaveable { mutableStateOf(initial.teamB.players[0]) }
     var b2 by rememberSaveable { mutableStateOf(initial.teamB.players[1]) }
     var target by rememberSaveable { mutableIntStateOf(initial.rules.target) }
-    var takerScoring by rememberSaveable { mutableStateOf(initial.rules.takerScoring) }
-    var failRule by rememberSaveable { mutableStateOf(initial.rules.failRule) }
     var firstDealer by rememberSaveable { mutableIntStateOf(initial.firstDealer) }
 
     fun orDefault(value: String, fallback: String) = value.trim().ifEmpty { fallback }
@@ -130,35 +125,13 @@ fun SetupScreen(
                 }
             }
 
-            Section("✅ Contrat réussi : le preneur marque") {
-                Choice(
-                    options = listOf(
-                        TakerScoring.POINTS to "Ses points",
-                        TakerScoring.BID to "Le contrat",
-                    ),
-                    selected = takerScoring,
-                    onSelect = { takerScoring = it },
-                )
-            }
-
-            Section("💥 Contrat chuté : la défense marque") {
-                Choice(
-                    options = listOf(
-                        FailRule.DEFENSE_TAKES_ALL to "Tout (130 + annonces)",
-                        FailRule.DEFENSE_KEEPS_OWN to "Ses points",
-                    ),
-                    selected = failRule,
-                    onSelect = { failRule = it },
-                )
-            }
-
             Spacer(Modifier.height(4.dp))
             Button(
                 onClick = {
                     onConfirm(
                         TeamInfo(orDefault(nameA, "Équipe A"), listOf(seats[0], seats[2])),
                         TeamInfo(orDefault(nameB, "Équipe B"), listOf(seats[1], seats[3])),
-                        Rules(target, takerScoring, failRule),
+                        Rules(target),
                         firstDealer,
                     )
                 },
@@ -225,29 +198,5 @@ private fun Section(title: String, content: @Composable () -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
         content()
-    }
-}
-
-@Composable
-private fun <T> Choice(options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        options.forEach { (value, label) ->
-            val isSelected = value == selected
-            Button(
-                onClick = { onSelect(value) },
-                modifier = Modifier.weight(1f),
-                shape = RoundedCornerShape(14.dp),
-                colors = if (isSelected) {
-                    ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
-                } else {
-                    ButtonDefaults.buttonColors(
-                        containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
-                        contentColor = MaterialTheme.colorScheme.onSurface,
-                    )
-                },
-            ) {
-                Text((if (isSelected) "✓ " else "") + label, textAlign = TextAlign.Center)
-            }
-        }
     }
 }
