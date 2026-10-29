@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Back card, tilted -->
+    <group android:rotation="-14" android:pivotX="54" android:pivotY="54">
+        <path
+            android:fillColor="#FFF8EC"
+            android:fillAlpha="0.55"
+            android:pathData="M38,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+    </group>
+    <!-- Front card with the green Moroccan star -->
+    <group android:rotation="8" android:pivotX="54" android:pivotY="54">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+        <path
+            android:strokeColor="@color/maroc_green"
+            android:strokeWidth="3"
+            android:strokeLineJoin="round"
+            android:pathData="M54.00,41.00 L61.64,64.52 L41.64,49.98 L66.36,49.98 L46.36,64.52 Z" />
+    </group>
+</vector>

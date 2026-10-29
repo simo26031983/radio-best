@@ -19,10 +19,12 @@ Testée en conditions réelles : téléphone Android, et Android Auto via [Googl
 
 - **`app/`** — application Android (Kotlin, Jetpack Compose, Media3/ExoPlayer, `MediaLibraryService` pour Android Auto). Voir [`SCHEMA.md`](SCHEMA.md) pour le schéma des données de stations.
 - **`tools/curate-stations/`** — script de curation (Node/TypeScript) qui transforme le `stations.json` de [radio-monde-app](https://github.com/simo26031983/radio-monde-app) (lui-même maintenu par un bot quotidien qui corrige les liens morts) vers le schéma partagé de ce projet.
+- **`touti/`** — appli séparée **Touti Score** : compteur de points du Touti marocain en 2 contre 2. Voir [`touti/README.md`](touti/README.md).
 - **`web/`** — site statique [GitHub Pages](https://simo26031983.github.io/radio-best/) : page de téléchargement de l'APK + catalogue de stations servi en JSON statique (aucune logique serveur nécessaire).
 - **`.github/workflows/`** :
   - `android-ci.yml` — build/lint/test à chaque push, publie l'APK debug en GitHub Release sur les tags de version.
   - `pages-deploy.yml` — déploie `web/` sur GitHub Pages.
+  - `touti-apk.yml` — tests + APK de Touti Score, publié dans la release `touti-latest`.
   - `refresh-stations.yml` — cron quotidien (4h UTC) qui récupère la dernière version du catalogue depuis radio-monde-app et republie `web/stations-*.json`.
 
 Aucun compte externe requis (pas de Cloudflare) — tout repose sur GitHub, déjà utilisé pour le code et les releases.
