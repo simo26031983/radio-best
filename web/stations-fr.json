@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T10:46:38.291Z",
+  "generatedAt": "2026-10-30T10:45:47.958Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1158,16 +1158,6 @@
       "country": "FR",
       "streamUrl": "https://myradiostream.com/embed/assets/mp3/test.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cobfm.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:cocorico-radio",
-      "name": "Cocorico Radio",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/cocorico",
-      "faviconUrl": "https://static-media.streema.com/media/cache/7f/8c/7f8c5700243b18bf8d63c352a28512fa.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2808,6 +2798,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/314264/stream/361499",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=groovecabane.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:groove-nation",
+      "name": "Groove Nation",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/70135/stream/107968",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=groovenation.radio&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6303,16 +6303,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-equinoxe",
-      "name": "Radio Equinoxe",
-      "country": "FR",
-      "streamUrl": "https://s6.citrus3.com/stream/radioequinoxe",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioequinoxe.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-esperance",
       "name": "Radio Esperance",
       "country": "FR",
@@ -6878,16 +6868,6 @@
       "country": "FR",
       "streamUrl": "https://stm16.voxhd.com.br:8852/stream?1771880722838",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=novaplanet.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-nova-la-plage",
-      "name": "Radio Nova - La Plage",
-      "country": "FR",
-      "streamUrl": "https://novalaplage.ice.infomaniak.ch/novalaplage-128.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/71/5c/715c7b12565296c49ec224b3f74a6979.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7996,17 +7976,7 @@
       "id": "rm:rfm",
       "name": "RFM",
       "country": "FR",
-      "streamUrl": "https://stream.rfm.fr/rfm.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rfm-la-radio-couleur",
-      "name": "RFM - La Radio Couleur",
-      "country": "FR",
-      "streamUrl": "https://stream.rfm.fr/rfm-wr3.aac",
+      "streamUrl": "https://radio.stellarfm.fr/listen/stellarfm/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -8028,26 +7998,6 @@
       "country": "FR",
       "streamUrl": "https://rfm.lmn.fm/rfm-wr5.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rfm-pop-rock",
-      "name": "RFM POP-ROCK",
-      "country": "FR",
-      "streamUrl": "https://stream.rfm.fr/rfm-wr10.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rfm-slow",
-      "name": "RFM Slow",
-      "country": "FR",
-      "streamUrl": "https://stream.rfm.fr/rfm-wr13.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=stream.rfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
