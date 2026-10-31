@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T10:45:47.958Z",
+  "generatedAt": "2026-10-31T10:16:05.699Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1163,6 +1163,16 @@
       "codec": ""
     },
     {
+      "id": "rm:cocorico-radio",
+      "name": "Cocorico Radio",
+      "country": "FR",
+      "streamUrl": "https://play.radioking.io/cocorico",
+      "faviconUrl": "https://static-media.streema.com/media/cache/7f/8c/7f8c5700243b18bf8d63c352a28512fa.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:collector-radio",
       "name": "Collector Radio",
       "country": "FR",
@@ -1298,16 +1308,6 @@
       "country": "FR",
       "streamUrl": "https://api.cuberadio.fr/play",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cuberadio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:d4b",
-      "name": "D4B",
-      "country": "FR",
-      "streamUrl": "https://d4b.ice.infomaniak.ch/d4b-96.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiod4b.asso.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1538,26 +1538,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-hd",
-      "name": "Europa Radio Jazz HD",
-      "country": "FR",
-      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-sd",
-      "name": "Europa Radio Jazz SD",
-      "country": "FR",
-      "streamUrl": "https://streams.radiomast.io/e947f0b4-cf71-4ed7-934d-2f4661acb0a3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4103,16 +4083,6 @@
       "codec": ""
     },
     {
-      "id": "rm:littoral-fm-perpignan",
-      "name": "LITTORAL FM Perpignan",
-      "country": "FR",
-      "streamUrl": "https://littoralfmperpignan.ice.infomaniak.ch/littoralfmperpignan.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=littoral.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:live-nation-radio",
       "name": "Live Nation Radio",
       "country": "FR",
@@ -5733,16 +5703,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6298,6 +6258,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.radiomedia.fr:2005/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiorec.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-equinoxe",
+      "name": "Radio Equinoxe",
+      "country": "FR",
+      "streamUrl": "https://s6.citrus3.com/stream/radioequinoxe",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioequinoxe.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8418,6 +8388,16 @@
       "country": "FR",
       "streamUrl": "https://sanef.ice.infomaniak.ch/sanef1077-est.mp3",
       "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:saravadio",
+      "name": "Saravadio",
+      "country": "FR",
+      "streamUrl": "https://radio.saravadio.fr/studio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=saravadio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
