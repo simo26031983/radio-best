@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T10:16:05.699Z",
+  "generatedAt": "2026-11-01T11:08:46.513Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -873,16 +873,6 @@
       "codec": ""
     },
     {
-      "id": "rm:buddha-beach",
-      "name": "Buddha Beach",
-      "country": "FR",
-      "streamUrl": "https://radio4.vip-radios.fm:18054/stream-128kmp3-BuddhaBeach",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=vip-radios.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:c-lab",
       "name": "C-Lab",
       "country": "FR",
@@ -1338,16 +1328,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:divergence-fm",
-      "name": "Divergence FM",
-      "country": "FR",
-      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5703,6 +5683,16 @@
       "codec": ""
     },
     {
+      "id": "rm:public-health-radio-italiano",
+      "name": "Public Health Radio Italiano",
+      "country": "FR",
+      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -6078,16 +6068,6 @@
       "country": "FR",
       "streamUrl": "https://choco.hostingradio.ru:10010/fm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiochoco.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-ciel-bleu-107-1-fm",
-      "name": "Radio Ciel Bleu",
-      "country": "FR",
-      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8718,16 +8698,6 @@
       "country": "FR",
       "streamUrl": "https://evcast.mediacp.eu:1165/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=teenagekicksradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:tempo-62",
-      "name": "TEMPO 62",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/tempo-62",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=tempo62.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
