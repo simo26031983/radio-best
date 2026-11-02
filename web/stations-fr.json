@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T11:08:46.513Z",
+  "generatedAt": "2026-11-02T12:09:15.603Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -337,16 +337,6 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -873,6 +863,16 @@
       "codec": ""
     },
     {
+      "id": "rm:buddha-beach",
+      "name": "Buddha Beach",
+      "country": "FR",
+      "streamUrl": "https://radio4.vip-radios.fm:18054/stream-128kmp3-BuddhaBeach",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=vip-radios.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:c-lab",
       "name": "C-Lab",
       "country": "FR",
@@ -1328,6 +1328,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:divergence-fm",
+      "name": "Divergence FM",
+      "country": "FR",
+      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4063,6 +4073,16 @@
       "codec": ""
     },
     {
+      "id": "rm:littoral-fm-perpignan",
+      "name": "LITTORAL FM Perpignan",
+      "country": "FR",
+      "streamUrl": "https://littoralfmperpignan.ice.infomaniak.ch/littoralfmperpignan.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=littoral.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:live-nation-radio",
       "name": "Live Nation Radio",
       "country": "FR",
@@ -4438,16 +4458,6 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6068,6 +6078,16 @@
       "country": "FR",
       "streamUrl": "https://choco.hostingradio.ru:10010/fm",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiochoco.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-ciel-bleu-107-1-fm",
+      "name": "Radio Ciel Bleu",
+      "country": "FR",
+      "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
