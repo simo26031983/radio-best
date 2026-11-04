@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T11:44:58.146Z",
+  "generatedAt": "2026-11-04T11:57:08.812Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1113,36 +1113,6 @@
       "codec": ""
     },
     {
-      "id": "rm:clapas-chanson",
-      "name": "Clapas Chanson",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-jazz",
-      "name": "Clapas Jazz",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:clapas-rock",
-      "name": "Clapas Rock",
-      "country": "FR",
-      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1188,16 +1158,6 @@
       "country": "FR",
       "streamUrl": "https://c34.radioboss.fm:9058/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lamusiquequifaitdubien.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:cool-radio-france",
-      "name": "COOL RADIO FRANCE",
-      "country": "FR",
-      "streamUrl": "https://cool-radio.fr/listen/coolradio/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/81/36/8136112be1f2217ef7bab38c3540e3b7.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1308,6 +1268,16 @@
       "country": "FR",
       "streamUrl": "https://api.cuberadio.fr/play",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=cuberadio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:d4b",
+      "name": "D4B",
+      "country": "FR",
+      "streamUrl": "https://d4b.ice.infomaniak.ch/d4b-96.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiod4b.asso.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2508,6 +2478,16 @@
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/galaxieradio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=galaxie-radio1.radio-website.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:galaxie-radio-100-vinyls",
+      "name": "Galaxie Radio - 100% Vinyls",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/613360/stream/675142",
+      "faviconUrl": "https://static-media.streema.com/media/cache/36/35/3635719538934b0f8c27bbdb457e2301.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4463,16 +4443,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -6113,16 +6083,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
-      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
-      "country": "FR",
-      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:classique",
       "name": "Radio Classique",
       "country": "FR",
@@ -6238,6 +6198,16 @@
       "country": "FR",
       "streamUrl": "https://stream-176.zeno.fm/ks5wfxkubv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrczV3ZnhrdWJ2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkVJTkxJclhkVEMtSEZHSzZFWS1iQVEiLCJpYXQiOjE3NzI3MDE4NDQsImV4cCI6MTc3MjcwMTkwNH0.QREohi8XJgDrhW8gOyF6uCpTTT6L-MOCMR6KO44intw",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=zeno.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-doudou",
+      "name": "Radio Doudou",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/radio-doudou",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodoudou.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7963,6 +7933,16 @@
       "codec": ""
     },
     {
+      "id": "rm:rfm-la-radio-couleur",
+      "name": "RFM - La Radio Couleur",
+      "country": "FR",
+      "streamUrl": "https://stream.rfm.fr/rfm-wr3.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:rfm-100-francais",
       "name": "RFM 100% Français",
       "country": "FR",
@@ -7978,6 +7958,26 @@
       "country": "FR",
       "streamUrl": "https://rfm.lmn.fm/rfm-wr5.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rfm-pop-rock",
+      "name": "RFM POP-ROCK",
+      "country": "FR",
+      "streamUrl": "https://stream.rfm.fr/rfm-wr10.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rfm-slow",
+      "name": "RFM Slow",
+      "country": "FR",
+      "streamUrl": "https://stream.rfm.fr/rfm-wr13.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=stream.rfm.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
