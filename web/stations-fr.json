@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T11:57:08.812Z",
+  "generatedAt": "2026-11-05T12:00:24.257Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -853,16 +853,6 @@
       "codec": ""
     },
     {
-      "id": "rm:blt-radio",
-      "name": "BLT Radio",
-      "country": "FR",
-      "streamUrl": "https://play.radioking.io/blt-radio",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=blt-radio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:blues-cafe-radio",
       "name": "Blues Café Radio",
       "country": "FR",
@@ -1113,6 +1103,36 @@
       "codec": ""
     },
     {
+      "id": "rm:clapas-chanson",
+      "name": "Clapas Chanson",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_chanson/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-jazz",
+      "name": "Clapas Jazz",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_jazz/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:clapas-rock",
+      "name": "Clapas Rock",
+      "country": "FR",
+      "streamUrl": "https://stream.radioclapas.fr/listen/clapas_rock/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:classic-fm-france",
       "name": "Classic FM France",
       "country": "FR",
@@ -1308,16 +1328,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:divergence-fm",
-      "name": "Divergence FM",
-      "country": "FR",
-      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2443,16 +2453,6 @@
       "codec": ""
     },
     {
-      "id": "rm:galaxie-fm-95-30",
-      "name": "Galaxie FM 95.30",
-      "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/15684/stream/29075",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=galaxieradio.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:galaxie-lounge",
       "name": "Galaxie Lounge",
       "country": "FR",
@@ -2467,16 +2467,6 @@
       "name": "Galaxie New Wave",
       "country": "FR",
       "streamUrl": "https://www.radioking.com/play/galaxienewwave",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=galaxie-radio1.radio-website.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:galaxie-radio",
-      "name": "Galaxie Radio",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/galaxieradio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=galaxie-radio1.radio-website.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -3693,16 +3683,6 @@
       "codec": ""
     },
     {
-      "id": "rm:la-grande-ourse",
-      "name": "La Grande Ourse",
-      "country": "FR",
-      "streamUrl": "https://cast.lagrandeourse.radio.fm/listen/radio/live.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=lagrandeourse.radio.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:la-grosse-radio-metal-192-kbit-s",
       "name": "La Grosse Radio METAL - 192 kbit/s",
       "country": "FR",
@@ -4048,16 +4028,6 @@
       "country": "FR",
       "streamUrl": "https://littoraldance.ice.infomaniak.ch/littoraldance-192.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/2e/16/2e1648874ef63984a07efa0bf1d67540.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:littoral-fm-perpignan",
-      "name": "LITTORAL FM Perpignan",
-      "country": "FR",
-      "streamUrl": "https://littoralfmperpignan.ice.infomaniak.ch/littoralfmperpignan.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=littoral.fm&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5783,6 +5753,16 @@
       "codec": ""
     },
     {
+      "id": "rm:pulsradio-2000-64k-aac",
+      "name": "PulsRadio 2000 (64k AAC",
+      "country": "FR",
+      "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pulsradio-trance",
       "name": "PulsRadio Trance",
       "country": "FR",
@@ -6078,6 +6058,16 @@
       "country": "FR",
       "streamUrl": "https://radiocielbleu.ice.infomaniak.ch/radiocielbleu.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/73/ae/73aee92091d8d5f12bb7fdeab485ece6.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-clapas-culture-citoyennete-93-5-mo",
+      "name": "Radio Clapas - Culture & Citoyenneté - 93.5 Montpellier",
+      "country": "FR",
+      "streamUrl": "https://stations.radioclapas.fr/radio/8130/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radioclapas.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6628,16 +6618,6 @@
       "country": "FR",
       "streamUrl": "https://stream.radiolarzac.org/hls/master.m3u8",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolarzac.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-lenga-d-oc",
-      "name": "Radio lenga d'Oc",
-      "country": "FR",
-      "streamUrl": "https://stream-ssl.radios-arra.fr:8443/rlo",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiolengadoc.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7246,7 +7226,7 @@
       "id": "rm:radio-star",
       "name": "Radio STAR",
       "country": "FR",
-      "streamUrl": "https://stream.radiostar.be/",
+      "streamUrl": "https://radiostar.ice.infomaniak.ch/radiostar-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-star.site-radio.com&sz=128",
       "genre": "",
       "bitrate": 0,
