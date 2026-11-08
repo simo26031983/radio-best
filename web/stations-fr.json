@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T10:56:40.879Z",
+  "generatedAt": "2026-11-08T11:09:09.108Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1188,16 +1188,6 @@
       "country": "FR",
       "streamUrl": "https://c34.radioboss.fm:9058/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lamusiquequifaitdubien.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:cool-radio-france",
-      "name": "COOL RADIO FRANCE",
-      "country": "FR",
-      "streamUrl": "https://cool-radio.fr/listen/coolradio/radio.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/81/36/8136112be1f2217ef7bab38c3540e3b7.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3823,16 +3813,6 @@
       "codec": ""
     },
     {
-      "id": "rm:lars-n",
-      "name": "LARS'N",
-      "country": "FR",
-      "streamUrl": "https://radio.larsn.fr:8443/main",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.larsn.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:latcho-flamenco",
       "name": "Latcho Flamenco",
       "country": "FR",
@@ -4223,16 +4203,6 @@
       "codec": ""
     },
     {
-      "id": "rm:m12prod-urban-radio",
-      "name": "M12Prod Urban Radio",
-      "country": "FR",
-      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -4488,16 +4458,6 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6293,16 +6253,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-dynamo",
-      "name": "Radio Dynamo",
-      "country": "FR",
-      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-echo-des-choucas-rec",
       "name": "Radio Echo des Choucas (REC",
       "country": "FR",
@@ -7518,6 +7468,16 @@
       "country": "FR",
       "streamUrl": "https://sc.creacast.com/rva-cofiroute-1",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radio.vinci-autoroutes.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-zai-zai",
+      "name": "Radio Zaï Zaï",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/204667/stream/247420",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=zaizai-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
