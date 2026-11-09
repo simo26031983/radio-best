@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T11:09:09.108Z",
+  "generatedAt": "2026-11-09T12:40:44.498Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -366,7 +366,7 @@
       "id": "rm:uradio",
       "name": "U Radio",
       "country": "MA",
-      "streamUrl": "https://panel.innovatestream.pe:10924/stream",
+      "streamUrl": "https://uradio-aac.ice.infomaniak.ch/uradio.aac",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=uradio.ma&sz=128",
       "genre": "",
       "bitrate": 0,

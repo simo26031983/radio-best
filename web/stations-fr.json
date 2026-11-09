@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T11:09:09.108Z",
+  "generatedAt": "2026-11-09T12:40:44.498Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -238,16 +238,6 @@
       "country": "FR",
       "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:aioli-radio",
-      "name": "Aïoli Radio",
-      "country": "FR",
-      "streamUrl": "https://stream.aioli-radio.org/main.ogg",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=aioli-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1338,6 +1328,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2955/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=assodistorsion.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:divergence-fm",
+      "name": "Divergence FM",
+      "country": "FR",
+      "streamUrl": "https://stream.divergence-fm.org:8001/divergence.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=divergence-fm.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4203,6 +4203,16 @@
       "codec": ""
     },
     {
+      "id": "rm:m12prod-urban-radio",
+      "name": "M12Prod Urban Radio",
+      "country": "FR",
+      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
+      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -4458,6 +4468,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6253,6 +6273,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-dynamo",
+      "name": "Radio Dynamo",
+      "country": "FR",
+      "streamUrl": "https://dynamo.ice.infomaniak.ch/dynamo.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiodynamo.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-echo-des-choucas-rec",
       "name": "Radio Echo des Choucas (REC",
       "country": "FR",
@@ -6888,6 +6918,16 @@
       "country": "FR",
       "streamUrl": "https://stunnel2.cyber-streaming.com:9272/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopais.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-patio-de-marujas",
+      "name": "Radio Patio De Marujas",
+      "country": "FR",
+      "streamUrl": "https://radio.almogavers.net:8000/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/8b/25/8b25c80085f30381e6bcb27654646763.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
