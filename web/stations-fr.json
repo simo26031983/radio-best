@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T12:40:44.498Z",
+  "generatedAt": "2026-11-10T12:20:06.235Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -238,6 +238,16 @@
       "country": "FR",
       "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:aioli-radio",
+      "name": "Aïoli Radio",
+      "country": "FR",
+      "streamUrl": "https://stream.aioli-radio.org/main.ogg",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=aioli-radio.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4473,16 +4483,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -4748,16 +4748,6 @@
       "country": "FR",
       "streamUrl": "https://www.mylene.net/mp3/a_tout_jamais_npd_s_remix.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mylene.net&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:nebulah-radio",
-      "name": "Nebulah Radio",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/nebulah-radio",
-      "faviconUrl": "https://static-media.streema.com/media/cache/5e/e2/5ee239fd741ae019d7280cae4c49338a.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9148,16 +9138,6 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
       "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:yellow-radio",
-      "name": "Yellow Radio",
-      "country": "FR",
-      "streamUrl": "https://yellowradio.ice.infomaniak.ch/yellowradio.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=yellow.radio&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
