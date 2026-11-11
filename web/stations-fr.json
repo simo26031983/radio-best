@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T12:20:06.235Z",
+  "generatedAt": "2026-11-11T11:45:06.796Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1518,16 +1518,6 @@
       "country": "FR",
       "streamUrl": "https://str0.creacast.com/estfm1",
       "faviconUrl": "https://static-media.streema.com/media/cache/4f/de/4fde6189890a485e919c559cd91e57e5.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:euradio",
-      "name": "EURadio",
-      "country": "FR",
-      "streamUrl": "https://euradio.fr/stream/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=euradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -9138,6 +9128,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.studioradiomedia.fr:2975/stream",
       "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yellow-radio",
+      "name": "Yellow Radio",
+      "country": "FR",
+      "streamUrl": "https://yellowradio.ice.infomaniak.ch/yellowradio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yellow.radio&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
