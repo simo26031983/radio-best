@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T11:45:06.796Z",
+  "generatedAt": "2026-11-12T12:23:41.785Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -308,16 +308,6 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-drum-bass",
-      "name": "Algorythme Drum & Bass",
-      "country": "FR",
-      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -718,16 +708,6 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
-      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
-      "country": "FR",
-      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1188,6 +1168,16 @@
       "country": "FR",
       "streamUrl": "https://c34.radioboss.fm:9058/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=lamusiquequifaitdubien.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:cool-radio-france",
+      "name": "COOL RADIO FRANCE",
+      "country": "FR",
+      "streamUrl": "https://cool-radio.fr/listen/coolradio/radio.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/81/36/8136112be1f2217ef7bab38c3540e3b7.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2528,6 +2518,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/613360/stream/675142",
       "faviconUrl": "https://static-media.streema.com/media/cache/36/35/3635719538934b0f8c27bbdb457e2301.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:galaxie-radio-hard",
+      "name": "Galaxie Radio - Hard",
+      "country": "FR",
+      "streamUrl": "https://listen.radioking.com/radio/628636/stream/691054",
+      "faviconUrl": "https://static-media.streema.com/media/cache/f3/e6/f3e6389f589566499e9363936f116957.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4473,6 +4473,16 @@
       "codec": ""
     },
     {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -5908,16 +5918,6 @@
       "country": "FR",
       "streamUrl": "https://radio8.pro-fhi.net/radio/9005/atlantis320",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radioatlantis.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-aviva",
-      "name": "Radio Aviva",
-      "country": "FR",
-      "streamUrl": "https://radio13.pro-fhi.net/listen-tpgmxyoe-stream.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-aviva.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8768,6 +8768,16 @@
       "country": "FR",
       "streamUrl": "https://evcast.mediacp.eu:1165/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=teenagekicksradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:tempo-62",
+      "name": "TEMPO 62",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/tempo-62",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=tempo62.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
