@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T12:23:41.785Z",
+  "generatedAt": "2026-11-13T11:59:37.945Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -308,6 +308,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/290959/stream/337222",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=alenconfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-drum-bass",
+      "name": "Algorythme Drum & Bass",
+      "country": "FR",
+      "streamUrl": "https://radio9.pro-fhi.net/flux-endvtlna/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -708,6 +718,16 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
+      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
+      "country": "FR",
+      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4473,16 +4493,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -6143,6 +6153,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-contact-vosges",
+      "name": "Radio Contact Vosges",
+      "country": "FR",
+      "streamUrl": "https://s2.ssl-stream.com/listen/radio_contact/radio.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rcvradio.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-couleur-chartreuse",
       "name": "Radio Couleur Chartreuse",
       "country": "FR",
@@ -6908,16 +6928,6 @@
       "country": "FR",
       "streamUrl": "https://radio.almogavers.net:8000/radio.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/8b/25/8b25c80085f30381e6bcb27654646763.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-pfm",
-      "name": "Radio PFM",
-      "country": "FR",
-      "streamUrl": "https://diff.radiopfm.com/flux.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiopfm.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
