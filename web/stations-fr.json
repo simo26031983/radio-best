@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T12:32:19.194Z",
+  "generatedAt": "2026-11-17T12:56:23.590Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -718,16 +718,6 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
-      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
-      "country": "FR",
-      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2628,16 +2618,6 @@
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.mp3",
       "faviconUrl": "",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:generation-soul-disco-funk",
-      "name": "GENERATION SOUL DISCO FUNK",
-      "country": "FR",
-      "streamUrl": "https://gestream.fr/g-radio-sd.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=generationdiscofunk.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5843,6 +5823,16 @@
       "codec": ""
     },
     {
+      "id": "rm:pulsradio-2000-64k-aac",
+      "name": "PulsRadio 2000 (64k AAC",
+      "country": "FR",
+      "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pulsradio-trance",
       "name": "PulsRadio Trance",
       "country": "FR",
@@ -6498,6 +6488,16 @@
       "country": "FR",
       "streamUrl": "https://hosting.radiomedia.fr:1615/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogatine.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-grand-brive",
+      "name": "Radio Grand Brive",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1420/stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiograndbrive.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
