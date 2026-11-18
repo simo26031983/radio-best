@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T12:56:23.590Z",
+  "generatedAt": "2026-11-18T12:49:37.196Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -337,16 +337,6 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -723,6 +713,16 @@
       "codec": ""
     },
     {
+      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
+      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
+      "country": "FR",
+      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:beemboomradio",
       "name": "beemboomradio",
       "country": "FR",
@@ -1018,6 +1018,16 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/ouq58vyoeo8p?origine=streema&amp;aw_0_1st.station=CHERIE-Francais-2000",
       "faviconUrl": "https://static-media.streema.com/media/cache/ae/8f/ae8f898295cda54b6e9462018b28d6c3.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:cherie-fm-garde-la-peche",
+      "name": "Chérie FM - Garde La Peche",
+      "country": "FR",
+      "streamUrl": "https://streaming.nrjaudio.fm/ousrb5m4z85f?origine=streema&amp;aw_0_1st.station=CHERIE-Garde-La-Peche",
+      "faviconUrl": "https://static-media.streema.com/media/cache/88/26/8826a642db3bc48b112847d74184f31c.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1518,6 +1528,16 @@
       "country": "FR",
       "streamUrl": "https://str0.creacast.com/estfm1",
       "faviconUrl": "https://static-media.streema.com/media/cache/4f/de/4fde6189890a485e919c559cd91e57e5.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:euradio",
+      "name": "EURadio",
+      "country": "FR",
+      "streamUrl": "https://euradio.fr/stream/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=euradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2618,6 +2638,16 @@
       "country": "FR",
       "streamUrl": "https://gene-wr07.ice.infomaniak.ch/gene-wr07.mp3",
       "faviconUrl": "",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:generation-soul-disco-funk",
+      "name": "GENERATION SOUL DISCO FUNK",
+      "country": "FR",
+      "streamUrl": "https://gestream.fr/g-radio-sd.aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=generationdiscofunk.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4203,16 +4233,6 @@
       "codec": ""
     },
     {
-      "id": "rm:m12prod-urban-radio",
-      "name": "M12Prod Urban Radio",
-      "country": "FR",
-      "streamUrl": "https://sc.m12prod.com:8600/stream/1/;",
-      "faviconUrl": "https://static-media.streema.com/media/cache/00/dd/00dd52871b2d9a39c16764c3b60699be.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:m2s-radio",
       "name": "M2S Radio",
       "country": "FR",
@@ -5128,16 +5148,6 @@
       "country": "FR",
       "streamUrl": "https://streaming.nrjaudio.fm/ouvfg4oarp52?origine=streema&amp;aw_0_1st.station=NRJ-Nouveautes-Rap-Fr",
       "faviconUrl": "https://static-media.streema.com/media/cache/08/8c/088c49444b1481e84362608d367d8eaa.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:nrj-pop-2026",
-      "name": "NRJ - Pop 2026",
-      "country": "FR",
-      "streamUrl": "https://streaming.nrjaudio.fm/ouagthw2dqao?origine=streema&amp;aw_0_1st.station=NRJ-Pop-2026",
-      "faviconUrl": "https://static-media.streema.com/media/cache/9a/93/9a93d4d28a280f4bf77d38b77d04c557.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
