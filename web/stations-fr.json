@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T12:40:24.246Z",
+  "generatedAt": "2026-11-20T12:39:07.662Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1558,26 +1558,6 @@
       "country": "FR",
       "streamUrl": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=eurodance90.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-hd",
-      "name": "Europa Radio Jazz HD",
-      "country": "FR",
-      "streamUrl": "https://audio-edge-kef8b.ams.s.radiomast.io/818607ce-8815-42fb-8dfc-344234a0ff83",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:europa-radio-jazz-sd",
-      "name": "Europa Radio Jazz SD",
-      "country": "FR",
-      "streamUrl": "https://streams.radiomast.io/e947f0b4-cf71-4ed7-934d-2f4661acb0a3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=europaradiojazz.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5323,6 +5303,46 @@
       "codec": ""
     },
     {
+      "id": "rm:open-sky",
+      "name": "Open Sky",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:open-sky-128kbps-mp3-hd",
+      "name": "Open Sky (128kbps mp3, \"HD",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/stream128",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:open-sky-96kbps-mp3-low",
+      "name": "Open Sky (96kbps mp3, \"low",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/stream96",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:opensky-flac-868kb",
+      "name": "Opensky (flac)868kb",
+      "country": "FR",
+      "streamUrl": "https://audio.opensky.radio:8082/flac?_res_tag_=audio",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=opensky.radio&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:ouifm",
       "name": "OUI FM",
       "country": "FR",
@@ -6603,6 +6623,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-karata",
+      "name": "Radio Karata",
+      "country": "FR",
+      "streamUrl": "https://dynstreamgradioflux.fr:8060/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiokarata.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-kerne",
       "name": "Radio Kerne",
       "country": "FR",
@@ -7533,16 +7563,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radiocanut",
-      "name": "RadioCanut",
-      "country": "FR",
-      "streamUrl": "https://live.aurafm.org/radiocanut",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiocanut.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radiogospel",
       "name": "RadioGospel",
       "country": "FR",
@@ -8028,26 +8048,6 @@
       "country": "FR",
       "streamUrl": "https://s4.radio.co/s87ac5cf5a/listen",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=riff-radio.org&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:riffx-radio-air",
-      "name": "RIFFX Radio - Air",
-      "country": "FR",
-      "streamUrl": "https://stream.myjungly.fr/RIFFX-R",
-      "faviconUrl": "https://static-media.streema.com/media/cache/6a/a9/6aa9327994c32436f77e0e5b47c5507f.png",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:riffx-radio-riffx-hits",
-      "name": "RIFFX Radio - RIFFX Hits",
-      "country": "FR",
-      "streamUrl": "https://stream.myjungly.fr/RIFFX_HITS",
-      "faviconUrl": "https://static-media.streema.com/media/cache/28/63/28636e66195e2e64668a284cd1f2bb84.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8606,7 +8606,7 @@
       "id": "rm:soov-radio",
       "name": "Soov Radio",
       "country": "FR",
-      "streamUrl": "https://play.radioking.io/soovradio",
+      "streamUrl": "https://www.radioking.com/play/soovradio",
       "faviconUrl": "https://static-media.streema.com/media/cache/da/16/da16d76bee72f8a6f09a3f2b60338e8e.jpg",
       "genre": "",
       "bitrate": 0,
