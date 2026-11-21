@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T12:39:07.662Z",
+  "generatedAt": "2026-11-21T12:19:46.475Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -377,6 +377,16 @@
       "name": "Yabiladi Amazigh",
       "country": "MA",
       "streamUrl": "https://radio.yabiladi.com:9002/;stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:yabiladi-chaabi",
+      "name": "Yabiladi Chaabi",
+      "country": "MA",
+      "streamUrl": "https://radio.yabiladi.com:8102/;stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
       "genre": "",
       "bitrate": 0,
