@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T12:19:46.475Z",
+  "generatedAt": "2026-11-22T12:22:49.139Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -1348,6 +1348,16 @@
       "country": "FR",
       "streamUrl": "https://stream.digital-plus.fr/DP192k.mp3",
       "faviconUrl": "https://static-media.streema.com/media/cache/44/27/4427a482bb25f6b29b53f75cce5f7afc.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:discover-trance",
+      "name": "Discover trance",
+      "country": "FR",
+      "streamUrl": "https://www.discovertrance.com/Listen-med.pls",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=discovertrance.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -3913,6 +3923,16 @@
       "codec": ""
     },
     {
+      "id": "rm:laurent-dine-iglesias",
+      "name": "Laurent DINE IGLESIAS",
+      "country": "FR",
+      "streamUrl": "https://radio7.pro-fhi.net:19141/milleniumfm.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=milleniumfm.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:le-bon-mix",
       "name": "LE BON MIX",
       "country": "FR",
@@ -5806,7 +5826,7 @@
       "id": "rm:puls-radio",
       "name": "Puls Radio",
       "country": "FR",
-      "streamUrl": "https://sc4.gergosnet.com/pulsHD.mp3",
+      "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5817,16 +5837,6 @@
       "name": "Puls Radio - Trance",
       "country": "FR",
       "streamUrl": "https://icecastlb.pulsradio.com/pulstranceHD.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:pulsradio-90",
-      "name": "PulsRadio - 90",
-      "country": "FR",
-      "streamUrl": "https://sc4.gergosnet.com/puls90HD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5847,16 +5857,6 @@
       "name": "PulsRadio 2000 (64k AAC",
       "country": "FR",
       "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:pulsradio-trance",
-      "name": "PulsRadio Trance",
-      "country": "FR",
-      "streamUrl": "https://sc4.gergosnet.com/pulstranceHD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -6028,26 +6028,6 @@
       "country": "FR",
       "streamUrl": "https://stream.radios.bzh/listen/rbg/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rbg.bzh&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-broussaille",
-      "name": "Radio Broussaille",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-hifi",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-broussaille-lo-fi-aac-128",
-      "name": "Radio Broussaille (Lo-Fi AAC 128",
-      "country": "FR",
-      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6893,6 +6873,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-nunc",
+      "name": "Radio Nunc",
+      "country": "FR",
+      "streamUrl": "https://diffusion.radionunc.org:8443/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radionunc.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-odyssey",
       "name": "Radio Odyssey",
       "country": "FR",
@@ -7406,7 +7396,7 @@
       "id": "rm:radio-troutrou",
       "name": "Radio Troutrou",
       "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/radio-troutrou/413698",
+      "streamUrl": "https://stream-hd.radio-troutrou.com/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotroutrou.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -7698,6 +7688,26 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/3086/stream/9476",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rcv-lille.radio-website.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rdwa",
+      "name": "RDWA",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/R-Dwa",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rdwa-luc",
+      "name": "RDWA Luc",
+      "country": "FR",
+      "streamUrl": "https://live.aurafm.org/R-Dwa-LUC",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rdwa.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8918,16 +8928,6 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:veronica-60-s-70-s",
-      "name": "Veronica 60's & 70's",
-      "country": "FR",
-      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
