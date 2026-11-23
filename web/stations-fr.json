@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T12:22:49.139Z",
+  "generatedAt": "2026-11-23T14:13:56.622Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -5843,6 +5843,16 @@
       "codec": ""
     },
     {
+      "id": "rm:pulsradio-90",
+      "name": "PulsRadio - 90",
+      "country": "FR",
+      "streamUrl": "https://sc4.gergosnet.com/puls90HD.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:pulsradio-2000",
       "name": "PulsRadio 2000",
       "country": "FR",
@@ -5857,6 +5867,16 @@
       "name": "PulsRadio 2000 (64k AAC",
       "country": "FR",
       "streamUrl": "https://sc6.gergosnet.com:80/puls00AAC64.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:pulsradio-trance",
+      "name": "PulsRadio Trance",
+      "country": "FR",
+      "streamUrl": "https://sc4.gergosnet.com/pulstranceHD.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=pulsradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -5963,6 +5983,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-aviva",
+      "name": "Radio Aviva",
+      "country": "FR",
+      "streamUrl": "https://radio13.pro-fhi.net/listen-tpgmxyoe-stream.mp3",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-aviva.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-barbouillots",
       "name": "Radio Barbouillots",
       "country": "FR",
@@ -6028,6 +6058,56 @@
       "country": "FR",
       "streamUrl": "https://stream.radios.bzh/listen/rbg/radio.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rbg.bzh&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-brony",
+      "name": "Radio Brony",
+      "country": "FR",
+      "streamUrl": "https://radiobrony.live/aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-brony-aac",
+      "name": "Radio Brony (AAC",
+      "country": "FR",
+      "streamUrl": "https://radiobrony.live/aac",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-brony-ogg",
+      "name": "Radio Brony (OGG",
+      "country": "FR",
+      "streamUrl": "https://radio.radiobrony.fr/ogg",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobrony.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-broussaille",
+      "name": "Radio Broussaille",
+      "country": "FR",
+      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-hifi",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-broussaille-lo-fi-aac-128",
+      "name": "Radio Broussaille (Lo-Fi AAC 128",
+      "country": "FR",
+      "streamUrl": "https://stream.radiobroussaille.fr:8443/broussaille-lofi",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiobroussaille.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -7313,16 +7393,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-stonewall",
-      "name": "radio Stonewall",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/radio-stonewall",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiostonewall.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-sud-besancon",
       "name": "Radio Sud Besançon",
       "country": "FR",
@@ -7608,6 +7678,16 @@
       "country": "FR",
       "streamUrl": "https://play.radioking.io/radyoga/72311",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radyoga.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:rayvox",
+      "name": "Rayvox",
+      "country": "FR",
+      "streamUrl": "https://www.rayvox.org:8443/flux",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rayvox.org&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
