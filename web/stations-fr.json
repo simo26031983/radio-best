@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T14:13:56.622Z",
+  "generatedAt": "2026-11-24T14:40:22.759Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -337,16 +337,6 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:algorythme-uk-garage",
-      "name": "Algorythme UK Garage",
-      "country": "FR",
-      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -718,16 +708,6 @@
       "country": "FR",
       "streamUrl": "https://eu10.fastcast4u.com:8120/",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=b4bradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
-      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
-      "country": "FR",
-      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1548,16 +1528,6 @@
       "country": "FR",
       "streamUrl": "https://str0.creacast.com/estfm1",
       "faviconUrl": "https://static-media.streema.com/media/cache/4f/de/4fde6189890a485e919c559cd91e57e5.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:euradio",
-      "name": "EURadio",
-      "country": "FR",
-      "streamUrl": "https://euradio.fr/stream/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=euradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -4073,16 +4043,6 @@
       "codec": ""
     },
     {
-      "id": "rm:les-enfants-du-rhone",
-      "name": "Les enfants du Rhône",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/les-enfants-du-rhone",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=ledr.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:les-inrocks-radio",
       "name": "Les Inrocks Radio",
       "country": "FR",
@@ -4523,16 +4483,6 @@
       "codec": ""
     },
     {
-      "id": "rm:maurice-radio-libre",
-      "name": "Maurice Radio Libre",
-      "country": "FR",
-      "streamUrl": "https://radio.mauriceradiolibre.com/",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:max-radio-grenoble",
       "name": "Max Radio Grenoble",
       "country": "FR",
@@ -4708,16 +4658,6 @@
       "country": "FR",
       "streamUrl": "https://listen.mixfeever.com/feevermix",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=mixfeever.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:modular-station",
-      "name": "Modular-Station",
-      "country": "FR",
-      "streamUrl": "https://broadcast.modular-station.com/radio/8000/radio.aac",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=modular-station.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6563,16 +6503,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-gatine",
-      "name": "Radio Gâtine",
-      "country": "FR",
-      "streamUrl": "https://hosting.radiomedia.fr:1615/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogatine.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-grand-brive",
       "name": "Radio Grand Brive",
       "country": "FR",
@@ -7393,6 +7323,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-stonewall",
+      "name": "radio Stonewall",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/radio-stonewall",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiostonewall.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-sud-besancon",
       "name": "Radio Sud Besançon",
       "country": "FR",
@@ -7518,16 +7458,6 @@
       "country": "FR",
       "streamUrl": "https://stream3.vestaradio.com/RADIOVALDOR?nocache=34033",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiovaldor.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-vallee-bergerac",
-      "name": "Radio Vallée Bergerac",
-      "country": "FR",
-      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8676,7 +8606,7 @@
       "id": "rm:soov-radio",
       "name": "Soov Radio",
       "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/soovradio",
+      "streamUrl": "https://play.radioking.io/soovradio",
       "faviconUrl": "https://static-media.streema.com/media/cache/da/16/da16d76bee72f8a6f09a3f2b60338e8e.jpg",
       "genre": "",
       "bitrate": 0,
@@ -9008,6 +8938,16 @@
       "country": "FR",
       "streamUrl": "https://manager10.streamradio.fr:1555/stream",
       "faviconUrl": "https://static-media.streema.com/media/cache/58/70/58700b7b4c8df7d41c0ceda07c56df79.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:veronica-60-s-70-s",
+      "name": "Veronica 60's & 70's",
+      "country": "FR",
+      "streamUrl": "https://eu1.fastcast4u.com/proxy/veronica?mp=/1",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=veronica.atspace.eu&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
