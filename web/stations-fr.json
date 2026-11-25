@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T14:40:22.759Z",
+  "generatedAt": "2026-11-25T14:01:39.961Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -337,6 +337,16 @@
       "name": "Algorythme Radio",
       "country": "FR",
       "streamUrl": "https://radio3.pro-fhi.net/flux-ejzloxke/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:algorythme-uk-garage",
+      "name": "Algorythme UK Garage",
+      "country": "FR",
+      "streamUrl": "https://ukg.algorythmeradio.com/stream",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=algorythmeradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -713,21 +723,21 @@
       "codec": ""
     },
     {
-      "id": "rm:beemboomradio",
-      "name": "beemboomradio",
+      "id": "rm:badradio-24-7-og-phonk-memphis-houston-t",
+      "name": "badradio 24/7 OG Phonk, Memphis, Houston, Trap & Trill",
       "country": "FR",
-      "streamUrl": "https://listen.radioking.com/radio/299368/stream/356549",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=beemboomradio.com&sz=128",
+      "streamUrl": "https://s2.radio.co/s2b2b68744/listen",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=badradio.nz&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
     },
     {
-      "id": "rm:beur-fm-rouen",
-      "name": "Beur FM",
+      "id": "rm:beemboomradio",
+      "name": "beemboomradio",
       "country": "FR",
-      "streamUrl": "https://beurfm.ice.infomaniak.ch/beurfm-high.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/06/4d/064dc000ab333302e5aee84cf556788f.jpg",
+      "streamUrl": "https://listen.radioking.com/radio/299368/stream/356549",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=beemboomradio.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -1473,16 +1483,6 @@
       "codec": ""
     },
     {
-      "id": "rm:eipm",
-      "name": "EIPM",
-      "country": "FR",
-      "streamUrl": "https://stunnel1.cyber-streaming.com:9046/stream?type=http&nocache=30",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radio-eipm.fr&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:eklectywaves-the-sharing-radio",
       "name": "EklectyWaves - The Sharing Radio",
       "country": "FR",
@@ -1528,6 +1528,16 @@
       "country": "FR",
       "streamUrl": "https://str0.creacast.com/estfm1",
       "faviconUrl": "https://static-media.streema.com/media/cache/4f/de/4fde6189890a485e919c559cd91e57e5.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:euradio",
+      "name": "EURadio",
+      "country": "FR",
+      "streamUrl": "https://euradio.fr/stream/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=euradio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2993,16 +3003,6 @@
       "codec": ""
     },
     {
-      "id": "rm:hoperadio-hymnes-et-louanges",
-      "name": "HopeRadio - Hymnes Et Louanges",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/hope-radio-1",
-      "faviconUrl": "https://static-media.streema.com/media/cache/7d/af/7daf0b18d3bdb441d58dbb6407f37fab.jpg",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:horizon-la-radio-libre-100-9fm",
       "name": "Horizon la radio libre 100.9fm",
       "country": "FR",
@@ -4043,6 +4043,16 @@
       "codec": ""
     },
     {
+      "id": "rm:les-enfants-du-rhone",
+      "name": "Les enfants du Rhône",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/les-enfants-du-rhone",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=ledr.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:les-inrocks-radio",
       "name": "Les Inrocks Radio",
       "country": "FR",
@@ -4478,6 +4488,16 @@
       "country": "FR",
       "streamUrl": "https://stream.laut.fm/mathis-fm-le-meilleur-radio",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=laut.fm&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:maurice-radio-libre",
+      "name": "Maurice Radio Libre",
+      "country": "FR",
+      "streamUrl": "https://radio.mauriceradiolibre.com/",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=mauriceradiolibre.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -6503,6 +6523,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-gatine",
+      "name": "Radio Gâtine",
+      "country": "FR",
+      "streamUrl": "https://hosting.radiomedia.fr:1615/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiogatine.fr&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-grand-brive",
       "name": "Radio Grand Brive",
       "country": "FR",
@@ -7383,16 +7413,6 @@
       "codec": ""
     },
     {
-      "id": "rm:radio-top-side",
-      "name": "Radio Top Side",
-      "country": "FR",
-      "streamUrl": "https://www.radioking.com/play/radio-top-side/275656",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotopside.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:radio-tou-caen",
       "name": "RADIO TOU'CAEN",
       "country": "FR",
@@ -7458,6 +7478,16 @@
       "country": "FR",
       "streamUrl": "https://stream3.vestaradio.com/RADIOVALDOR?nocache=34033",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radiovaldor.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:radio-vallee-bergerac",
+      "name": "Radio Vallée Bergerac",
+      "country": "FR",
+      "streamUrl": "https://hosting.studioradiomedia.fr:1755/stream",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=rvb-radio.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -8048,6 +8078,26 @@
       "country": "FR",
       "streamUrl": "https://s4.radio.co/s87ac5cf5a/listen",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=riff-radio.org&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:riffx-radio-air",
+      "name": "RIFFX Radio - Air",
+      "country": "FR",
+      "streamUrl": "https://stream.myjungly.fr/RIFFX-R",
+      "faviconUrl": "https://static-media.streema.com/media/cache/6a/a9/6aa9327994c32436f77e0e5b47c5507f.png",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:riffx-radio-riffx-hits",
+      "name": "RIFFX Radio - RIFFX Hits",
+      "country": "FR",
+      "streamUrl": "https://stream.myjungly.fr/RIFFX_HITS",
+      "faviconUrl": "https://static-media.streema.com/media/cache/28/63/28636e66195e2e64668a284cd1f2bb84.png",
       "genre": "",
       "bitrate": 0,
       "codec": ""
