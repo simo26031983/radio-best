@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T14:01:39.961Z",
+  "generatedAt": "2026-11-26T13:40:57.521Z",
   "stations": [
     {
       "id": "rm:1-splash-jazz",
@@ -228,16 +228,6 @@
       "country": "FR",
       "streamUrl": "https://webradio6.ice.infomaniak.ch/webradio6-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=africaradio.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:agora-cote-d-azur",
-      "name": "AGORA CÔTE D’AZUR",
-      "country": "FR",
-      "streamUrl": "https://agoracotedazur.ice.infomaniak.ch/agoracotedazur.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=agoracotedazur.fr&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -738,6 +728,16 @@
       "country": "FR",
       "streamUrl": "https://listen.radioking.com/radio/299368/stream/356549",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=beemboomradio.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:beur-fm-rouen",
+      "name": "Beur FM",
+      "country": "FR",
+      "streamUrl": "https://beurfm.ice.infomaniak.ch/beurfm-high.mp3",
+      "faviconUrl": "https://static-media.streema.com/media/cache/06/4d/064dc000ab333302e5aee84cf556788f.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -2998,6 +2998,16 @@
       "country": "FR",
       "streamUrl": "https://stream.hitxradio.net:443/default",
       "faviconUrl": "https://static-media.streema.com/media/cache/8b/c6/8bc63ce4b0316c04a53f898c6e48d832.jpg",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
+      "id": "rm:hoperadio-hymnes-et-louanges",
+      "name": "HopeRadio - Hymnes Et Louanges",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/hope-radio-1",
+      "faviconUrl": "https://static-media.streema.com/media/cache/7d/af/7daf0b18d3bdb441d58dbb6407f37fab.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
@@ -5713,16 +5723,6 @@
       "codec": ""
     },
     {
-      "id": "rm:public-health-radio-italiano",
-      "name": "Public Health Radio Italiano",
-      "country": "FR",
-      "streamUrl": "https://publichealthradioit.ice.infomaniak.ch/publichealthradioit-128.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=publicsante.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
       "id": "rm:public-health-radio-portugues",
       "name": "Public Health Radio Portugues",
       "country": "FR",
@@ -7413,6 +7413,16 @@
       "codec": ""
     },
     {
+      "id": "rm:radio-top-side",
+      "name": "Radio Top Side",
+      "country": "FR",
+      "streamUrl": "https://www.radioking.com/play/radio-top-side/275656",
+      "faviconUrl": "https://www.google.com/s2/favicons?domain=radiotopside.com&sz=128",
+      "genre": "",
+      "bitrate": 0,
+      "codec": ""
+    },
+    {
       "id": "rm:radio-tou-caen",
       "name": "RADIO TOU'CAEN",
       "country": "FR",
@@ -8308,26 +8318,6 @@
       "country": "FR",
       "streamUrl": "https://us2.amfmph.com:2199/tunein/rmnbacolod-stream.pls",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=rmn.bzh&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rock-folk-rock-n-folk",
-      "name": "Rock & Folk (rock n folk",
-      "country": "FR",
-      "streamUrl": "https://rockfolk.ice.infomaniak.ch/rockfolk.mp3",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rocknfolk.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:rock-folk-radio",
-      "name": "Rock&Folk Radio",
-      "country": "FR",
-      "streamUrl": "https://rockfolk.ice.infomaniak.ch/rockfolk.mp3?t=1641651522250",
-      "faviconUrl": "https://www.google.com/s2/favicons?domain=rocknfolk.com&sz=128",
       "genre": "",
       "bitrate": 0,
       "codec": ""
