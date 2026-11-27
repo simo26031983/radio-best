@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T13:40:57.521Z",
+  "generatedAt": "2026-11-27T13:37:54.696Z",
   "stations": [
     {
       "id": "rm:aswat",
@@ -176,7 +176,7 @@
       "id": "rm:medina",
       "name": "Medina FM",
       "country": "MA",
-      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-128.mp3",
+      "streamUrl": "https://medinaamazigh.ice.infomaniak.ch/medinaamazigh-128.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=medinafm.ma&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -286,7 +286,7 @@
       "id": "rm:radioplus",
       "name": "Radio Plus",
       "country": "MA",
-      "streamUrl": "https://stream.radio.co/s8cc7a5da4/listen",
+      "streamUrl": "https://stream-158.zeno.fm/bqdbb6hd0neuv",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=radioplus.ma&sz=128",
       "genre": "",
       "bitrate": 0,
@@ -388,16 +388,6 @@
       "country": "MA",
       "streamUrl": "https://radio.yabiladi.com:8002/;stream.mp3",
       "faviconUrl": "https://www.google.com/s2/favicons?domain=yabiladi.com&sz=128",
-      "genre": "",
-      "bitrate": 0,
-      "codec": ""
-    },
-    {
-      "id": "rm:radio-medina-fm",
-      "name": "إذاعة مدينة إف إم المغرب",
-      "country": "MA",
-      "streamUrl": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
-      "faviconUrl": "https://static-media.streema.com/media/cache/03/8b/038b9090f96cd7e51709d02b54e341f2.jpg",
       "genre": "",
       "bitrate": 0,
       "codec": ""
